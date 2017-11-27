@@ -81,30 +81,32 @@ deploy:
 
 
 #
-## Minifier
-#image_minifier:
-#  enable: true
+# Minifier
+image_minifier:
+  enable: true
 #  exclude:
 #    - 'jpg'
 #
-#js_minifier:
-#  enable: true
+
+js_minifier:
+  enable: true
 #  mangle: true
 #  output: true
 #  compress: true
 #  exclude:
 #    - '*.min.js'
 #
-#css_minifier:
-#  enable: true
+css_minifier:
+  enable: true
 #  exclude:
 #    - '*.min.css'
 #
-#html_minifier:
-#  enable: true
-#  ignore_error: false
+
+html_minifier:
+  enable: true
+  ignore_error: false
 #
-#js_concator:
-#  enable: true
+js_concator:
+  enable: false
 #  bundle_path: '/js/bundle.js'
 #  front: false

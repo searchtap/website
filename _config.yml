@@ -79,6 +79,7 @@ theme: searchtap
 deploy:
   type:
 
+all_minifier: false
 
 #
 # Minifier

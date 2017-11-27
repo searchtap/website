@@ -1,0 +1,647 @@
+﻿.odometer-inside {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    line-height: normal!important;
+    font-weight: 100!important;
+    color: #47b475;
+    display: inline-block
+}
+.border-box {
+    padding-bottom: 0
+}
+.mmts {
+    position: relative;
+    top: -6px
+}
+.mmt {
+    margin-top: -10px!important
+}
+.pr-pr {
+    position: relative;
+    margin-top: -22px!important
+}
+.pr2 {
+    margin-top: 6px!important;
+    font-family: lato
+}
+.pr3 {
+    position: relative;
+    top: -6px;
+    left: 17px
+}
+.pr4 {
+    font-size: 16px;
+    position: relative;
+    top: -7px
+}
+.pr5 {
+    position: relative;
+    margin-top: -31px
+}
+.pbt1 {
+    width: 96%;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    margin-top: 12px
+}
+.pbt2 {
+    margin-top: -8px!important;
+    ">$999<small style="font-size: 16px
+}
+.mt12 {
+    margin-top: 14px
+}
+.mt5 {
+    margin-top: 4px
+}
+.ml20 {
+    padding-left: 30px
+}
+.mr20 {
+    padding-right: 30px
+}
+.price-bg {
+    background: #ecf0f6;
+    height: 60px;
+    padding-top: 20px
+}
+h5.prc-title {}.price-list {
+    margin-bottom: 2px!important
+}
+.price-list li {
+    display: inline-block;
+    margin: 0 8px;
+    color: #999;
+    font-weight: 600
+}
+.sign_testi .signimg {
+    margin-top: 5px
+}
+.price_box {
+    border: 1px solid #d9e1e3;
+    padding: 30px 20px;
+    background: #fbfbfb;
+    min-height: 710px;
+    position: relative
+}
+.price_box.premium {
+    border: 2px solid #44accc;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    background: #fff;
+    min-height: 745px
+}
+.price_title {
+    font-size: 24px;
+    font-family: montserrat_semibold, Sans-Serif;
+    height: 30px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.price_price,
+.price_price span.subt,
+span.subt {
+    font-family: montserrat_regular, Sans-Serif;
+    text-align: center
+}
+.price_img {
+    text-align: center;
+    margin-top: 40px;
+    height: 120px
+}
+.price_box.premium .price_img {
+    height: 135px
+}
+.price_price {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    color: #47b475;
+    display: inline-block
+}
+.price_price span.subt,
+span.subt {
+    font-size: 14px;
+    color: #b1b1b1;
+    display: block;
+    font-weight: 400
+}
+.price_ul {
+    font-family: montserrat_semibold, Sans-Serif;
+    margin-top: 30px;
+    text-align: center
+}
+.price_ul ul {
+    list-style-type: circle;
+    color: #6898c9;
+    font-size: 20px;
+    font-family: montserrat_light, Sans-Serif;
+    text-align: left
+}
+.fa-fw,
+.fa-li,
+.faqtitle {
+    text-align: center
+}
+.price_ul ul li span {
+    color: #5c5c5c;
+    font-size: 12.5px
+}
+.al_pri {
+    line-height: 35px
+}
+.price_but {
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    margin-left: -55px
+}
+.price_but.free {
+    margin-left: -70px
+}
+.faqtitle {
+    font-size: 26px;
+    font-family: montserrat_semibold, Sans-Serif;
+    margin-bottom: 50px;
+    margin-top: 10px
+}
+.faq ul li .ans,
+.faq ul li .ques {
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-right: 50px
+}
+.faq ul li .ques {
+    line-height: 25px
+}
+.faq ul li .ans {
+    line-height: 23px
+}
+.contact .signup_section .conformcont select.small {
+    border-right: solid 1px #e2e2e2!important;
+    border-radius: 4px!important
+}
+.contact .sign_web {
+    margin-right: 0!important;
+    padding-left: 15px!important
+}
+.contact .sign_web input {
+    border-radius: 4px!important
+}
+.sign_web {
+    clear: both
+}
+.sign_testi .test_auth,
+.sign_testi p {
+    padding-left: 0!important
+}
+.price_box {
+    margin-bottom: 30px
+}
+.price_but,
+.price_but.free {
+    position: static!important;
+    text-align: center!important;
+    margin-left: auto!important
+}
+.faq ul li .ans,
+.faq ul li .ques {
+    padding-right: 0!important
+}
+@media only screen and (max-device-width: 769px) and (orientation: landscape) {
+    .customer_logo {
+        height: 145px;
+        overflow: hidden;
+        margin-bottom: 25px!important
+    }
+}
+@media only screen and (min-width: 968px) {
+    .customer_logo {
+        width: 220px;
+        height: 95px
+    }
+    .customer_logo:first-of-type,
+    .customer_logo:nth-of-type(6n) {
+        margin-left: 35px
+    }
+    #npricebox>.container>.row>[class*=col] {
+        width: 25%!important;
+        padding: 5px!important;
+        float: left
+    }
+}
+.noUi-target,
+.noUi-target * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-touch-action: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+.noUi-target {
+    position: relative;
+    direction: ltr
+}
+.noUi-base {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+.noUi-origin {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 2px
+}
+.noUi-handle {
+    position: relative;
+    z-index: 1
+}
+.noUi-marker,
+.noUi-pips,
+.noUi-value {
+    position: absolute
+}
+.noUi-stacking .noUi-handle {
+    z-index: 10
+}
+.noUi-state-tap .noUi-origin {
+    -webkit-transition: left .3s, top .3s;
+    transition: left .3s, top .3s
+}
+.noUi-state-drag * {
+    cursor: inherit!important
+}
+.noUi-horizontal {
+    height: 8px
+}
+.noUi-horizontal .noUi-handle {
+    width: 33px;
+    height: 17px;
+    left: -21px;
+    top: -7px;
+	box-shadow: 0 2px 10px 0 rgba(62, 57, 107, 0.07), 0 2px 9px 0 rgba(62, 57, 107, 0.06);
+}
+.noUi-vertical {
+    width: 18px
+}
+.noUi-vertical .noUi-handle {
+    width: 28px;
+    height: 34px;
+    left: -6px;
+    top: -17px
+}
+.noUi-background {
+    background: #fafafa;
+    box-shadow: inset 0 1px 1px #f0f0f0
+}
+.noUi-connect {
+    background: #47b475;
+    box-shadow: inset 0 0 3px rgba(51, 51, 51, .45);
+    -webkit-transition: background 450ms;
+    transition: background 450ms
+}
+.noUi-target {
+    border-radius: 4px;
+    background-color:#e3e4e4;
+    border: 3px solid #e3e4e4;
+}
+.noUi-target.noUi-connect {
+    box-shadow: inset 0 0 3px rgba(51, 51, 51, .45), 0 3px 6px -5px #bbb
+}
+.noUi-dragable {
+    cursor: w-resize
+}
+.noUi-vertical .noUi-dragable {
+    cursor: n-resize
+}
+.noUi-handle {
+    border-radius: 20px;
+    cursor: pointer
+}
+.noUi-active {
+    box-shadow: inset 0 0 1px #7e7e7e, inset 0 1px 7px #5c5c5c, 0 3px 6px -3px #3a3a3a
+}
+[disabled] .noUi-connect,
+[disabled].noUi-connect {
+    background: #b8b8b8
+}
+[disabled] .noUi-handle,
+[disabled].noUi-origin {
+    cursor: not-allowed
+}
+.noUi-pips,
+.noUi-pips * {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+.noUi-pips {
+    font: 400 12px Arial;
+    color: #47b475
+}
+.noUi-value {
+    width: 40px;
+    text-align: center
+}
+.noUi-value-sub {
+    color: #ccc;
+    font-size: 10px
+}
+.noUi-marker {
+    background: #47b475
+}
+.noUi-marker-large,
+.noUi-marker-sub {
+    background: #aaa
+}
+.noUi-pips-horizontal {
+    padding-bottom: 37px;
+    bottom: 10%;
+    left: 0;
+    width: 100%
+}
+.noUi-value-horizontal {
+    margin-left: -5px;
+    padding-top: 5px
+}
+.noUi-value-horizontal.noUi-value-sub {
+    padding-top: 15px
+}
+.noUi-marker-horizontal.noUi-marker {
+    margin-left: -1px;
+    width: 2px;
+    height: 5px;
+    display: none
+}
+.noUi-marker-horizontal.noUi-marker-sub {
+    height: 10px
+}
+.noUi-marker-horizontal.noUi-marker-large {
+    height: 15px
+}
+.noUi-pips-vertical {
+    padding: 0 10px;
+    height: 100%;
+    top: 0;
+    left: 100%
+}
+.noUi-value-vertical {
+    width: 15px;
+    margin-left: 20px;
+    margin-top: -5px
+}
+.noUi-marker-vertical.noUi-marker {
+    width: 5px;
+    height: 2px;
+    margin-top: -1px
+}
+.noUi-marker-vertical.noUi-marker-sub {
+    width: 10px
+}
+.noUi-marker-vertical.noUi-marker-large {
+    width: 15px
+}
+.odometer.odometer-auto-theme,
+.odometer.odometer-auto-theme .odometer-digit,
+.odometer.odometer-theme-default,
+.odometer.odometer-theme-default .odometer-digit {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
+.odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer {
+    display: inline-block;
+    vertical-align: middle;
+    visibility: hidden
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+.odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
+    text-align: left;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+.odometer.odometer-theme-default .odometer-digit .odometer-ribbon {
+    display: block
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,
+.odometer.odometer-theme-default .odometer-digit .odometer-ribbon-inner {
+    display: block;
+    -webkit-backface-visibility: hidden
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-value,
+.odometer.odometer-theme-default .odometer-digit .odometer-value {
+    font-weight: 100;
+    font-size: 52px;
+    display: block;
+    -webkit-transform: translateZ(0)
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value,
+.odometer.odometer-theme-default .odometer-digit .odometer-value.odometer-last-value {
+    position: absolute
+}
+.odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+.odometer.odometer-theme-default.odometer-animating-up .odometer-ribbon-inner {
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    -ms-transition: -ms-transform 0, 5s;
+    -o-transition: -o-transform .5s;
+    transition: transform .5s
+}
+.odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
+.odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner,
+.odometer.odometer-theme-default.odometer-animating-down .odometer-ribbon-inner,
+.odometer.odometer-theme-default.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%)
+}
+.odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner,
+.odometer.odometer-theme-default.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    -ms-transition: -ms-transform .5s;
+    -o-transition: -o-transform .5s;
+    transition: transform .5s;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0)
+}
+.odometer.odometer-auto-theme,
+.odometer.odometer-theme-default {}.odometer.odometer-auto-theme .odometer-value,
+.odometer.odometer-theme-default .odometer-value {
+    text-align: center
+}
+.price_ul li {
+    list-style-type: circle
+}
+.noUi-handle {
+    background: #47b475!important
+}
+#navbar .btn,
+.navbar-inverse .navbar-nav>li>a {
+    text-shadow: 0 0 0 transparent!important
+}
+.jssocials-share-link {
+    border-radius: 50%;
+    padding: .5em .9em!important
+}
+.jssocials-shares {
+    display: inline-flex!important
+}
+.jssocials-share {
+    margin-right: 10px!important
+}
+.jssocials-share-facebook .jssocials-share-link {
+    padding: .5em 1em!important
+}
+#blog-newsletter-subscription-mailchimp .input-group input,
+.sidebar-widget.widget_search .search-form .input-group input {
+    height: 39px
+}
+.case_content .single_cse_con b,
+.case_content .single_cse_con strong {
+    font-family: montserrat_regular, Sans-Serif
+}
+.section__title {
+    font-family: "Roboto Slab", serif;
+    font-size: 40px
+}
+.section__content {
+    padding-left: 3px
+}
+.card {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center
+}
+.card:nth-child(1) {
+    margin-left: -3px;
+    margin-right: 1px
+}
+.card:nth-child(2),
+.card:nth-child(3) {
+    margin-right: 1px
+}
+.card__front,
+.card__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 210px
+}
+.card__front,
+.card__back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s
+}
+.card__front {
+    background-color: #ff5078
+}
+.card__back {
+    padding-top: 39%;
+    background-color: #fff;
+    border: 1px solid #47b475;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg)
+}
+.card__text {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 20px;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    line-height: 20px
+}
+.card.effect__hover:hover .card__front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    max-height: 180px
+}
+.card.effect__hover:hover .card__back {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0)
+}
+.card.effect__click.flipped .card__front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg)
+}
+.card.effect__click.flipped .card__back {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0)
+}
+.card.effect__random.flipped .card__front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg)
+}
+.card.effect__random.flipped .card__back {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0)
+}
+#fusionads {
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    z-index: 20;
+    padding: 10px;
+    background: rgba(255, 255, 255, .95);
+    font-size: 12px;
+    line-height: 1.2;
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, .1)
+}
+#fusionads .fusion-wrap {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 130px
+}
+#fusionads a.fusion-text {
+    display: block;
+    color: #787878
+}
+#fusionads a.fusion-img {
+    display: block;
+    margin-bottom: 10px;
+    width: 130px;
+    height: 100px;
+    background-color: #fff
+}
+#fusionads a.fusion-img img {
+    display: block;
+    margin: 0 0 10px 0
+}
+#fusionads a.fusion-poweredby {
+    color: #28aadc
+}
+#fusionads a.fusion-poweredby:hover {
+    color: #166888
+}

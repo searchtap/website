@@ -1,0 +1,214 @@
+<!-- Sidebar -->
+<div class="navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+
+    <%- image_tag('/img/cancel.png', {
+        class: 'img-responsive pull-right close-btn is-closed',
+        'data-toggle': "offcanvas"
+    }) %>
+
+    <ul class="nav sidebar-nav">
+
+        <div class="left-title mb10"><a href="/" class="font-size22 m-color">SearchTap</a></div>
+        <li><%- link_to("features", "Features") %></li>
+
+        <li><%- link_to("pricing", "Pricing") %></li>
+        <li><%- link_to("request-demo", "Request Demo") %></li>
+
+        <li><%- link_to("login", "Login/Sign Up") %></li>
+
+        <li><%- link_to("contact", "Contact Us") %></li>
+
+        <div class="left-title mt30 mb10"><a href="#" class="font-size22 m-color">Solutions</a></div>
+
+
+        <h5 class="text-green left-title mt30 mb10 _600 pt0 mt0">Use Cases</h5>
+        <li>
+            <%- link_to("ecommerce-search", "Ecommerce Search") %>
+        </li>
+
+        <li><%- link_to("coming-soon", "Media & Publishing") %>
+        </li>
+
+        <li><%- link_to("coming-soon", "Mobile Search") %>
+        </li>
+
+        <li><%- link_to("coming-soon", "Google Site Search Alternative") %></li>
+
+
+        <h5 class="text-green left-title mt16  mb10 _600 pt0 ">Integrations</h5>
+
+
+        <li><%- link_to("magento-search", "Magento Search") %></li>
+
+        <li><%- link_to("shopify-search", "Shopify Search") %></li>
+
+        <li><%- link_to("coming-soon", "WooCommerce Search") %></li>
+
+        <li><%- link_to("coming-soon", "Wordpress Search") %></li>
+
+
+        <div class="col-md-12 mt32">
+
+            <div class="col-md-12 col-sm-12 col-xs-12">
+
+                <%- link_to("free-trial", "Free Trial", {
+                    "class": "search-pp  btn  btn-filled btn-orange",
+                    "style": "border-radius:4px; width:75%;"
+                }) %>
+
+            </div>
+        </div>
+    </ul>
+
+
+</div>
+<!-- /#sidebar-wrapper -->
+
+<div class="m-container">
+
+    <div class="nav-container">
+        <a id="top"></a>
+        <nav>
+            <div class="m-container">
+                <div class="nav-bar">
+
+
+                    <div class="module left">
+                        <a href="/">
+                            <%- image_tag('/img/logo-light.png', {class: 'logo logo-light'}) %>
+                            <%- image_tag('/img/logo-dark.png', {class: 'logo logo-dark'}) %>
+                        </a>
+                    </div>
+
+                    <button type="button" class="hamburger is-closed pull-right" data-toggle="offcanvas">
+
+                    </button>
+
+
+                    <div class="module-group right">
+
+                        <div class="module left">
+                            <ul class="menu">
+
+                                <li class="">
+                                    <%- link_to("features", "Features") %>
+                                </li>
+                                <li class="has-dropdown m-brd">
+                                    <a href="#" class="">
+                                        Solutions
+
+                                        <span class="caret"
+                                              style="color:#868686; margin-top:-3px; margin-left:-1px;"></span>
+                                    </a>
+                                    <ul class="mega-menu">
+                                        <li>
+                                            <ul>
+                                                <li class="pt16">
+                                                    <div style="position:relative; left:-10px; top:-5px">
+
+                                                        <div class="bxd-r">
+                                                            <span class="_600 text-green pb16"
+                                                                  style="padding-left:35px;  ">Use Cases</span>
+
+                                                            <hr style="opacity:0.4; padding-left:10px; margin-top:10px;">
+
+                                                            <ul class="list-unstyled story-list shadow-none"
+                                                                style="margin-top:-18px;">
+                                                                <li>
+                                                                    <%- link_to("ecommerce-search", "Ecommerce Search") %>
+                                                                </li>
+                                                                <li>
+                                                                    <%- link_to("coming-soon", "Media & Publishing",
+                                                                            {style: "position:relative; left:-14px;"}) %>
+                                                                </li>
+                                                                <div class="clearfix"></div>
+                                                                <li>
+                                                                    <%- link_to("coming-soon", "Mobile Search") %>
+                                                                </li>
+                                                                <li class="text-left">
+                                                                    <%- link_to("coming-soon", "Google Site Search Alternative", {"class": "pl40"}) %>
+
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="clearfix"></div>
+
+
+                                                        <div class="bxd-r" style="padding-top:15px !important;">
+                                                            <span class="_600 text-green pt24"
+                                                                  style="padding-left:35px; padding-top:25px !important;">Integrations</span>
+
+                                                            <hr style="opacity:0.4; padding-left:10px; margin-top:10px;">
+                                                            <ul class="list-unstyled story-list shadow-none"
+                                                                style="margin-top:-18px;">
+                                                                <li>
+                                                                    <%- link_to("magento-search", "Magento Search") %>
+                                                                </li>
+                                                                <li>
+                                                                    <%- link_to("shopify-search", "Shopify Search", {
+                                                                        class: "pl126"
+                                                                    }) %>
+                                                                </li>
+                                                                <div class="clearfix"></div>
+                                                                <li>
+                                                                    <%- link_to("coming-soon", "WooCommerce Search") %>
+                                                                </li>
+                                                                <li class="text-left">
+                                                                    <%- link_to("coming-soon", "WordPress Search", {
+                                                                        class: "pl126 wp"
+                                                                    }) %>
+
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li><%- link_to("pricing", "Pricing") %></li>
+
+                                <li class="hidden-xs searc-b" style="padding-right:0px; display:none;">
+
+                                    <div class="input-group stylish-input-group search-pp">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <span class="input-group-addon">
+                                                    <button type="submit"
+                                                            style="background:none; color:#666; border:none; line-height:30px; height:30px;">
+                                                        <span class="glyphicon glyphicon-search"></span>
+                                                    </button>
+                                                </span>
+                                    </div>
+                                </li>
+
+
+                                <li style="border:none;"><%- link_to("request-demo", "Request Demo") %></li>
+
+                                <%- link_to("free-trial", "Free Trial", {
+                                    "class": "search-pp btn btn-sm btn-filled btn-orange",
+                                    "style": "border-radius:4px; "
+                                }) %>
+
+                                <%- link_to("login", "Login", {
+                                    "class": "btn btn-sm hidden-xs",
+                                    "style": "border-width:1px; border-radius:4px;"
+                                }) %>
+
+                            </ul>
+
+
+                        </div>
+                        <!--end of menu module-->
+
+                    </div>
+                    <!--end of module group-->
+                </div>
+            </div>
+        </nav>
+
+    </div>
+</div>

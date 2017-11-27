@@ -1,0 +1,133 @@
+.tt-p .btn-filled {
+    background: none;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.tt-p .btn-filled:hover {
+    background: #fff;
+    color: #666 !important;
+    border-color: #fff !important;
+}
+
+.btn {
+    border-radius: 4px;
+}
+
+input.transparent,
+button.transparent {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+input[type="text"],
+input[type="password"] {
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 100%;
+    min-width: 196px;
+    border-radius: 4px !important;
+    height: 40px;
+    padding-left: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    border-radius: 0;
+    background: no-repeat
+}
+
+.overlay:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: none;
+    opacity: 0.3;
+    z-index: 2;
+}
+
+.bg-secondary .feature.boxed {
+    background: #fff;
+    box-shadow: 0 0 4px #ddd;
+}
+
+.menu-brd h3 a {
+
+    font-weight: 900 !important;
+
+}
+
+.logo-carousel {
+    margin-top: 20px;
+    position: relative;
+    top: 40px;
+    background: url(https://cdn.shopify.com/s/files/1/1736/4725/t/28/assets/footer-bg.jpg?2202664919495734700) no-repeat 100% top center;
+}
+
+.logo-carousel li {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    opacity: 1;
+}
+
+.tabs li {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.logo-carousel img {
+    max-height: 118px;
+}
+
+.image-bg .feature.boxed {
+    border-radius: 6px;
+}
+
+.col-sm-2-5 {
+    margin: 0 auto;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 19.3%;
+    left: 0.5%;
+    float: left;
+    display: inline-block;
+    vertical-align: central;
+    position: relative;
+}
+
+.feature.boxed {
+    padding: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #f7f7f7;
+}
+
+.mega-menu {
+    position: relative;
+    right: -260px;
+}
+
+.overlay:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #292929;
+    opacity: 0.3;
+    z-index: 2;
+}
+
+.image-bg .feature.boxed {
+    border: 1px solid rgba(255, 255, 255);
+    background: rgba(34, 34, 34, 0.4);
+}
+
+.noUi-pips-horizontal {
+    position: relative;
+    top: 10px;
+    left: -20px;
+}

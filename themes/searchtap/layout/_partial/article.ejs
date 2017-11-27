@@ -1,0 +1,38 @@
+<body class="scroll-assist">
+
+<%- partial('_partial/mobile-nav') %>
+
+<div id="wrapper">
+
+    <%- partial('header-nav') %>
+
+    <div id="page-content-wrapper">
+        <a href="<%- url_for('request-demo') %>" class="btn btn-sm btn-filled pull-right sales">Request Demo</a>
+
+        <div class="main-container">
+            <%- post.content %>
+
+            <!--Guided Search Expert -->
+            <% if (post.show_guide_expert !== undefined && post.show_guide_expert === true) { %>
+
+            <%- partial('_partial/guided-expert') %>
+
+            <% } %>
+
+            <!-- Testimonials-->
+
+            <% if(post.testimonial === undefined || post.testimonial === true) { %>
+
+            <hr/>
+
+            <%- partial('_partial/testimonial-slider') %>
+
+            <% } %>
+
+        </div>
+
+    </div>
+
+    <%- partial('_partial/footer-nav') %>
+
+</div>

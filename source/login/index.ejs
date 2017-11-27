@@ -1,0 +1,61 @@
+---
+title: Login to Dashboard
+date: 2017-11-23 10:55:47
+layout: layout-empty
+---
+<section class="free-bg pt16 pb32" style="height: 100vh">
+
+    <div class="container login">
+
+        <div class="row">
+
+            <a href="/" class="logo-light-m"><img src="/img/logo-light.png"
+                                                  class="img-responsive center-block pb16 logo-light-m mb24"></a>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 bg-white" style="border-radius:3px;">
+                <div class="feature bordered text-center">
+
+                    <div class="top-icon">
+                        <i class="fa fa-envelope-open-o" aria-hidden="true" style="color:#fff;"></i>
+                    </div>
+
+                    <h3 class="mt0 mb10 mt-xs-0 text-dark">Let's get started
+                    </h3>
+
+
+                    <hr class=" mb0">
+                    <h5 class="text-dark text-green mt10 mb16">Log in to the world of Ultimate Search.
+
+                    </h5>
+
+
+                    <div class="clearfix"></div>
+
+                    <form id="mainLoginForm" class="text-left">
+                        <div class="alert alert-danger" id="unAuthorised" style="display: none">
+                            <span class="text-center">Invalid Credentials!</span></div>
+                        <div class="alert alert-danger" id="loginFailed" style="display: none">
+                            <span class="text-center">Invalid Credentials!</span></div>
+
+                        <input type="text" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" id="email" name="email"
+                               placeholder="Company Email" style="height: 50px;"
+                               class="bg-none" required="required" />
+
+                        <input type="password" id="pass" placeholder="Password" required style="height:50px;">
+
+                        <input type="submit" value="Login" id="mainLoginFormSubmit"
+                               style="border-radius:4px !important;"/>
+                    </form>
+                    <p class="mb0 _100 text-dark ">
+                        <span class="not-t">Don't have an account?</span>
+                        <a href="/free-trial" class="btn btn-rounded">Get Started</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>

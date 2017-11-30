@@ -52,8 +52,10 @@ $(function () {
   })
 
   $("#mainLoginForm").submit(function (event) {
-    $("#mainLoginFormSubmit").prop('disabled', true);
     event.preventDefault();
+
+    $("#mainLoginFormSubmit").prop('disabled', true);
+
     var email = $(this).find("#email").val();
     var password = $(this).find("#pass").val();
 

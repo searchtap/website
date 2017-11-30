@@ -2,6 +2,9 @@ $(function () {
 
   var slider = document.getElementById('pricing-slider');
 
+  if (slider === undefined || slider === null)
+    return;
+
   noUiSlider.create(slider, {
     start: 10,
     snap: true,
@@ -39,6 +42,4 @@ $(function () {
 
   });
 
-
-  console.log("hello world");
 });

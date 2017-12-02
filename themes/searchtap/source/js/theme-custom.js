@@ -5,8 +5,8 @@ $(document).scroll(function () {
   } else {
     $('.modal-strip').fadeOut();
   }
-
 });
+
 var input = document.getElementById('emailToStart');
 
 if (input !== undefined && input !== null) {

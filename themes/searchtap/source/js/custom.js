@@ -1,6 +1,3 @@
-/**
- * Created by kavindra on 12/12/16.
- */
 $(function () {
   $("#trailSignUpForm").submit(function (event) {
     $("#trailSignUpFormSubmit").prop('disabled', true);

@@ -147,16 +147,16 @@ $(function () {
     var phone = $(this).find("#number").val();
     phone = "(" + $('.selected-dial-code').text() + ") " + phone;
 
+    var $form = $(this);
 
     var fd = {
-      'form-name': "Contact Us",
+      'form-name': $form.attr("name"),
       name: name,
       message: message,
       email: email,
       phone: phone
     };
 
-    var $form = $(this);
     $.post($form.attr("action"), $.param(fd))
       .done(function () {
         $("#contactQueryNotCreated").hide();
@@ -180,12 +180,13 @@ $(function () {
 
     var email = $(this).find("#email").val();
 
+    var $form = $(this);
+
     var fd = {
       email: email,
-      "form-name": "Coming Soon"
+      "form-name": $form.attr('name')
     };
 
-    var $form = $(this);
     $.post($form.attr("action"), $.param(fd))
       .done(function () {
         $("#notificationNotCreated").hide();

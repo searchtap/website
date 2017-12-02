@@ -79,35 +79,5 @@ theme: searchtap
 deploy:
   type:
 
-all_minifier: false
-
-#
-# Minifier
-image_minifier:
-  enable: true
-#  exclude:
-#    - 'jpg'
-#
-
-js_minifier:
-  enable: true
-#  mangle: true
-#  output: true
-#  compress: true
-#  exclude:
-#    - '*.min.js'
-#
-css_minifier:
-  enable: true
-#  exclude:
-#    - '*.min.css'
-#
-
-html_minifier:
-  enable: true
-  ignore_error: false
-#
-js_concator:
-  enable: false
-#  bundle_path: '/js/bundle.js'
-#  front: false
+sitemap:
+    path: sitemap.xml

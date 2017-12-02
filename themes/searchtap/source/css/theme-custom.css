@@ -131,3 +131,18 @@ input[type="password"] {
     top: 10px;
     left: -20px;
 }
+
+.intl-tel-input.separate-dial-code .selected-dial-code {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 29px;
+    text-align: left;
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=tel] {
+    padding-left: 88px;
+}
+
+#requestDemoForm {
+    height: 100vh;
+}

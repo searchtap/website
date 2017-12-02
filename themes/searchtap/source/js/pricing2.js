@@ -2,6 +2,10 @@ $(function () {
 
   var slider = document.getElementById('pricing-slider-right');
 
+  //if no slider on the page, return
+  if (!slider)
+    return;
+
   noUiSlider.create(slider, {
     start: 100,
     snap: true,
@@ -22,26 +26,26 @@ $(function () {
 
   slider.noUiSlider.on('update', function () {
     var price = 159;
-	var pages = 10000;
+    var pages = 10000;
     switch (parseInt(slider.noUiSlider.get())) {
       case 100:
         price = 159;
-		pages = "10,000";
+        pages = "10,000";
         break;
 
       case 250:
         price = 249;
-		pages = "25,000";
+        pages = "25,000";
         break;
 
       case 500:
         price = 299;
-		pages = "50,000";
+        pages = "50,000";
         break;
     }
 
     $('#startup-price-text').text(price);
-	    $('#startup-price-monthly-pages').text(pages);
+    $('#startup-price-monthly-pages').text(pages);
 
 
   });

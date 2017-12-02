@@ -98,56 +98,85 @@ $(function () {
     event.preventDefault();
     sessionStorage.setItem("emailToStart", $("#emailToStart").val());
     window.location.href = "free-trial.html";
-
-
-  })
+  });
 
   $("#requestDemoForm").submit(function (event) {
     event.preventDefault();
+
     $("#requestDemoFormSubmit").prop('disabled', true);
+
     var name = $(this).find("#name").val();
     var phone = $(this).find("#number").val();
     var email = $(this).find("#email").val();
+    var cc = $('.selected-dial-code').text();
 
-    phone = "(" + $('.selected-dial-code').text() + ") " + phone
-
-    var obj = {};
-    obj.properties = [];
-
-    var property = function (property, value) {
-      this.property = property;
-      this.value = value;
+    var fd = {
+      name: name,
+      phone: phone,
+      email: email,
+      country: cc
     };
 
-    obj.properties.push(new property("firstname", name));
-    obj.properties.push(new property("phone", phone));
-    obj.properties.push(new property("source", "Demo form"));
 
-    $.ajax({
-        url: 'https://app.searchtap.io/crm/hubspot?email=' + email,
-        contentType: 'application/json',
-        type: 'POST',
-        data: JSON.stringify(obj),
-        xhrFields: {
-          withCredentials: true
-        },
-        success: function (data) {
-          $("#leadNotCreated").hide();
-          $("#input-hide").hide();
-          $("#leadCreated").show();
-          $("#requestDemoFormSubmit").prop('disabled', false);
+    var $form = $(this);
+    $.post($form.attr("action"), $.param(fd))
+      .done(function () {
+        $("#leadNotCreated").hide();
+        // $("#input-hide").hide();
+        $("#leadCreated").show();
+        $form.trigger('reset');
+      })
+      .fail(function (err) {
+        console.error(err);
+        $("#leadCreated").hide();
+        $("#leadNotCreated").show();
+      })
+      .always(function () {
+        $("#requestDemoFormSubmit").prop('disabled', false);
+      })
 
-        },
-        error: function (err) {
-          console.log(err)
-          $("#requestDemoFormSubmit").prop('disabled', false);
-          $("#leadCreated").hide();
-          $("#leadNotCreated").show();
-        }
+    ;
 
-      }
-    )
-  })
+    // phone = "(" + $('.selected-dial-code').text() + ") " + phone;
+
+    // var obj = {};
+    // obj.properties = [];
+    //
+    // var property = function (property, value) {
+    //   this.property = property;
+    //   this.value = value;
+    // };
+    //
+    // obj.properties.push(new property("firstname", name));
+    // obj.properties.push(new property("phone", phone));
+    // obj.properties.push(new property("source", "Demo form"));
+    //
+
+
+    // $.ajax({
+    //     url: 'https://app.searchtap.io/crm/hubspot?email=' + email,
+    //     contentType: 'application/json',
+    //     type: 'POST',
+    //     data: JSON.stringify(obj),
+    //     xhrFields: {
+    //       withCredentials: true
+    //     },
+    //     success: function (data) {
+    //       $("#leadNotCreated").hide();
+    //       $("#input-hide").hide();
+    //       $("#leadCreated").show();
+    //       $("#requestDemoFormSubmit").prop('disabled', false);
+    //
+    //     },
+    //     error: function (err) {
+    //       console.log(err)
+    //       $("#requestDemoFormSubmit").prop('disabled', false);
+    //       $("#leadCreated").hide();
+    //       $("#leadNotCreated").show();
+    //     }
+    //
+    //   });
+  });
 
   $("#contactUsForm").submit(function (event) {
     event.preventDefault();

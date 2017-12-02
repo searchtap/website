@@ -1,6 +1,5 @@
 ---
-title: request-demo
-date: 2017-11-23 10:55:37
+title: Request a Demo for SearchTap
 layout: layout-empty
 ---
 <div class="container-fluid">
@@ -10,9 +9,9 @@ layout: layout-empty
             <div class=" bg-white" style="background:#fff !important;">
                 <div class="re-right pt88 pb90">
 
-                    <form class="text-center form-email" id="requestDemoForm">
-                        <a href="/"><img src="/img/logo-top.png"
-                                                                 class="img-responsive center-block mb48"></a>
+                    <form name="Request a Demo"  class="text-center form-email" id="requestDemoForm" data-netlify="true">
+
+                        <a href="/"><img src="/img/logo-top.png" class="img-responsive center-block mb48"></a>
 
                         <h3 class="mb10 text-dark">Looking for a personalised demo?
                         </h3>
@@ -28,30 +27,31 @@ layout: layout-empty
                             <div class="alert alert-danger" id="leadNotCreated" style="display: none">
                                 <span class="text-center">Please enter valid details.</span></div>
 
-                            <div id="input-hide">
 
-                                <input type="text" id="name" name="name"
-                                       class=" col-md-12 validate-required field-error"
-                                       placeholder="Name" required="">
+                            <input type="text" id="name" name="name"
+                                   class=" col-md-12 validate-required field-error"
+                                   placeholder="Name" required="">
 
-                                <input type="tel" id="number" name="phone"
-                                       class="col-md-12 validate-required field-error"
-                                       placeholder="Phone" required="">
-
-
-                                <input type="text" id="email" name="name"
-                                       class="bg-none col-md-12 mt16  validate-required"
-                                       pattern="[^@\s]+@[^@\s]+\.[^@\s]+" placeholder="Company Email" required="required" />
+                            <input type="tel" id="number" name="phone"
+                                   class="col-md-12 validate-required field-error"
+                                   placeholder="Phone" required="">
 
 
-                                <div class="col-sm-6 col-sm-offset-3">
-                                    <button type="submit" id="requestDemoFormSubmit"
-                                            style=" border-radius:4px !important;">Schedule
-                                        demo
-                                    </button>
-                                </div>
+                            <input type="text" id="email" name="name"
+                                   class="bg-none col-md-12 validate-required"
+                                   pattern="[^@\s]+@[^@\s]+\.[^@\s]+" placeholder="Company Email" required="required"/>
+
+
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <button type="submit" id="requestDemoFormSubmit"
+                                        style=" border-radius:4px !important;">Schedule
+                                    demo
+                                </button>
                             </div>
+
+
                         </div>
+
                         <div class="overflow-hidden">
 
                         </div>

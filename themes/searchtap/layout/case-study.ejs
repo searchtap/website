@@ -1,0 +1,186 @@
+<body>
+<%- partial('_partial/mobile-nav') %>
+
+<div id="wrapper">
+
+    <%- partial('_partial/header-nav') %>
+
+    <% var assetDir = '/img/' + path.replace("/index.html", "") %>
+
+    <div id="page-content-wrapper">
+        <a href="<%- url_for('request-demo') %>" class="btn btn-sm btn-filled pull-right sales">Request Demo</a>
+
+        <div class="main-container">
+
+            <div class="ecom-banner">
+
+                <div class="ecom-banner mb64" style="background-image:url('<%- assetDir %>/banner.jpg');">
+
+                    <section class="image-edge pt24 pb0 pt-xs-40 pb-xs-40">
+
+                        <div class="col-md-6 col-sm-7 pt88 pl40 tt-p">
+
+
+                            <h5 class="mb6 mb-xs-16 pt64">
+                    <span style="padding-left:4px; font-size:20px; letter-spacing:1.5px; font-weight:600;"
+                          class="font-size32 pull-left">
+                        SearchTap for
+                    </span>
+                            </h5>
+                            <div class="clearfix"></div>
+                            <span style="position:relative;">
+                    <img src="<%- assetDir %>/logo.png" class="img-responsive"
+                         style="margin-top:10px;"></span>
+
+                            <div class="clearfix"></div>
+
+                            <hr class="mb16" style="width:62%; margin-top:10px;">
+
+                            <p class="mb16  _400 font16">
+                                “SearchTap does everything we wanted from a hosted search solution. I personally love
+                                the
+                                search-as-you-type and adaptive type correction feature. Super easy to use too!”
+
+                            </p>
+
+                            <p class="author"><span
+                                        class="text-green"><strong>- Aayush Pahuja, Business Head - Voxpop</strong>
+                    </span></p>
+
+                            <div class="clearfix"></div>
+
+
+                        </div>
+
+                        <div class="col-md-6 col-sm-4 ">
+                            <img alt="Screenshot" class="mb-xs-24 pt20 img-responsive center-block"
+                                 src="<%- assetDir %>/screenshot.png">
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </div>
+
+            <div class="main-container">
+
+                <section class=" pt48 pb48 mb32 bg-secondary p32">
+                    <div class="container">
+
+                        <h4 class=" text-center _600 pb32 ">Results</h4>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="text-number">
+                                    <div class="col-md-12">
+                                        <span class="text-green font-size34"><%- page.stat1 %></span>
+                                    </div>
+                                    <div class="col-md-12 line-height17">
+                                        <span class=" case-study-stat-title"> <%- page.stat1_title %> </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="text-number">
+                                    <div class="col-md-12">
+                                        <span class="text-green font-size34"><%- page.stat2 %></span>
+                                    </div>
+                                    <div class="col-md-12 line-height17">
+                                        <span class=" case-study-stat-title"> <%- page.stat2_title %> </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="text-number">
+                                    <div class="col-md-12">
+                                        <span class="text-green font-size34"><%- page.stat3 %></span>
+                                    </div>
+                                    <div class="col-md-12 line-height17">
+                                        <span class=" case-study-stat-title"> <%- page.stat3_title %> </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="text-number">
+                                    <div class="col-md-12">
+                                        <span class="text-green font-size34"><%- page.stat4 %></span>
+                                    </div>
+                                    <div class="col-md-12 line-height17">
+                                        <span class=" case-study-stat-title"> <%- page.stat4_title %> </span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <div class="main-container mt16 ecom">
+                    <div class="container2 features-t">
+
+                        <section class="mt64 pt0">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-9 col-md-push-3 mb-xs-24">
+
+                                        <%- page.content %>
+
+                                    </div>
+
+                                    <div class="col-md-3 col-md-pull-9 hidden-sm">
+                                        <div class="widget ">
+                                            <h6 class="title">About <%- page.brand %>
+                                            </h6>
+
+                                            <hr>
+                                            <strong style="color:#333;">Industry: <%- page.industry %></strong>
+                                            <br>
+                                            <strong style="color:#333;">Platform: <%- page.platform %> </strong>
+
+                                            <p class="pt10"> <%- page.about %> </p>
+
+
+                                        </div>
+
+
+                                        <div class="widget">
+                                            <h6 class="title">Summary</h6>
+                                            <hr>
+                                            <p> <%- page.summary %> </p>
+                                        </div>
+
+                                        <div class="widget">
+                                            <h6 class="title">Why SearchTap?</h6>
+                                            <hr>
+                                            <p>
+                                                Fast, relevant search results in milliseconds, ease of implementation,
+                                                and a
+                                                customizable search
+                                                interface.
+                                            </p>
+                                            <a class="btn btn-filled" href="/ecommerce-search"
+                                               style="border-radius:4px;">Learn More</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <%- partial('_partial/footer-nav') %>
+
+</div>
+</body>
+</html>

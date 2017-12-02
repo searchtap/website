@@ -111,6 +111,7 @@ $(function () {
     var cc = $('.selected-dial-code').text();
 
     var fd = {
+      "form-name": "Request a Demo",
       name: name,
       phone: phone,
       email: email,
@@ -133,9 +134,7 @@ $(function () {
       })
       .always(function () {
         $("#requestDemoFormSubmit").prop('disabled', false);
-      })
-
-    ;
+      });
 
     // phone = "(" + $('.selected-dial-code').text() + ") " + phone;
 

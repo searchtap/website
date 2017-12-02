@@ -57,6 +57,7 @@ testimonial: false
             </div>
             <div class="col-sm-6 col-md-5 col-md-offset-1">
                 <form id="contactUsForm" class="form-email"
+                      data-netlify="true"
                       data-success="Thank you for getting in touch. We will respond to you shortly."
                       data-error="Please fill all fields correctly.">
                     <div class="alert alert-success" id="contactQueryCreated" style="display: none">
@@ -75,8 +76,9 @@ testimonial: false
                                placeholder="Phone" required="">
 
                         <input type="text" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" id="email"
-                               class=" mt16 validate-required validate-email" name="email" placeholder="Company Email"
-                               style="border-radius:2px !important; height:50px;" required="required" />
+                               class="validate-required validate-email" name="email" placeholder="Company Email"
+                               style="border-radius:2px !important; height:50px;" required="required"/>
+
                         <textarea class="validate-required bg-none" id="message" name="message" rows="4"
                                   placeholder="Message" required></textarea>
                         <button id="contactUsFormSubmit" type="submit" style="border-radius:4px !important;">Send

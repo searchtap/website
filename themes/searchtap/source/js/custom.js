@@ -10,7 +10,7 @@ $(function () {
     var email = $(this).find("#email").val();
     var password = $(this).find("#password").val();
 
-    phone = "(" + $('.selected-dial-code').text() + ") " + phone
+    phone = "(" + $('.selected-dial-code').text() + ") " + phone;
 
     var obj = {};
     obj.properties = [];

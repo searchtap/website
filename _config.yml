@@ -78,6 +78,3 @@ theme: searchtap
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
-
-sitemap:
-    path: sitemap.xml

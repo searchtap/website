@@ -6,13 +6,17 @@
         <% if(page.title !== undefined && page.title !== '') { %>
         <%= page.title %>
         <% } else { %>
-        Plug and Play Search Solution for Websites, Mobile Apps and Enterprise Software
+        Plug and Play Search Solution for Websites, Mobile Apps and Enterprise Software | SearchTap
         <% } %>
 
-        | SearchTap
-
     </title>
+
+    <% if(page.description!== undefined){ %>
+    <meta name="description" content="<%= page.description %>"/>
+    <% } else {%>
     <meta name="description" content="<%= config.description %>"/>
+    <% } %>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
 

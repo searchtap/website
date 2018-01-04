@@ -754,17 +754,17 @@ border-right: solid 1px #f1f1f1;
 }
 
 .s-bg{
-	background:url(../img/shopify-bg.png);
+	background:url(../img/shopify_background.png);
 	background-size:cover;
 }
 
 .m-bg{
-	background:url(../img/m-bg.jpg);
+	background:url(../img/magento_background.jpg);
 	background-size:cover;
 }
 
 .gallery-bg{
-	background:url(../img/eco-bg.jpg);
+	background:url(../img/ecommerce_background.jpg);
 	background-size:cover;
 }
 .text-underline{

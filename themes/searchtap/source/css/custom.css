@@ -3672,7 +3672,7 @@ background:#fbfbfb;
 		
 		
 	.feature-banner{
-		background-image: url(../img/Wallpapers-Cyanogenmod-HD.png);
+		background-image: url(../img/searchtap_feature_background.png);
 		background-color:#323030;
 		background-size:cover !important;
 	   height: 1000px !important;
@@ -4017,7 +4017,7 @@ form .dropdown-menu {
 		}
 		
 			.feature-banner{
-		background-image: url(../img/Wallpapers-Cyanogenmod-HD.png);
+		background-image: url(../img/searchtap_feature_background.png);
 		background-color:#323030;
 		background-size:cover !important;
 	   height: 880px !important;
@@ -4250,7 +4250,7 @@ font-size:16px;
 		}
 		
 	.feature-banner{
-		background-image: url(../img/Wallpapers-Cyanogenmod-HD.png);
+		background-image: url(../img/searchtap_feature_background.png);
 		background-color:#323030;
 		background-size:cover !important;
 	   height:auto !important;

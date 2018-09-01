@@ -1,193 +1,209 @@
 .tt-p .btn-filled {
-    background: none;
-    color: #fff !important;
-    border-color: #fff !important;
+  background: none;
+  color: #fff !important;
+  border-color: #fff !important;
 }
 
 .tt-p .btn-filled:hover {
-    background: #fff;
-    color: #666 !important;
-    border-color: #fff !important;
+  background: #fff;
+  color: #666 !important;
+  border-color: #fff !important;
 }
 
 .btn {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 input.transparent,
 button.transparent {
-    background: none;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 input[type="text"],
 input[type="password"] {
-    background: #fff;
-    border: 1px solid #ddd;
-    width: 100%;
-    min-width: 196px;
-    border-radius: 4px !important;
-    height: 50px;
-    padding-left: 20px;
-    font-weight: 500;
-    margin-bottom: 24px;
-    border-radius: 0;
-    background: no-repeat
+  background: #fff;
+  border: 1px solid #ddd;
+  width: 100%;
+  min-width: 196px;
+  border-radius: 4px !important;
+  height: 50px;
+  padding-left: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  border-radius: 0;
+  background: no-repeat
 }
 
 .overlay:before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: none;
-    opacity: 0.3;
-    z-index: 2;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: none;
+  opacity: 0.3;
+  z-index: 2;
 }
 
 .bg-secondary .feature.boxed {
-    background: #fff;
-    box-shadow: 0 0 4px #ddd;
+  background: #fff;
+  box-shadow: 0 0 4px #ddd;
 }
 
 .menu-brd h3 a {
 
-    font-weight: 900 !important;
+  font-weight: 900 !important;
 
 }
 
 .logo-carousel {
-    margin-top: 20px;
-    position: relative;
-    top: 40px;
-    background: url(https://cdn.shopify.com/s/files/1/1736/4725/t/28/assets/footer-bg.jpg?2202664919495734700) no-repeat 100% top center;
+  margin-top: 20px;
+  position: relative;
+  top: 40px;
+  background: url(https://cdn.shopify.com/s/files/1/1736/4725/t/28/assets/footer-bg.jpg?2202664919495734700) no-repeat 100% top center;
 }
 
 .logo-carousel li {
-    transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    opacity: 1;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  opacity: 1;
 }
 
 .tabs li {
-    margin-left: 0px;
-    margin-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .logo-carousel img {
-    max-height: 118px;
+  max-height: 118px;
 }
 
 .image-bg .feature.boxed {
-    border-radius: 6px;
+  border-radius: 6px;
 }
 
 .col-sm-2-5 {
-    margin: 0 auto;
-    margin-left: 4px;
-    margin-right: 4px;
-    width: 19.3%;
-    left: 0.5%;
-    float: left;
-    display: inline-block;
-    vertical-align: central;
-    position: relative;
+  margin: 0 auto;
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 19.3%;
+  left: 0.5%;
+  float: left;
+  display: inline-block;
+  vertical-align: central;
+  position: relative;
 }
 
 .feature.boxed {
-    padding: 32px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background: #f7f7f7;
+  padding: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #f7f7f7;
 }
 
 .mega-menu {
-    position: relative;
-    right: -260px;
+  position: relative;
+  right: -260px;
 }
 
 .overlay:before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #292929;
-    opacity: 0.3;
-    z-index: 2;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #292929;
+  opacity: 0.3;
+  z-index: 2;
 }
 
 .image-bg .feature.boxed {
-    border: 1px solid rgba(255, 255, 255);
-    background: rgba(34, 34, 34, 0.4);
+  border: 1px solid rgba(255, 255, 255);
+  background: rgba(34, 34, 34, 0.4);
 }
 
 .noUi-pips-horizontal {
-    position: relative;
-    top: 10px;
-    left: -20px;
+  position: relative;
+  top: 10px;
+  left: -20px;
 }
 
 .intl-tel-input.separate-dial-code .selected-dial-code {
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 29px;
-    text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 29px;
+  text-align: left;
 }
 
 .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=tel] {
-    padding-left: 88px;
+  padding-left: 88px;
 }
 
 #requestDemoForm {
-    height: 100vh;
+  height: 100vh;
 }
 
 .font-size34 {
-    font-size: 46px !important;
+  font-size: 46px !important;
 }
 
 .blog-style li {
-    margin-left: 32px;
-    margin-bottom: 12px;
+  margin-left: 32px;
+  margin-bottom: 12px;
 }
 
 .blog-style li:before {
-    content: "\f105";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    padding-right: 6px;
-    position: absolute;
-    left: 29px;
+  content: "\f105";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  padding-right: 6px;
+  position: absolute;
+  left: 29px;
 }
 
 .main-container .widget .title {
-    color: #333 !important;
-    text-transform: none;
-    font-size: 16px;
+  color: #333 !important;
+  text-transform: none;
+  font-size: 16px;
 }
 
 .case-study-stat-title {
-    font-size: 12px !important;
-    font-weight: 600;
-    text-transform: uppercase;
+  font-size: 12px !important;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+a.plan-btn {
+  height: 50px;
+  border-radius: 4px;
+  line-height: 48px;
+  border: 2px solid #47b475;
+  background: #47b475;
+  color: #fff;
+  width: 100%;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: block;
+  text-align: center;
 }
 
 @media only screen and (max-width: 480px) {
-    .line-height17 {
-        line-height: normal;
-        margin-bottom: 32px;
-    }
+  .line-height17 {
+    line-height: normal;
+    margin-bottom: 32px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .line-height17 {
-        line-height: normal;
-        margin-bottom: 32px;
-    }
+  .line-height17 {
+    line-height: normal;
+    margin-bottom: 32px;
+  }
 }

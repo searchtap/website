@@ -1,6 +1,0 @@
-# Redirect domain aliases to primary domain
-https://searchtap.com.au/* https://www.searchtap.io/:splat 301!
-https://www.searchtap.com.au/* https://www.searchtap.io/:splat 301!
-
-# Optional: Redirect default Netlify subdomain to primary domain
-https://st-prod.netlify.com/* https://www.searchtap.io/:splat 301!

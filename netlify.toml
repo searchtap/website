@@ -1,0 +1,17 @@
+[[redirects]]
+from = "https://searchtap.com.au/*"
+to = "https://www.searchtap.io/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.searchtap.com.au/*"
+to = "https://www.searchtap.io/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://st-prod.netlify.com/*"
+to = "https://www.searchtap.io/:splat"
+status = 301
+force = true

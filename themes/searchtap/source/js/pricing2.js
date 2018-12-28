@@ -7,16 +7,16 @@ $(function () {
     return;
 
   noUiSlider.create(slider, {
-    start: 100,
+    start: 250,
     snap: true,
     range: {
-      'min': 100,
-      '50%': 250,
-      'max': 500
+      'min': 250,
+      '50%': 500,
+      'max': 1000
     },
     pips: {
       mode: 'values',
-      values: [100, 250, 500],
+      values: [250, 500, 1000],
       format: wNumb({
         decimals: 0,
         postfix: 'K'
@@ -28,19 +28,19 @@ $(function () {
     var price = 159;
     var pages = 10000;
     switch (parseInt(slider.noUiSlider.get())) {
-      case 100:
-        price = 159;
-        pages = "10,000";
-        break;
-
       case 250:
-        price = 249;
-        pages = "25,000";
+        price = 159;
+        pages = "25K";
         break;
 
       case 500:
+        price = 249;
+        pages = "50K";
+        break;
+
+      case 1000:
         price = 299;
-        pages = "50,000";
+        pages = "100K";
         break;
     }
 

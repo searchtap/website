@@ -28,12 +28,12 @@ $(function () {
     switch (parseInt(slider.noUiSlider.get())) {
       case 10:
         price = 59;
-        pages = "1,000";
+        pages = "1K";
         break;
 
       case 50:
         price = 99;
-        pages = "5,000";
+        pages = "5K";
         break;
     }
 

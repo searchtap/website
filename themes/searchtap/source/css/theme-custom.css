@@ -59,10 +59,9 @@ input[type="password"] {
 }
 
 .logo-carousel {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   position: relative;
-  top: 40px;
-  background: url(https://cdn.shopify.com/s/files/1/1736/4725/t/28/assets/footer-bg.jpg?2202664919495734700) no-repeat 100% top center;
+  /*top: 40px;*/
 }
 
 .logo-carousel li {
@@ -144,7 +143,7 @@ input[type="password"] {
 }
 
 #requestDemoForm {
-  height: 100vh;
+  height: 80vh;
 }
 
 .font-size34 {

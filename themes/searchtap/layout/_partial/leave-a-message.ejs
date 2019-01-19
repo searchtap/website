@@ -1,0 +1,73 @@
+<div class="leave-a-msg" data-toggle="modal" data-target="#leaveamsg">
+    <div class="msg-icon">
+        <div class="msg-icon-w"></div>
+    </div>
+
+    <div class="comment-box">
+        <div class="comment-sec">
+            <p>
+
+                <b>Hi there!</b> Want to ask about something? Leave a message.</p>
+        </div>
+    </div>
+
+</div>
+
+<div id="leaveamsg" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <div class="st-header">
+
+                    <span class="st-txt">Need help?</span>
+                </div>
+
+                <button type="button" class="close" data-dismiss="modal">×</button>
+
+            </div>
+            <div class="modal-body">
+                <h4 class="text-center">To get in touch with us, please provide the following information.
+                </h4>
+
+                <form name="" class="text-center leave-a-message form-email"  method="POST" data-netlify="true">
+
+                    <div>
+
+                        <input type="text" id="name" name="name" class=" col-md-12 validate-required field-error"
+                               placeholder="Name" required />
+
+                        <div class="intl-tel-input allow-dropdown separate-dial-code iti-sdc-2">
+                            <div class="flag-container" style="color: #444"></div>
+                            <input type="tel" id="number" name="phone"
+                                   class="col-md-12 validate-required field-error" placeholder="Phone"
+                                   required autocomplete="off" /></div>
+
+
+                        <input type="text" id="email" name="name" class="bg-none col-md-12 mt16 validate-required"
+                               pattern="[^@\s]+@[^@\s]+\.[^@\s]+" placeholder="Company Email" required />
+
+                        <textarea class="validate-required bg-none field-error" id="message" name="message" rows="2"
+                                  placeholder="Message" required>
+                        </textarea>
+
+                        <div data-netlify-recaptcha="true"></div>
+
+                        <button type="submit" style=" border-radius:4px !important;">Send Message
+                            </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+
+            <div class="modal-footer">
+            </div>
+        </div>
+
+    </div>
+</div>

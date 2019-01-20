@@ -1,0 +1,45 @@
+<body class="scroll-assist">
+
+<%- partial('_partial/mobile-nav') %>
+
+<div id="wrapper">
+
+    <%- partial('_partial/header-nav') %>
+
+    <div id="page-content-wrapper">
+
+        <a href="<%- url_for('request-demo') %>" class="btn btn-sm btn-filled pull-right sales">Request Demo</a>
+
+        <section id="blog">
+
+            <%- partial('_partial/blog-header') %>
+
+            <div class="main-container">
+
+                <% if (page.index === true) { %>
+                    <%- page.content %>
+                <% } %>
+
+                <% if (page.index === undefined) { %>
+                    <section class="pt64 ">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-md-9 mb-xs-24 padding-right30">
+                                    <%- page.content %>
+                                    <%- partial('_partial/blog-bottom-pane') %>
+                                </div>
+
+                                <%- partial('_partial/blog-right-pane') %>
+                            </div>
+                        </div>
+                    </section>
+                <% } %>
+
+            </div>
+        </section>
+    </div>
+
+    <%- partial('_partial/footer-nav') %>
+
+</div>

@@ -19,9 +19,17 @@
 font-size: 40px;
 }
 
+#blog {
+    padding: 0;
+}
+
 .mini-posts  input[type="tel"] {
     height: 42px;
     background: #fff !important;
+}
+
+#requestDemoForm input[type="text"], input[type="password"] {
+    margin-bottom: 10px;
 }
 
 .moblie-banner .hm-form{
@@ -2880,7 +2888,7 @@ FF 4-18
 .search-box-wrap2 input[type=text] {
     color: #333;
     background: none;
-    /* background: url(../img/icon-search-white.png) no-repeat 97% center; */
+    /* background: uFrl(../img/icon-search-white.png) no-repeat 97% center; */
 }
 .search-box-wrap2 input[type=text] {
     font-size: 40px;

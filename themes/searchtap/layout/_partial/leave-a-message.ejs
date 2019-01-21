@@ -32,22 +32,26 @@
                 <h4 class="text-center">To get in touch with us, please provide the following information.
                 </h4>
 
-                <form name="" class="text-center leave-a-message form-email"  method="POST" data-netlify="true">
+                <form name="Message Us Form" class="text-center leave-a-message form-email" method="POST" data-netlify="true">
 
                     <div>
+                        <div class="alert alert-success" id="leadCreated" style="display: none">
+                            <span class="text-center">Thank you for your interest in SearchTap. Our search experts will contact you to schedule a demo shortly!</span>
+                        </div>
+                        <div class="alert alert-danger" id="leadNotCreated" style="display: none">
+                            <span class="text-center">Please enter valid details.</span></div>
+
 
                         <input type="text" id="name" name="name" class=" col-md-12 validate-required field-error"
-                               placeholder="Name" required />
+                               placeholder="Name" required/>
 
                         <div class="intl-tel-input allow-dropdown separate-dial-code iti-sdc-2">
-                            <div class="flag-container" style="color: #444"></div>
                             <input type="tel" id="number" name="phone"
                                    class="col-md-12 validate-required field-error" placeholder="Phone"
-                                   required autocomplete="off" /></div>
-
+                                   required autocomplete="off"/></div>
 
                         <input type="text" id="email" name="name" class="bg-none col-md-12 mt16 validate-required"
-                               pattern="[^@\s]+@[^@\s]+\.[^@\s]+" placeholder="Company Email" required />
+                               pattern="[^@\s]+@[^@\s]+\.[^@\s]+" placeholder="Company Email" required/>
 
                         <textarea class="validate-required bg-none field-error" id="message" name="message" rows="2"
                                   placeholder="Message" required>
@@ -56,7 +60,7 @@
                         <div data-netlify-recaptcha="true"></div>
 
                         <button type="submit" style=" border-radius:4px !important;">Send Message
-                            </button>
+                        </button>
 
                     </div>
 

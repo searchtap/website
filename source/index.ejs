@@ -41,7 +41,8 @@ title: Plug and Play Search Solution for Websites, Mobile Apps and Enterprise So
                         <div class="hm-form" style="margin-top: -300px">
                             <div class="re-right">
 
-                                <form name="HomePage Request a Demo Form" class="text-center form-email" id="requestDemoForm"
+                                <form name="Homepage Request a Demo" class="text-center form-email"
+                                      id="requestDemoForm"
                                       method="POST" data-netlify="true">
 
                                     <h3 class="mb10 text-dark">Looking for a personalised demo?
@@ -53,12 +54,17 @@ title: Plug and Play Search Solution for Websites, Mobile Apps and Enterprise So
 
                                     <div>
 
+                                        <div class="alert alert-success" id="leadCreated" style="display: none">
+                                            <span class="text-center">Thank you for your interest in SearchTap. Our search experts will contact you to schedule a demo shortly!</span>
+                                        </div>
+                                        <div class="alert alert-danger" id="leadNotCreated" style="display: none">
+                                            <span class="text-center">Please enter valid details.</span></div>
+
                                         <input type="text" id="name" name="name"
                                                class=" col-md-12 validate-required field-error" placeholder="Name"
                                                required>
 
                                         <div class="intl-tel-input allow-dropdown separate-dial-code iti-sdc-2">
-                                            <div class="flag-container" style="color: #444"></div>
                                             <input type="tel" id="number" name="phone"
                                                    class="col-md-12 validate-required field-error" placeholder="Phone"
                                                    required autocomplete="off"></div>
@@ -77,12 +83,8 @@ title: Plug and Play Search Solution for Websites, Mobile Apps and Enterprise So
                                             </button>
                                         </div>
 
-
                                     </div>
 
-                                    <div class="overflow-hidden">
-
-                                    </div>
                                 </form>
 
                             </div>
@@ -191,8 +193,6 @@ title: Plug and Play Search Solution for Websites, Mobile Apps and Enterprise So
 
                 <p class="text-green" style="line-height:18px;">
                     <strong>
-                        <a href="/free-trial" class="">Signup today</a>
-                        <span style="color:#333;">or</span>
                         <a href="/request-demo" class="">Schedule a personalised demo.</a>
                     </strong>
                 </p>

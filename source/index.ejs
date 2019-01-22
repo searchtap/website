@@ -67,11 +67,10 @@ title: Plug and Play Search Solution for Websites, Mobile Apps and Enterprise So
                                         <div class="intl-tel-input allow-dropdown separate-dial-code iti-sdc-2">
                                             <input type="tel" id="number" name="phone"
                                                    class="col-md-12 validate-required field-error" placeholder="Phone"
-                                                   required autocomplete="off"></div>
+                                                   required autocomplete="off" pattern="[1-9]{1}[0-9]{9}"></div>
 
-                                        <input type="text" id="email" name="email"
-                                               class="bg-none col-md-12 mt8 validate-required"
-                                               pattern="[^@\s]+@[^@\s]+\.[^@\s]+" placeholder="Company Email"
+                                        <input type="email" id="email" name="email"
+                                               class="bg-none col-md-12 mt8 validate-required" placeholder="Company Email"
                                                required>
 
                                         <div data-netlify-recaptcha="true"></div>

@@ -23,6 +23,10 @@ font-size: 40px;
     padding: 0;
 }
 
+input[type="tel"], input[type="text"] {
+    color: #444 !important;
+}
+
 .mini-posts  input[type="tel"] {
     height: 42px;
     background: #fff !important;
@@ -1271,17 +1275,17 @@ border-right: solid 1px #f1f1f1;
 }
 
 .s-bg{
-	background:url(../img/shopify-bg.png);
+	background:url(../img/shopify_background.png);
 	background-size:cover;
 }
 
 .m-bg{
-	background:url(../img/m-bg.jpg);
+	background:url(../img/magento_background.jpg);
 	background-size:cover;
 }
 
 .gallery-bg{
-	background:url(../img/eco-bg.jpg);
+	background:url(../img/eco-bg.png);
 	background-size:cover;
 }
 .text-underline{
@@ -4196,7 +4200,7 @@ background:#fbfbfb;
 		
 		
 	.feature-banner{
-		background-image: url(../img/Wallpapers-Cyanogenmod-HD.png);
+		/*background-image: url(../img/Wallpapers-Cyanogenmod-HD.png);*/
 		background-color:#323030;
 		background-size:cover !important;
 	   height: 1000px !important;
@@ -4539,7 +4543,7 @@ form .dropdown-menu {
 		}
 		
 			.feature-banner{
-		background-image: url(../img/Wallpapers-Cyanogenmod-HD.png);
+		/*background-image: url(../img/Wallpapers-Cyanogenmod-HD.png);*/
 		background-color:#323030;
 		background-size:cover !important;
 	   height: 880px !important;
@@ -4772,7 +4776,7 @@ font-size:16px;
 		}
 		
 	.feature-banner{
-		background-image: url(../img/Wallpapers-Cyanogenmod-HD.png);
+		/*background-image: url(../img/Wallpapers-Cyanogenmod-HD.png);*/
 		background-color:#323030;
 		background-size:cover !important;
 	   height:auto !important;

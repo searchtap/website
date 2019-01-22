@@ -75,8 +75,9 @@ input[type="tel"], input[type="text"] {
     color: #444;
 }
 
-.moblie-banner .hm-form input{
+.moblie-banner .hm-form input, .hm-form span{
     background-color: #fff !important;
+    color: #444 !important;
 }
 
 .moblie-banner .hm-form button[type="submit"] {

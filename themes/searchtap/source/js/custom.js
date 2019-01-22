@@ -111,7 +111,6 @@ $(function () {
     var fd = {
       "form-name": "Request a Demo",
       email: name,
-      // name: ,
       phone: '(' + cc + ')' + phone,
     };
 

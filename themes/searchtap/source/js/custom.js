@@ -106,14 +106,15 @@ $(function () {
     var email = $(this).find("#email").val();
     var cc = $('.selected-dial-code').text();
 
+    var $form = $(this);
+
     var fd = {
-      "form-name": "Request a Demo",
+      "form-name": $form.attr("name"),
+      email: email,
       name: name,
       phone: '(' + cc + ')' + phone,
-      email: email
     };
 
-    var $form = $(this);
     $.post($form.attr("action"), $.param(fd))
       .done(function () {
         $("#leadNotCreated").hide();
@@ -125,6 +126,9 @@ $(function () {
         console.error(err);
         $("#leadCreated").hide();
         $("#leadNotCreated").show();
+        setTimeout(()=> {
+          $("#leadNotCreated").hide();
+        },2000)
       })
       .always(function () {
         $("#requestDemoFormSubmit").prop('disabled', false);

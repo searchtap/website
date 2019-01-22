@@ -110,9 +110,9 @@ $(function () {
 
     var fd = {
       "form-name": "Request a Demo",
-      Name: name,
-      Phone: '(' + cc + ')' + phone,
-      Email: email,
+      name: name,
+      phone: '(' + cc + ')' + phone,
+      email: email,
     };
 
     $.post($form.attr("action"), $.param(fd))

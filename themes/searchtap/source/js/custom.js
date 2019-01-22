@@ -109,7 +109,7 @@ $(function () {
     var $form = $(this);
 
     var fd = {
-      "form-name": $form.attr("name"),
+      "form-name": "Request a Demo",
       email: email,
       name: name,
       phone: '(' + cc + ')' + phone,
@@ -127,7 +127,7 @@ $(function () {
         $("#leadCreated").hide();
         $("#leadNotCreated").show();
         setTimeout(()=> {
-          $("#leadNotCreated").hide();
+          $("#leadCreated").hide();
         },2000)
       })
       .always(function () {

@@ -69,19 +69,15 @@ title: Plug and Play Search Solution for Websites, Mobile Apps and Enterprise So
                                                class="col-md-12" placeholder="Name"
                                                required/>
 
-                                        <input type="text" id="name2" name="Name2"
-                                               class="col-md-12" placeholder="Email Name"
-                                               required/>
-
                                         <div class="intl-tel-input allow-dropdown separate-dial-code iti-sdc-2">
                                             <input type="tel" id="number" name="Phone"
                                                    class="col-md-12" placeholder="Phone"
                                                    required pattern="[1-9]{1}[0-9]{9}"/>
                                         </div>
 
-                                        <input type="email" id="email" name="Email"
-                                               class="col-md-12" placeholder="Company Email"
-                                               required/>
+                                        <input type="text" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" id="email"
+                                               class="col-md-12" placeholder="Email Address"
+                                               name="email" required/>
 
                                         <div data-netlify-recaptcha="true"></div>
 

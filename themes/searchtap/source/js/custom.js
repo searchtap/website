@@ -110,8 +110,8 @@ $(function () {
 
     var fd = {
       "form-name": "Request a Demo",
-      email: email,
-      name: name,
+      email: name,
+      // name: ,
       phone: '(' + cc + ')' + phone,
     };
 
@@ -120,15 +120,15 @@ $(function () {
         $("#leadNotCreated").hide();
         // $("#input-hide").hide();
         $("#leadCreated").show();
+        setTimeout(()=> {
+          $("#leadCreated").hide();
+        },2000);
         $form.trigger('reset');
       })
       .fail(function (err) {
         console.error(err);
         $("#leadCreated").hide();
         $("#leadNotCreated").show();
-        setTimeout(()=> {
-          $("#leadCreated").hide();
-        },2000)
       })
       .always(function () {
         $("#requestDemoFormSubmit").prop('disabled', false);

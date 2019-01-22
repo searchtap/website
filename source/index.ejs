@@ -54,29 +54,30 @@ title: Plug and Play Search Solution for Websites, Mobile Apps and Enterprise So
 
                                     <div>
 
-                                        <div class="alert alert-success text-center" id="leadCreated" style="display: none">
-                                           Thank you for your interest in SearchTap. Our search experts will contact you to schedule a demo shortly!
+                                        <div class="alert alert-success text-center" id="leadCreated"
+                                             style="display: none">
+                                            Thank you for your interest in SearchTap. Our search experts will contact
+                                            you to schedule a demo shortly!
                                         </div>
-                                        <div class="alert alert-danger text-center" id="leadNotCreated" style="display: none">
-                                            Please enter valid details.</div>
+
+                                        <div class="alert alert-danger text-center" id="leadNotCreated"
+                                             style="display: none">
+                                            Please enter valid details.
+                                        </div>
+
+                                        <input type="text" id="name" name="Name"
+                                               class="col-md-12" placeholder="Name"
+                                               required/>
+
+                                        <div class="intl-tel-input allow-dropdown separate-dial-code iti-sdc-2">
+                                            <input type="tel" id="number" name="Phone"
+                                                   class="col-md-12" placeholder="Phone"
+                                                   required pattern="[1-9]{1}[0-9]{9}"/>
+                                        </div>
 
                                         <input type="email" id="email" name="Email"
                                                class="col-md-12" placeholder="Company Email"
-                                               required />
-
-                                        <input type="text" id="name" name="Name"
-                                               class=" col-md-12" placeholder="Name"
-                                               required />
-
-                                        <input type="text" id="reference" name="Refer"
-                                               class=" col-md-12" placeholder="Refer"
-                                               required />
-
-                                        <div class="intl-tel-input allow-dropdown separate-dial-code iti-sdc-2">
-                                            <input type="tel" id="number" name="Phone Number"
-                                                   class="col-md-12" placeholder="Phone"
-                                                   required autocomplete="off" pattern="[1-9]{1}[0-9]{9}" />
-                                        </div>
+                                               required/>
 
                                         <div data-netlify-recaptcha="true"></div>
 

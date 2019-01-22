@@ -154,7 +154,7 @@ input[type="tel"], input[type="text"] {
 }
 
 #leaveamsg .st-icon{
-    background-image: url(http://uat.gas.ind.in/searchtap/demo/img/chat.svg);
+    background-image: url("../img/chat.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 25px;
@@ -175,7 +175,7 @@ input[type="tel"], input[type="text"] {
 
 #leaveamsg .st-txt:before{
     content: '';
-    background-image: url(http://uat.gas.ind.in/searchtap/demo/img/chat.svg);
+    background-image: url("../img/chat.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 25px;
@@ -267,7 +267,7 @@ form.leave-a-message{
     width: 60px;
     height: 60px;
     position: relative;
-    background-image: url("http://uat.gas.ind.in/searchtap/demo/img/letter.png");
+    background-image: url("../img/message-icon.png");
     background-repeat: no-repeat;
     bottom: -22px;
     background-size: 62px;
@@ -302,7 +302,7 @@ form.leave-a-message{
     width: 20px;
     height: 20px;
     position: absolute;
-    background-image: url(http://uat.gas.ind.in/searchtap/demo/img/arrow-last-point.png);
+    background-image: url("../img/arrow-last-point.png");
     background-size: 20px;
     right: -11px;
     background-repeat: no-repeat;

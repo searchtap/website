@@ -96,44 +96,44 @@ $(function () {
     window.location.href = "free-trial.html";
   });
 
-  // $("#requestDemoForm").submit(function (event) {
-  //   event.preventDefault();
-  //
-  //   $("#requestDemoFormSubmit").prop('disabled', true);
-  //
-  //   var name = $(this).find("#name").val();
-  //   var phone = $(this).find("#number").val();
-  //   var email = $(this).find("#email").val();
-  //   var cc = $('.selected-dial-code').text();
-  //
-  //   var $form = $(this);
-  //
-  //   var fd = {
-  //     "form-name": "Request a Demo",
-  //     name: name,
-  //     phone: '(' + cc + ')' + phone,
-  //     email: email,
-  //   };
-  //
-  //   $.post($form.attr("action"), $.param(fd))
-  //     .done(function () {
-  //       $("#leadNotCreated").hide();
-  //       // $("#input-hide").hide();
-  //       $("#leadCreated").show();
-  //       setTimeout(()=> {
-  //         $("#leadCreated").hide();
-  //       },2000)
-  //       $form.trigger('reset');
-  //     })
-  //     .fail(function (err) {
-  //       console.error(err);
-  //       $("#leadCreated").hide();
-  //       $("#leadNotCreated").show();
-  //     })
-  //     .always(function () {
-  //       $("#requestDemoFormSubmit").prop('disabled', false);
-  //     });
-  // });
+  $("#requestDemoForm").submit(function (event) {
+    event.preventDefault();
+
+    $("#requestDemoFormSubmit").prop('disabled', true);
+
+    var name = $(this).find("#name").val();
+    var phone = $(this).find("#number").val();
+    var email = $(this).find("#email").val();
+    var cc = $('.selected-dial-code').text();
+
+    var $form = $(this);
+
+    var fd = {
+      "form-name": "Request a Demo",
+      Name: name,
+      Phone: '(' + cc + ')' + phone,
+      Email: email,
+    };
+
+    $.post($form.attr("action"), $.param(fd))
+      .done(function () {
+        $("#leadNotCreated").hide();
+        // $("#input-hide").hide();
+        $("#leadCreated").show();
+        setTimeout(()=> {
+          $("#leadCreated").hide();
+        },2000);
+        $form.trigger('reset');
+      })
+      .fail(function (err) {
+        console.error(err);
+        $("#leadCreated").hide();
+        $("#leadNotCreated").show();
+      })
+      .always(function () {
+        $("#requestDemoFormSubmit").prop('disabled', false);
+      });
+  });
 
   $("#contactUsForm").submit(function (event) {
     event.preventDefault();

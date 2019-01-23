@@ -108,17 +108,16 @@ $(function () {
 
     var $form = $(this);
 
-    // var fd = {
-    //   email: email,
-    //   "form-name": "Request a Demo",
-    //   name: name,
-    //   phone: '(' + cc + ')' + phone,
-    // };
+    var fd = {
+      email: email,
+      "form-name": "Request a Demo",
+      name: name,
+      phone: '(' + cc + ')' + phone,
+    };
 
-    $.post($form.attr("action"), $form.serialize())
+    $.post($form.attr("action"), fd.serialize())
       .done(function () {
         $("#leadNotCreated").hide();
-        // $("#input-hide").hide();
         $("#leadCreated").show();
         setTimeout(()=> {
           $("#leadCreated").hide();

@@ -108,14 +108,14 @@ $(function () {
 
     var $form = $(this);
 
-    var fd = {
-      email: email,
-      "form-name": "Request a Demo",
-      name: name,
-      phone: '(' + cc + ')' + phone,
-    };
+    // var fd = {
+    //   email: email,
+    //   "form-name": "Request a Demo",
+    //   name: name,
+    //   phone: '(' + cc + ')' + phone,
+    // };
 
-    $.post($form.attr("action"), $.param(fd))
+    $.post($form.attr("action"), $form.serialize())
       .done(function () {
         $("#leadNotCreated").hide();
         // $("#input-hide").hide();

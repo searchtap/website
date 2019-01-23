@@ -16,84 +16,10 @@
 
             <div class="main-container">
 
-                <% if (page.index === true) { %>
                     <%- page.content %>
-                <% } %>
-
-                <% if (page.index === undefined) { %>
-                    <section class="pt64 ">
-                        <div class="container">
-                            <div class="row">
-
-                                <div class="col-md-9 mb-xs-24 padding-right30">
-
-                                    <div class="post-snippet mb64 pt0">
-                                        <div class="blog-details">
-
-                                            <ul class="post-meta mt0 mb0" style="opacity:0.8; font-size:12px;">
-                                                <li><i class="ti-calendar"></i>
-                                                    <span><%- page.published_date%></span>
-                                                </li>
-                                                <li><i class="ti-timer"></i>
-                                                    <span><%- page.read_time%> minutes to read</span>
-                                                </li>
-                                            </ul>
-
-                                            <div class="post-title">
-                                                <h4 class="mt10"><%- page.blog_title%></h4>
-                                            </div>
-
-                                            <div class="blog-detail-img">
-                                                <div class="blog-detail-img">
-                                                    <%- image_tag(`../../img/blog/${page.image_name}`, {
-                                                       class: "mb24",
-                                                        alt: page.image_alt
-                                                    }) %>
-                                                </div>
-                                            </div>
-
-                                            <ul class="post-meta mt0">
-                                                <li><i class="ti-tag"></i>
-                                                    <span>Tagged as
-                                                        <% page.tags.forEach((t)=> { %>
-                                                        <a href="#"><%-t%></a>
-                                                        <% })%>
-                                        </span></li>
-                                            </ul>
-
-                                            <ul class="social-share pull-right">
-                                                <li><span>Share  </span></li>
-
-                                                <li class="twitter">
-                                                    <%- link_to(`https://twitter.com/share?text=${page.blog_title}-SearchTap Blog&url=${page.permalink}&via=SearchTap`, ' ', {external: true, class: 'fa fa-twitter'})%>
-                                                </li>
-
-                                                <li class="linkedin">
-                                                    <%- link_to(`http://www.linkedin.com/shareArticle?mini=true&amp;url=${page.permalink}`, ' ', {external: true, class: 'fa fa-linkedin'})%>
-                                                </li>
-
-                                                <li class="facebook">
-                                                    <%- link_to(`http://www.facebook.com/sharer.php?u=${page.permalink}`, ' ', {external: true, class: 'fa fa-facebook'})%>
-                                                </li>
-
-                                            </ul>
-
-                                            <hr>
-                                        </div>
-
-                                        <%- page.content %>
-                                    </div>
-
-                                    <!--<%- partial('_partial/blog-bottom-pane') %>-->
-                                </div>
-
-                                <%- partial('_partial/blog-right-pane') %>
-                            </div>
-                        </div>
-                    </section>
-                <% } %>
 
             </div>
+
         </section>
     </div>
 

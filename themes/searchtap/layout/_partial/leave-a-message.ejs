@@ -32,7 +32,7 @@
                 <h4 class="text-center">To get in touch with us, please provide the following information.
                 </h4>
 
-                <form name="Message Us Form" class="text-center leave-a-message form-email" method="POST" data-netlify="true">
+                <form name="Leave a Message" class="text-center leave-a-message form-email" method="POST" data-netlify="true">
 
                     <div>
                         <div class="alert alert-success" id="leadCreated" style="display: none">
@@ -41,11 +41,12 @@
                         <div class="alert alert-danger" id="leadNotCreated" style="display: none">
                             <span class="text-center">Please enter valid details.</span></div>
 
-                        <input type="text" id="name" name="Name" class=" col-md-12 validate-required field-error"
-                               placeholder="Name" required/>
+                        <input type="text" id="name" name="Name" class="col-md-12 validate-required field-error"
+                               placeholder="Name" required />
 
+                        <input type="hidden" name="Country Code" id="country_code" />
                         <div class="intl-tel-input allow-dropdown separate-dial-code iti-sdc-2">
-                            <input type="tel" id="number" name="phone"
+                            <input type="tel" id="number" name="Phone"
                                    class="col-md-12 validate-required field-error" placeholder="Phone"
                                    required autocomplete="off"/>
                         </div>

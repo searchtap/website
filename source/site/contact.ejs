@@ -58,10 +58,8 @@ permalink: contact/
 
             </div>
             <div class="col-sm-6 col-md-5 col-md-offset-1">
-                <form name="Contact Us" id="contactUsForm" class="form-email"
-                      data-netlify="true"
-                      data-success="Thank you for getting in touch. We will respond to you shortly."
-                      data-error="Please fill all fields correctly.">
+                <form name="Contact Us" id="contactUsForm" class="form-email" data-netlify="true">
+
                     <div class="alert alert-success" id="contactQueryCreated" style="display: none">
                         <span class="text-center">Thank you for getting in touch. We will contact you soon.</span>
                     </div>
@@ -71,18 +69,20 @@ permalink: contact/
 
                     <div id="input-hide">
 
-                        <input type="text" id="name" name="name" placeholder="Name"
-                               style="height:50px; border-radius:2px !important;" required>
+                        <input type="text" id="name" name="Name" placeholder="Name"
+                               style="height:50px; border-radius:2px !important;" required />
 
-                        <input type="tel" id="number" name="phone" class="col-md-12 validate-required field-error"
-                               placeholder="Phone" required>
+                        <input type="hidden" name="Country Code" id="country_code" />
+                        <input type="tel" id="number" name="Phone" class="col-md-12 validate-required field-error"
+                               placeholder="Phone" required />
 
-                        <input type="text" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" id="email"
-                               class="validate-required validate-email mt16" name="email" placeholder="Company Email"
+                        <input type="email" id="email"
+                               class="validate-required validate-email mt16" name="Email" placeholder="Company Email"
                                style="border-radius:2px !important; height:50px;" required/>
 
-                        <textarea class="validate-required bg-none" id="message" name="message" rows="4"
-                                  placeholder="Message" required></textarea>
+                        <textarea class="validate-required bg-none" id="message" name="Message" rows="4"
+                                  placeholder="Message" required>
+                        </textarea>
 
                         <div data-netlify-recaptcha></div>
 

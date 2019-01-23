@@ -20,7 +20,7 @@
     line-height: normal;
 }
 
-#leaveamsg input {
+#leaveamsg input, #leaveamsg textarea {
     font-size: 16px;
 }
 

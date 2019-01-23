@@ -5,14 +5,37 @@
 }
 
 .f-box {
-    border: 0px solid rgba(0, 0, 0, 0.1) !important;
-    border-right: 1px solid #e9ebed !important;
-    box-shadow: none !important;
+    border: 1px solid rgba(0,0,0,.1);
+    border-right: 6px solid #47b475;
+    box-shadow: 0 0 2em rgba(0,0,0,.1);
     background: #fff;
     padding-top: 24px;
     position: relative;
     top: -50px;
-    z-index: 99999 !important;
+    z-index: 99999!important;
+}
+
+.vertitcal-text {
+    position: absolute;
+    transform: translate3d(0,-50%,0);
+    -webkit-transform: translate3d(0,-50%,0);
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.bg-green .vertitcal-text h1.large {
+    margin-top: 0px;
+    padding-top: 0px;
+    line-height: normal;
+}
+
+.v-txt {
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .f-box .icon-md{
@@ -115,8 +138,13 @@ input[type="tel"], input[type="text"] {
     margin-top: 0px;
 }
 
+._mt40 {
+    margin-top: 40px;
+}
+
 .banner-s{
-    max-height: 600px !important;
+    background-image: url(../img/hosted_site_search.jpg);
+    background-size: 100%;
 }
 
 #leaveamsg .modal-dialog {
@@ -241,6 +269,10 @@ form.leave-a-message{
     max-width: 80%;
     margin: 0 auto;
     margin-bottom: 20px;
+}
+
+.fullscreen {
+    height: 100% !important;
 }
 
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
@@ -3193,18 +3225,17 @@ input[type="submit"], button[type="submit"] {
 .f-box .icon-sm{
 	color:#47b475 !important;
 	position: relative;
-	top:px;
 }
 
 .f-box{
-	border:1px solid rgba(0, 0, 0, 0.1);
-	border-right:6px solid #47b475;
-	box-shadow: 0 0 2em rgba(0, 0, 0, 0.1);
-	background:#fff;
-	padding-top:0px;
-	position:relative;
-	top:0px;
-	z-index:99999 !important;
+    border: 1px solid rgba(0,0,0,.1);
+    border-right: 6px solid #47b475;
+    box-shadow: 0 0 2em rgba(0,0,0,.1);
+    background: #fff;
+    padding-top: 24px;
+    position: relative;
+    top: -50px;
+    z-index: 99999!important;
 }
 
 .btn-nm{
@@ -4367,7 +4398,7 @@ font-size:13px;
 	.card__back {
     padding-top: 39%;
     background-color: #fff;
-    border: 0px solid #47b475;
+    border: 2px solid #47b475;
     -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
 	height: 180px;
@@ -4641,7 +4672,7 @@ font-size:16px;
 		.card__back {
     padding-top: 39%;
     background-color: #fff;
-    border: 0px solid #47b475;
+    border: 2px solid #47b475;
     -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
 	height: 180px;
@@ -4833,7 +4864,7 @@ font-size:16px;
 	.card__back {
     padding-top: 39%;
     background-color: #fff;
-    border: 0px solid #47b475;
+    border: 2px solid #47b475;
     -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
 	height: 240px;
@@ -5163,7 +5194,7 @@ font-size:16px;
 				.card__back {
     padding-top: 39%;
     background-color: #fff;
-    border: 0px solid #47b475;
+    border: 2px solid #47b475;
     -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
 	height: 240px;
@@ -5549,9 +5580,9 @@ background:#fbfbfb;
 }
 
 	h1.large {
-    font-size: 72px;
-    line-height: 80px;
-    font-weight: 100;
+        font-size: 60px;
+        line-height: 80px;
+        font-weight: 100;
 }
 
 .card h5{
@@ -5561,7 +5592,7 @@ font-size:14px !important;
 		.card__back {
     padding-top: 39%;
     background-color: #fff;
-    border: 1px solid #47b475;
+    border: 2px solid #47b475;
     -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
 	max-height: 240px;
@@ -5679,6 +5710,24 @@ font-size:14px !important;
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
+
+        .moblie-banner {
+            text-align: center;
+        }
+        ._mt40 {
+            margin-top: 0px;
+        }
+        .moblie-banner .hm-form {
+            max-height: 490px;
+            margin-top: 0;
+            border-radius: 4px 4px 4px 4px;
+            margin-top: 20px;
+            background-color: rgba(255,255,255,1)!important;
+        }
+        .bg-green {
+            min-height: 180px;
+            margin-bottom: 30px;
+        }
 		
 	.font-size32{
 	font-size:24px;

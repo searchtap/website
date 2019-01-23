@@ -106,6 +106,8 @@ $(function () {
     var email = $(this).find("#email").val();
     var cc = $('.selected-dial-code').text();
 
+    $(this).find('#country_code').val(cc);
+
     var $form = $(this);
 
     var fd = {
@@ -115,7 +117,10 @@ $(function () {
       phone: '(' + cc + ')' + phone,
     };
 
-    $.post($form.attr("action"), fd.serialize())
+    console.log(`Param: ${$.param(fd)}`);
+    console.log(`Serialise: ${$form.serialize()}`);
+
+    $.post($form.attr("action"), $form.serialize())
       .done(function () {
         $("#leadNotCreated").hide();
         $("#leadCreated").show();

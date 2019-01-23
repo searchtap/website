@@ -115,7 +115,8 @@ $(function () {
       email: email,
     };
 
-    $.post($form.attr("action"), $.param(fd))
+    // $.post($form.attr("action"), $.param(fd))
+    $.post($form.attr("action"), `form-name=Request+a+Demo&name=saad&phone=(%2B1)98998&email=saad@searchtap.io`)
       .done(function () {
         $("#leadNotCreated").hide();
         // $("#input-hide").hide();

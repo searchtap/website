@@ -15,6 +15,15 @@
     z-index: 99999!important;
 }
 
+#requestDemoForm .alert {
+    padding: 3px 6px;
+    line-height: normal;
+}
+
+#leaveamsg input {
+    font-size: 16px;
+}
+
 .vertitcal-text {
     position: absolute;
     transform: translate3d(0,-50%,0);

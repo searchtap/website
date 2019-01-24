@@ -5965,12 +5965,20 @@ footer.bg-gray li,
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1500px) {
 
+    .moblie-banner .hm-form button[type=submit] {
+        margin-top: 0px;
+    }
+
+    .hm-form h3 {
+        padding-top: 15px;
+    }
+
     #leaveamsg .modal-header .close {
         margin-top: -35px;
     }
 
     #leaveamsg .modal-dialog .modal-body input[type=text] {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .hm-form p.lead {
@@ -5979,7 +5987,7 @@ footer.bg-gray li,
     }
 
     #leaveamsg .mt16 {
-        margin-top: 4px;
+        margin-top: 10px;
     }
 
     #leaveamsg .modal-dialog {
@@ -6015,7 +6023,7 @@ footer.bg-gray li,
     }
 
     #leaveamsg textarea {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
 }

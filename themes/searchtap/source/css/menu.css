@@ -144,8 +144,9 @@
 }
 
 .close-btn{
-	    position: relative;
-    top: 20px;
+    position: relative;
+    top: 30px;
+    height: 20px;
     right: 0px;
     z-index: 99999 !important;
 }
@@ -183,7 +184,7 @@
     display: block;
 	font-size: 1.5rem;
     color:#8B9BAD;
-	font-weight:300 !important;
+	font-weight:500 !important;
     text-decoration: none;
 	padding-top:0px;
 	padding-bottom:0px;

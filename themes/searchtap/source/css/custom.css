@@ -2106,7 +2106,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
 }
 
 .abt-search {
-    z-index: 9999 !important;
+    z-index: 99 !important;
     position: absolute;
     left: 0;
     right: 0;
@@ -4271,7 +4271,7 @@ footer.bg-gray li,
     }
 
     .abt-search {
-        z-index: 9999 !important;
+        z-index: 99 !important;
         position: absolute;
         left: 0;
         top: 0;
@@ -5312,7 +5312,7 @@ footer.bg-gray li,
     }
 
     .abt-search {
-        z-index: 9999 !important;
+        z-index: 99 !important;
         position: absolute;
         left: 0;
         right: 0;
@@ -5583,7 +5583,7 @@ footer.bg-gray li,
     }
 
     .abt-search {
-        z-index: 9999 !important;
+        z-index: 99 !important;
         position: absolute;
         left: 0;
         right: 0;
@@ -6000,7 +6000,11 @@ footer.bg-gray li,
     }
 
     .leave-a-msg {
-        margin-bottom: 25px;
+        margin-bottom: 40px;
+    }
+
+    .crisp-client .crisp-1rjpbb7[data-full-view=true] .crisp-1rf4xdh .crisp-kquevr .crisp-x94m06 {
+        margin-bottom: 20px !important;
     }
 
     #requestDemoForm {

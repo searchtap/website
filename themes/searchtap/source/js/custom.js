@@ -111,20 +111,22 @@ $(function () {
          $.post($form.attr("action"), $form.serialize())
          .done(function () {
 
-            $("#leadCreated").fadeIn();
+            $form.find("#leadCreated").fadeIn();
             setTimeout(() => {
-               $("#leadCreated").fadeOut('slow');
+               $form.find("#leadCreated").fadeOut('slow');
             }, 2000);
             $form.trigger('reset');
          })
          .fail(function (err) {
+
             console.error(err);
-            $("#leadNotCreated").fadeIn();
+            $form.find("#leadNotCreated").fadeIn();
             setTimeout(() => {
-               $("#leadNotCreated").fadeOut('slow');
+               $form.find("#leadNotCreated").fadeOut('slow');
             }, 5000);
          })
          .always(function () {
+            
             $("#requestDemoFormSubmit").prop('disabled', false);
             $("#leaveMessageForm").prop('disabled', false);
          });

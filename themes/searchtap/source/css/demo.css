@@ -220,6 +220,11 @@ span.subt {
     }
 }
 @media only screen and (min-width: 968px) {
+
+    .section__content {
+        margin-bottom: 20px;
+    }
+
     .customer_logo {
         width: 220px;
         height: 95px
@@ -563,13 +568,7 @@ span.subt {
 .card__front {
     background-color: #ff5078
 }
-.card__back {
-    padding-top: 39%;
-    background-color: #fff;
-    border: 1px solid #47b475;
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg)
-}
+
 .card__text {
     display: inline-block;
     position: absolute;

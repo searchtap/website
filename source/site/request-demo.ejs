@@ -11,7 +11,7 @@ permalink: request-demo/
             <div class=" bg-white" style="background:#fff !important;">
                 <div class="re-right pt88 pb90">
 
-                    <form name="Request a Demo" class="text-center form-email" id="requestDemoForm" data-netlify="true">
+                    <form name="Request Demo Page" class="text-center form-email" id="requestDemoForm" data-netlify="true">
 
                         <a href="/"><img src="/img/logo-dark.png" style="height: 40px;"
                                          class="img-responsive center-block mb48"></a>
@@ -31,18 +31,17 @@ permalink: request-demo/
                                 <span class="text-center">Please enter valid details.</span></div>
 
 
-                            <input type="text" id="name" name="name"
+                            <input type="text" id="name" name="Name"
                                    class=" col-md-12 validate-required field-error"
-                                   placeholder="Name" required="">
+                                   placeholder="Name" required />
 
-                            <input type="tel" id="number" name="phone"
+                            <input type="hidden" name="Country Code" id="country_code" />
+                            <input type="tel" id="number" name="Phone"
                                    class="col-md-12 validate-required field-error"
-                                   placeholder="Phone" required="">
+                                   placeholder="Phone" required />
 
 
-                            <input type="text" id="email" name="name"
-                                   class="bg-none col-md-12 mt16 validate-required"
-                                   pattern="[^@\s]+@[^@\s]+\.[^@\s]+" placeholder="Company Email" required="required"/>
+                            <input type="email" id="email" name="Email" class="bg-none col-md-12 mt8 validate-required" placeholder="Company Email" required/>
 
                             <div data-netlify-recaptcha></div>
 
@@ -51,11 +50,9 @@ permalink: request-demo/
                                 <br/>
                                 <br/>
                                 <br/>
-                                <br/>
-                                <br/>
 
                                 <button type="submit" id="requestDemoFormSubmit"
-                                        style=" border-radius:4px !important;">Schedule demo
+                                        style=" border-radius:4px !important; margin-top: 10px">Schedule demo
                                 </button>
                             </div>
 

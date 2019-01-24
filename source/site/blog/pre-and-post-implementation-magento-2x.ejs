@@ -1,0 +1,162 @@
+---
+title: Improve your e-commerce user experience by shifting away from native Magento 2.x search
+description:
+layout: layout-blog-post
+permalink: blog/pre-and-post-implementation-magento-2/
+published_date: 21st Aug, 2018
+read_time: 4
+blog_title: Improve your e-commerce user experience by shifting away from native Magento 2.x search
+image_name: implementation-magento-2.jpg
+image_alt: Implementation of Magento 2
+tags: [Case Study, Site Search]
+---
+
+<div class="blog-content">
+
+    <p>Search users have contributed up to 30% of revenues to an e-commerce business. Your platform needs to be able to
+        cater to this audience as they will abandon your site if your search results are irrelevant.
+    </p>
+
+    <p>In the last article, we discussed why Magento 1.x users were using hosted search solutions for their e-commerce
+        sites. While Magento’s 2.x versions have improved their search capability, it is still some ways away from being
+        a competent e-commerce search.
+    </p>
+
+    <p>Let’s understand some of these big changes before looking at what Magento users find lacking.
+    </p>
+
+    <div class="post-title">
+
+
+        <h4 class="mt10">What has changed since Magento 1.x
+        </h4>
+
+    </div>
+    <p>The biggest change is that Magento 2 no longer allows “Like”, “FullText” and “Combine” option for search queries.
+        The reason is that the community version now comes with a full-text MySQL search engine. The Enterprise version
+        has also been changed to elasticSearch from Apache Solr.
+    </p>
+
+    <p>According to Magento, they have optimised the native search to run its new algorithm against the words of a
+        search query and try to show the most relevant results first. While this is similar to the “Combine” option in
+        Magento 1.x, the results were not very relevant due to the search using “OR” logic to search. Being open source,
+        it allows users who don’t like this “OR” setting to “AND” setting in your local module. But there is a lack of
+        proper documentation so you’d have to undertake some hit and trial.
+    </p>
+
+    <p>To make the user journey easier, they have added a “Quick Search” which is your traditional search bar and
+        “Advanced Search”. “Advanced Search is usually found in the footer section and allows your customers to search
+        based on attributes like SKU, description, price, etc.
+    </p>
+
+    <p>More freedom has also been given when assigning weights. Earlier you could only set weights from 1 to 5. Now the
+        upper limit has been increased to 10. 1 being the lowest and 10 being the highest.
+    </p>
+
+    <p>While there has been a significant step-up from Magento 1.x search, it is nowhere close to the sort of experience
+        an e-commerce search user should have.
+    </p>
+
+
+    <a href="/blog/pre-and-post-implementation-magento-1/">
+        <img src="../../img/blog/magento1-about.png" alt="Implementation of Magento 1" class="mt10"> </a>
+
+    <div class="post-title mt32">
+
+        <h4 class="mt10">Where are the issues with native Magento 2.x search
+        </h4>
+
+    </div>
+
+
+    <h4>1. Choose between Typo tolerance or Relevance</h4>
+
+    <p>The first issue with Magento 2.x search that has to be taken into account is that the search logic is still not
+        up to the mark. Even if you switch the search over to the “AND” setting to make search results more relevant,
+        your search will lose whatever typo tolerance and broad match capabilities it had.</p>
+
+    <h4>2. Poor search accuracy</h4>
+
+    <p>If you choose to keep the “OR” setting, then know that it has its fair share of gaps as well. Getting results
+        long tail queries, for example, is going to be very difficult as the search only returns relevant results when
+        it has a product related attribute. You will also have to set and constantly monitor weights to get better
+        results.</p>
+
+    <h4>3. Not recognizing symbols</h4>
+
+    <p>The native Magento search also performs poorly when the search query has numerals or symbols often returning a
+        zero results page. While you can set up search terms to sidestep errors as far as numerals are concerned, some
+        symbols (like -) are simply not recognized by the search.</p>
+
+    <h4>4. Advanced search creating friction</h4>
+
+    <p>The best way for a native Magento 2.x search user to get the most relevant results is to use the advanced search
+        feature. But this creates unnecessary friction between the user and the store. For starters, the option for
+        advanced search is in the footer instead of being next to the search bar making it difficult to navigate to.
+        Also, a user has to take special time and effort to find a product through advanced search, this time could be
+        better spent in giving them a better search experience from the start and saving their time.</p>
+
+    <h4>5. Search speed is slow</h4>
+
+    <p>There are many cases of the native search not returning results quickly when layered navigation method is
+        enabled. While this leads to more accurate search results, the delay can hamper user experience. This could
+        easily cause a user to become frustrated and bounce off.</p>
+
+    <h4>6. Updates change settings
+    </h4>
+
+    <p>Like with Magento 1.x, when you update your version of Magento 2.x, you will lose the setting you had made to
+        your native Magento search parameters and will have to reset them. Some rules also may have changed the way your
+        e-commerce search operates so you will also have to take that into account. </p>
+
+
+    <div class="post-title">
+
+        <h4 class="mt10">How can a third party solution like SearchTap.io improve your e-commerce search</h4>
+    </div>
+
+    <p>These are some the reasons that have contributed to e-commerce businesses switching over to hosted search
+        solutions. Beyond offering synonyms, weighted search, etc, e-commerce search solutions, like SearchTap.io, also
+        improve the search user experience immensely by making the search faster and more accurate.
+    </p>
+
+    <p>SearchTap.io is backed by an expert team that builds, implements, and maintains e-commerce search for big brands
+        and startups. It has an unparalleled product that is already serving 15 million searches per month.
+    </p>
+
+    <p>The improvements that SearchTap would offer to improve your e-commerce search experience are things like:
+    </p>
+
+    <ul class="bullets">
+        <li>Preserving your site design while offering a better search experience
+        </li>
+        <li>Dynamic filters or faceting to allow users to refine their search as they are searching
+        </li>
+        <li>Typo tolerance to power through minor errors made by users
+        </li>
+        <li>Search as you type so that your store can start showing results as soon as a user starts typing in the
+            search bar
+        </li>
+        <li>Customer success team that handles implementation and troubleshooting
+        </li>
+        <li>Custom zero result pages to try and keep users engaged for longer
+        </li>
+        <li>Searchandising to promote certain products when particular keywords are searched
+        </li>
+        <li>Searchandising to promote certain products when particular keywords are searched
+        </li>
+        <li>Custom banners that appear when users interact with the search bar
+        </li>
+        <li>Customer support for implementation and troubleshooting when required
+        </li>
+        <li>Implementing updates without disrupting service to your customers
+        </li>
+    </ul>
+
+    <p>Outsourcing the search function allows you to focus on your core business activities because the search is being
+        handled by experts. Reduce friction between the user and the storefront so as to shorten the user journey. The
+        easier, the user can get to their desired product, the easier they are going to be to convert.</p>
+
+    <p>Read about how our <a href="/magento-search">Magento search extension</a> helps optimize conversions for your e-commerce store.</p>
+
+</div>

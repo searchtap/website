@@ -1,0 +1,91 @@
+<body class="scroll-assist">
+
+<%- partial('_partial/mobile-nav') %>
+
+<div id="wrapper">
+
+    <%- partial('_partial/header-nav') %>
+
+    <div id="page-content-wrapper">
+
+        <a href="<%- url_for('request-demo') %>" class="btn btn-sm btn-filled pull-right sales">Request Demo</a>
+
+        <section id="blog">
+
+            <%- partial('_partial/blog-header') %>
+
+            <div class="main-container">
+                <div class="blog-section">
+                    <div class="container">
+
+                        <!--<div align="center" class="mb10">-->
+                            <!--<button class="btn filter-button" data-filter="all">All</button>-->
+                            <!--<button class="btn filter-button" data-filter="personalization">Personalization</button>-->
+                            <!--<button class="btn filter-button" data-filter="ecommercetips">Ecommerce Tips</button>-->
+                            <!--<button class="btn filter-button" data-filter="analytics">Analytics</button>-->
+                            <!--<button class="btn filter-button" data-filter="sitesearch">Site Search</button>-->
+                            <!--<button class="btn filter-button" data-filter="casestudies">Case Studies</button>-->
+                        <!--</div>-->
+
+                        <br/>
+
+                        <div class="row masonry masonryFlyIn fadeIn">
+
+                            <% page.blogs.forEach((blog)=> {%>
+                            <div class="gallery_product col-sm-4 post-snippet masonry-item fadeIn">
+                                <div class="blog-box">
+
+                                    <div class="small-blog" style="max-height:250px;">
+                                        <a target="_blank" href=<%-blog.url%>>
+                                            <%- image_tag(`../img/blog/${blog.image}`, {alt: blog.image})%>
+                                        </a>
+                                    </div>
+
+                                    <div class="inner">
+
+                                        <a target="_blank" href=<%-blog.url%>>
+
+                                            <span class="inline-block date">
+                                            <i class="ti-calendar"></i>
+                                            <%- blog.date%></span>
+                                            <h5 class="mb0"><%- blog.title%></h5>
+
+                                            <p><%- blog.about%></p>
+
+                                            <hr>
+
+                                            <div class="btn btn-sm">Read More</div>
+
+                                        </a>
+
+                                        <ul class="social-share pull-right">
+                                            <li class="twitter">
+                                                <%- link_to(`https://twitter.com/share?text=${blog.title}-SearchTap Blog&url=${page.permalink}/${blog.url}&via=SearchTap`, ' ', {external: true, class: 'fa fa-twitter'})%>
+                                            </li>
+
+                                            <li class="linkedin">
+                                                <%- link_to(`http://www.linkedin.com/shareArticle?mini=true&amp;url=${page.permalink}/${blog.url}`, ' ', {external: true, class: 'fa fa-linkedin'})%>
+                                            </li>
+
+                                            <li class="facebook">
+                                                <%- link_to(`http://www.facebook.com/sharer.php?u=${page.permalink}/${blog.url}`, ' ', {external: true, class: 'fa fa-facebook'})%>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <% }) %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <%- partial('_partial/footer-nav') %>
+
+</div>

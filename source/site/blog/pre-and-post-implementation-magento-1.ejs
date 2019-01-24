@@ -1,0 +1,187 @@
+---
+title: Native Magento 1.x search is limiting your e-commerce revenue growth
+description:
+layout: layout-blog-post
+permalink: blog/pre-and-post-implementation-magento-1/
+published_date: 19th Nov, 2018
+read_time: 6
+blog_title: Native Magento 1.x search is limiting your e-commerce revenue growth
+image_name: implementation-magento-1.jpg
+image_alt: Implementation of Magento 1
+tags: [Case Study, Site Search]
+---
+
+<div class="blog-content">
+
+    <p>Search is a critical feature for any e-commerce store. It helps visitors cut through the clutter so that they can
+        find what they are looking for and take the decision to purchase quickly. These search users have contributed
+        close to 30% of revenues to businesses and ignoring these users would be a big mistake. Yet, that is exactly
+        what so many Magento based e-commerce sites do.
+    </p>
+
+    <p>The native search that Magento uses lacks the fineness that an e-commerce search needs. More and more e-commerce
+        businesses are taking the call to switch to third-party hosted search providers for a permanent fix to the
+        problem. To understand where the faults lie with native Magento 1.x search we need to understand how the search
+        works.
+    </p>
+
+
+    <div class="mb15">
+        <a href="/blog/pre-and-post-implementation-magento-2/"> <img src="../../img/blog/magento2-about.jpg" alt="Implementation of Magento 2" class="img-responsive"> </a>
+    </div>
+
+    <div class="post-title">
+
+        <h4 class="mt10">How the native Magento 1.x search works</h4>
+
+    </div>
+    <p>Magento 1.x search is based on MySQL for community users and if you’re using the Enterprise edition then you can
+        base your search on Apache Solr. As far as Solr is concerned, you will need a dedicated development team,
+        ideally with experience in Solr implementation. Then to be able to have it function at a high level will be a
+        constant task.
+    </p>
+    <p>This sort of time and resources is not something that a lot of e-commerce businesses can afford so they tend to
+        stick with the default MySQL search. MySQL can return results to queries made in three ways. “Like”, “FullText”
+        and “Combine”.
+    </p>
+
+
+    <p><b>“Like”</b> - This returns results based on a “loose” approach. Whenever a query is made, it is broken down to
+        its individual keyword components and results for each keyword are shown. This can work for specific setups
+        where users search only for simple keywords, but it is not accurate when it comes to queries with more than one
+        word. Also “Like” doesn’t sort the results so don’t be surprised if the search user has to scroll down to find
+        the product. Eg. searching for “shir” would give results for “t-shirts” and “formal shirts” both.
+    </p>
+
+    <p><b>“Fulltext”</b> - This matches each keyword of the query against the index and the result consists of matches
+        found. It is able to sort the results based on best matches. Biggest roadblock “Fulltext” runs into is not being
+        flexible enough to accommodate mistakes in user queries. The best bet to deal with these mistakes is to
+        configure Search Terms as “Fulltext” won’t be able to find results based on partial matches, typos, or
+        misspellings.</p>
+
+    <p style="font-style: italic">Eg. searching for “dtess” instead of “dress” will not give any results. In other
+        words, “Fulltext” offers no typo tolerance.</p>
+
+    <p><b>“Combine” -</b> This matches results based on the “Like” condition and sorts them according to best match like
+        “Fulltext”. So a user will be able to see more products when they use the search and have some sorting based on
+        relevancy. While it may sound like a good solution, this tends to slow the search process down.
+    </p>
+
+
+    <p>Now that we’ve established how the search functions for a native Magento search, let’s take a look at where the
+        gaps are for the e-commerce search experience.</p>
+
+    <div class="post-title">
+
+        <h4 class="mt10">Trials of having native Magento 1.x search</h4>
+    </div>
+
+
+    <h4>1. Low search relevance</h4>
+    <p>From the outset, you can see that whichever search configuration you choose (most likely “Fulltext” or “Combine’)
+        there are going to be drawbacks. The most important one for an e-commerce platform is relevance. Out of the box,
+        the native search has low relevance, but as Magento is an open source platform, you can make some changes to the
+        logic of the search. Some e-commerce platforms say that their search was relevant only 50% of the time and 80%
+        of search users exited the site after getting irrelevant results. Safe to say then that optimising search should
+        be a high priority for an e-commerce store.
+    </p>
+
+    <h4>2. Long indexation time</h4>
+    <p>When a customer uses the search bar, they expect to find what the store has to offer so what happens when a
+        search falters at this step. There are cases where the native Magento search is returning zero results even
+        though the product is in your inventory. The fix is simply to reindex your catalogue. The problem then arises
+        about how long the time the indexation takes. Some stores with a catalogue of around 5000 SKUs say that the
+        process can take days if there are server timeouts. You could also reindex individually but that would be a huge
+        time sink and would add no real value to your customer’s user experience.
+    </p>
+
+    <h4>3. Slow search speed</h4>
+
+    <p>Speed is also a concern with search speed in case of e-commerce stores with a large inventory can take very long,
+        up to 200-300 ms in some cases. A slow search can be very frustrating to a user and can be a big reason for
+        exits. One stopgap exists which is very counterintuitive to the search process. Some people recommend reducing
+        searchable attributes to speed up the search. Because of the lower turnaround time, a user may get results
+        faster but there is no guarantee that they will be accurate. You will also hinder the navigational aspect of
+        your search by limiting which tags can and can’t be searched.
+    </p>
+
+    <h4>4. Poor results for long tail queries
+    </h4>
+    <p>Long tail keywords can also lead to unreliable search results for the native Magento search. When the search is
+        breaking down the query, if attribute weights are not set, then it could lead to the results being wildly
+        inaccurate. Eg. searching for “levis blue jeans” will give results based on brand (“levis”), colour (“blue”) and
+        apparel (“jeans”) but which keyword gets priority over the other and how will the results get sorted? The search
+        results page in this example would be a complete jumble with poor attribute weights. The lowest these weights
+        can be is 1 and the highest is 5 so you can only alter these weights to some degree.
+    </p>
+
+    <h4>5. Poor customer support
+    </h4>
+
+    <p>There are some techniques and guides that you may find online, but they might not be properly documented. This
+        could lead to much trial and error before you can get the e-commerce search to a satisfactory level. Relying on
+        customer support is also not a viable strategy in the long term as support is rare, especially for 1.x version.
+    </p>
+
+    <h4>6. Updates change settings
+    </h4>
+    <p>The biggest pain point of all, however, is when you update your version of Magento, the update may wipe out the
+        changes you’ve made and set you back to square one. Once again you will have to figure out the weaknesses of the
+        search are and how to fix them. Is this distraction of time and resources from central business helpful? If you
+        would like to improve your search but not take on the cost of hiring a team of developers, third-party search
+        providers are the answer.
+    </p>
+
+
+    <div class="post-title">
+
+        <h4 class="mt10">How to improve your e-commerce search
+        </h4>
+    </div>
+
+    <p>It’s not hard to see why so many Magento users are moving toward hosted search solutions like SearchTap.io. Not
+        only will these search solutions offer synonyms, weighted search, etc, and they also improve the search user
+        experience immensely by making the search faster and more accurate.
+    </p>
+
+    <p>SearchTap.io is backed by an expert team that builds, implements, and maintains e-commerce search for big brands
+        and startups. It has an unparalleled product that is already serving 15 million searches per month.
+    </p>
+
+    <p>The improvements that SearchTap.io would offer to improve your e-commerce search experience are things like:
+    </p>
+
+    <ul class="bullets">
+        <li>Preserving your site design while offering a better search experience
+        </li>
+        <li>Dynamic filters or faceting to allow users to refine their search as they are searching
+        </li>
+        <li>Typo tolerance to power through minor errors made by users
+        </li>
+        <li>Search as you type so that your store can start showing results as soon as a user starts typing in the
+            search bar
+        </li>
+        <li>Customer success team that handles implementation and troubleshooting
+        </li>
+        <li>Custom zero result pages to try and keep users engaged for longer
+        </li>
+        <li>Searchandising to promote certain products when particular keywords are searched
+        </li>
+        <li>Searchandising to promote certain products when particular keywords are searched
+        </li>
+        <li>Custom banners that appear when users interact with the search bar
+        </li>
+        <li>Customer support for implementation and troubleshooting when required
+        </li>
+        <li>Implementing updates without disrupting service to your customers
+        </li>
+    </ul>
+
+    <p>Outsourcing the search function allows you to focus on your core business activities because the search is being
+        handled by experts. Reduce friction between the user and the storefront so as to shorten the user journey. The
+        easier, the user can get to their desired product, the easier they are going to be to convert.
+    </p>
+
+    <p>Read about how our <a href="/magento-search">Magento search extension</a> helps optimize conversions for your e-commerce store.</p>
+
+</div>

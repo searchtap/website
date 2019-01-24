@@ -100,6 +100,7 @@ $(function () {
 
       event.preventDefault();
       $("#requestDemoFormSubmit").prop('disabled', true);
+      $("#leaveMessageForm").prop('disabled', true);
       var $form = $(this);
 
       // check if form has country code and assign its value to country code hidden input
@@ -125,6 +126,7 @@ $(function () {
          })
          .always(function () {
             $("#requestDemoFormSubmit").prop('disabled', false);
+            $("#leaveMessageForm").prop('disabled', false);
          });
    });
 

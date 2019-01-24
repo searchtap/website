@@ -5963,6 +5963,26 @@ footer.bg-gray li,
 }
 
 /* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1500px) {
+
+    .hm-form h3 {
+        padding-top: 10px;
+    }
+
+    #requestDemoForm p.lead {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    #requestDemoForm .alert {
+        margin-bottom: 15px;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
 @media only screen and (max-width: 1500px) {
 
     .moblie-banner .hm-form button[type=submit] {
@@ -6035,6 +6055,18 @@ footer.bg-gray li,
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+
+    #requestDemoForm .mt8 {
+        margin-top: 15px;
+    }
+
+    #leaveamsg .mt16 {
+        margin-top: 16px;
+    }
+
+    #leaveamsg .modal-header .close {
+        margin-top: -40px;
+    }
 
     #leaveamsg .modal-dialog {
         background-color: #fff;

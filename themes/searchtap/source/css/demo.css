@@ -220,6 +220,11 @@ span.subt {
     }
 }
 @media only screen and (min-width: 968px) {
+
+    .section__content {
+        margin-bottom: 20px;
+    }
+
     .customer_logo {
         width: 220px;
         height: 95px

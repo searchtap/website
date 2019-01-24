@@ -19,6 +19,10 @@
     z-index: 99999!important;
 }
 
+.mt8 {
+    margin-top: 8px;
+}
+
 #requestDemoForm .alert {
     padding: 3px 6px;
     line-height: normal;
@@ -34,6 +38,14 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 
 #leaveamsg input, #leaveamsg textarea {
     font-size: 16px;
+}
+
+.blog-bg{
+
+    background: url(../img/cover12.jpg) no-repeat center top;
+    height:286px !important;
+    padding-top:10px;
+    z-index:9999 !important;
 }
 
 .vertitcal-text {
@@ -107,7 +119,7 @@ input[type="tel"], input[type="text"] {
 }
 
 #requestDemoForm input[type="text"], #requestDemoForm input[type="email"], #requestDemoForm input[type="tel"] {
-    height: 40px;
+    /*height: 40px;*/
     margin-bottom: 15px;
 }
 
@@ -181,7 +193,7 @@ input[type="tel"], input[type="text"] {
 
 #leaveamsg .modal-dialog .modal-body{
     font-weight: 600;
-    max-width: 94%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -723,7 +735,8 @@ paddding-right:8px !important;
 }
 
 .side-blog h2{
-	    color: #3c3b3b;
+    color: #3c3b3b;
+    margin-bottom: 0px;
     font-family: Raleway,Helvetica,sans-serif;
     font-weight: 800;
     letter-spacing: .25em;
@@ -733,6 +746,14 @@ paddding-right:8px !important;
     padding-bottom: .7em;
     font-size: 18px;
 	
+}
+
+.side-blog #requestDemoForm .alert {
+    margin-bottom: 0px;
+}
+
+.side-blog #requestDemoForm .alert span {
+    font-size: 12px;
 }
 
 .mini-post header .author {
@@ -1203,7 +1224,7 @@ border-right: solid 1px #f1f1f1;
 	text-transform:none !important;
     padding: 6px 35px;
 	font-size:12px;
-	font-weight:300 !important;
+	font-weight:400 !important;
 	opacity:1 ;
 }
 
@@ -1800,15 +1821,13 @@ input[type="text"], input[type="number"] {
 input[type="text"], input[type="email"], input[type="tel"] {
     background: #fff;
     border: 1px solid #ddd !important;
-    border: none;
     width: 100%;
     min-width: 196px;
     border-radius: 4px !important;
     height: 50px;
     padding-left: 20px;
     font-weight: 500;
-    margin-bottom: 24px;
-    border-radius: 0;
+    margin-bottom: 20px;
 }
 
 .font-size12{
@@ -5059,7 +5078,7 @@ font-size:16px;
 		left:0;
 		right:0;
 		height:286px !important;
-		padding-top:0px;
+		padding-top:90px;
 		
 	}
 		
@@ -5146,14 +5165,7 @@ font-size:16px;
 	
 		
 	.sales{
-	display: block;
-	border-radius:4px; 
-	font-size:8px; 
-	padding-left:7px; 
-	padding-right:7px;
-	position:absolute;
-	right:15px;
-	top:12px;	
+	display: none;
 }	
 			form.halves input, form.halves button {
     width: 26%;
@@ -5202,7 +5214,7 @@ font-size:16px;
 }
 		
 		h1.large {
-    font-size: 72px;
+    font-size: 52px;
     line-height: 80px;
     font-weight: 100;
 }
@@ -5318,7 +5330,7 @@ background:#fbfbfb;
 		.mobmt{
 			margin-top:0px;
 		}
-		
+
 			.abt-search{
 		z-index:9999 !important;
 		position:absolute;
@@ -5326,7 +5338,7 @@ background:#fbfbfb;
 		right:0;
 		height:286px !important;
 		padding-top:100px;
-		
+
 	}
 		
 		.q-list li a{
@@ -5371,14 +5383,6 @@ background:#fbfbfb;
 		padding-top:10px;
 		z-index:9999 !important;
 	}
-	
-.blog-bg{
-	
-	background: url(../img/cover12.jpg) no-repeat center top;
-		height:286px !important;
-		padding-top:10px;
-		z-index:9999 !important;
-}
 		
 	form .dropdown-menu {
     position: absolute;
@@ -5610,7 +5614,7 @@ font-size:14px !important;
 }
 		
 		.card__back {
-    padding-top: 39%;
+    padding-top: 35%;
     background-color: #fff;
     border: 2px solid #47b475;
     -webkit-transform: rotateY(-180deg);
@@ -5702,7 +5706,24 @@ font-size:14px !important;
     }
 	
 	  /* Large Devices, Wide Screens */
-    @media only screen and (max-width : 1200px) {
+    @media only screen and (max-width : 1400px) {
+
+        #leaveamsg h4 {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            max-width: 80%;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        #leaveamsg .modal-dialog .modal-body input[type="text"], #leaveamsg .modal-dialog .modal-body input[type="email"], #leaveamsg .modal-dialog .modal-body input[type="tel"] {
+            height: 40px;
+        }
+
+        #leaveamsg textarea {
+            margin-bottom: 0px;
+        }
 
     }
 

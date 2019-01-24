@@ -3415,6 +3415,17 @@ button[type="submit"] .form-loading {
         transform: none;
         -webkit-transform: none;
     }
+
+    .btn-lg {
+        height: 40px;
+        line-height: 38px;
+        min-width: 140px;
+    }
+
+    .mobmt {
+        margin-top: 0px;
+    }
+
 }
 
 @media all and (max-width: 767px) {

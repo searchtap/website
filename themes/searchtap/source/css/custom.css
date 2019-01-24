@@ -186,7 +186,7 @@ input[type="tel"], input[type="text"] {
 
 #leaveamsg .modal-dialog {
     background-color: #fff;
-    width: 36%;
+    width: 32%;
     border-radius: 6px;
 }
 
@@ -269,7 +269,7 @@ input[type="tel"], input[type="text"] {
 }
 
 form.leave-a-message {
-    width: 80%;
+    width: 92%;
     margin: 0 auto;
 }
 
@@ -3425,6 +3425,8 @@ input[type="submit"], button[type="submit"] {
     font-weight: bold;
     letter-spacing: 1px;
     border-radius: 0 !important;
+    position: relative;
+    top: 20px;
 }
 
 
@@ -5961,7 +5963,18 @@ footer.bg-gray li,
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1500px) {
+
+    #leaveamsg .modal-header {
+        min-height: 16.42857143px;
+        padding: 15px;
+        padding: 5px 15px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    #leaveamsg .st-txt {
+        font-size: 22px;
+    }
 
     #leaveamsg h4 {
         font-weight: 400;
@@ -5990,6 +6003,15 @@ footer.bg-gray li,
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
 
+    #leaveamsg .modal-dialog {
+        background-color: #fff;
+        width: 92%;
+        border-radius: 6px;
+    }
+
+    #leaveamsg .modal-header .close {
+        font-size: 42px;
+    }
 
     .blog-detail-img {
         margin-bottom: 0px;

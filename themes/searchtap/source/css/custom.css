@@ -4,6 +4,10 @@
     height: 42px;
 }
 
+.pl10 {
+    padding-left: 10px;
+}
+
 .f-box {
     border: 1px solid rgba(0,0,0,.1);
     border-right: 6px solid #47b475;

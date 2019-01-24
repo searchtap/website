@@ -58,6 +58,10 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
     z-index: 0;
 }
 
+.crisp-client .crisp-1rjpbb7[data-full-view=true] .crisp-1rf4xdh .crisp-kquevr .crisp-x94m06 {
+    margin-bottom: 30px !important;
+}
+
 .bg-green .vertitcal-text h1.large {
     margin-top: 0px;
     padding-top: 0px;

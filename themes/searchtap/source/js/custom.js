@@ -104,7 +104,7 @@ $(function () {
 
       // check if form has country code and assign its value to country code hidden input
       if ($form.find('#country_code') !== undefined) {
-         $form.find('#number').val(`(${$form.find('.selected-dial-code').text()}) ${$form.find('#number').val()}`);
+         $form.find('#country_code').val($('.selected-dial-code').text());
       }
 
          $.post($form.attr("action"), $form.serialize())

@@ -5965,6 +5965,31 @@ footer.bg-gray li,
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1500px) {
 
+    #leaveamsg .modal-header .close {
+        margin-top: -35px;
+    }
+
+    #leaveamsg .modal-dialog .modal-body input[type=text] {
+        margin-bottom: 10px;
+    }
+
+    .hm-form p.lead {
+        margin-bottom: 10px !important;
+        font-size: 14px !important;
+    }
+
+    #leaveamsg .mt16 {
+        margin-top: 4px;
+    }
+
+    #leaveamsg .modal-dialog {
+        width: 40%;
+    }
+
+    .mobmt {
+        margin-top: 0;
+    }
+
     #leaveamsg .modal-header {
         min-height: 16.42857143px;
         padding: 15px;
@@ -5973,16 +5998,16 @@ footer.bg-gray li,
     }
 
     #leaveamsg .st-txt {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     #leaveamsg h4 {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
         max-width: 80%;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     #leaveamsg .modal-dialog .modal-body input[type="text"], #leaveamsg .modal-dialog .modal-body input[type="email"], #leaveamsg .modal-dialog .modal-body input[type="tel"] {
@@ -5990,7 +6015,7 @@ footer.bg-gray li,
     }
 
     #leaveamsg textarea {
-        margin-bottom: 0px;
+        margin-bottom: 5px;
     }
 
 }

@@ -20,6 +20,14 @@
     line-height: normal;
 }
 
+#leaveamsg {
+    z-index: 9999 !important;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel], textarea {
+    background-color: #fff !important;
+}
+
 #leaveamsg input, #leaveamsg textarea {
     font-size: 16px;
 }
@@ -107,7 +115,7 @@ input[type="tel"], input[type="text"] {
     color: #444;
 }
 
-.moblie-banner .hm-form input, .hm-form span{
+.moblie-banner .hm-form input, .hm-form .alert span{
     background-color: #fff !important;
     color: #444 !important;
 }
@@ -169,7 +177,6 @@ input[type="tel"], input[type="text"] {
 
 #leaveamsg .modal-dialog .modal-body{
     font-weight: 600;
-    font-size: 24px;
     max-width: 94%;
     margin: 0 auto;
 }

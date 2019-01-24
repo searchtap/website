@@ -104,10 +104,10 @@ $(function () {
 
       // check if form has country code and assign its value to country code hidden input
       if ($form.find('#country_code') !== undefined) {
-         $form.find('#country_code').val($('.selected-dial-code').text());
+         $form.find('#number').val(`(${$('.selected-dial-code').text()}) ${$form.find('#number').val()}`);
       }
-
-      $.post($form.attr("action"), $form.serialize())
+      
+         $.post($form.attr("action"), $form.serialize())
          .done(function () {
 
             $("#leadCreated").fadeIn();
@@ -142,6 +142,7 @@ $(function () {
       $.post($form.attr("action"), $form.serialize())
          .done(function () {
             $("#contactQueryNotCreated").hide();
+            $("#input-hide").hide();
             $("#contactQueryCreated").show();
             $form.trigger('reset');
          })
@@ -164,6 +165,7 @@ $(function () {
       $.post($form.attr("action"), $form.serialize())
          .done(function () {
             $("#notificationNotCreated").hide();
+            $("#input-hide").hide();
             $("#notificationCreated").show();
             $form.trigger('reset');
          })

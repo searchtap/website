@@ -757,7 +757,7 @@ footer.bg-dark li,
 .image-bg .container,
 .image-bg div[class*='col-'] {
     position: relative;
-    z-index: 3;
+    z-index: 1;
 }
 
 .container.image-bg .row {

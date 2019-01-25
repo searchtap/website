@@ -58,7 +58,7 @@ permalink: contact/
 
             </div>
             <div class="col-sm-6 col-md-5 col-md-offset-1">
-                <form name="Contact Us" id="contactUsForm" class="form-email" data-netlify="true">
+                <form name="Contact Us" id="contactUsForm" class="form-email" netlify-honeypot="bot-field" data-netlify="true">
 
                     <div class="alert alert-success" id="contactQueryCreated" style="display: none">
                         <span class="text-center">Thank you for getting in touch. We will contact you soon.</span>
@@ -68,6 +68,10 @@ permalink: contact/
                         <span class="text-center">Please enter valid details.</span></div>
 
                     <div id="input-hide">
+
+                        <p class="honey-pot-field">
+                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                        </p>
 
                         <input type="text" id="name" name="Name" placeholder="Name"
                                style="height:50px; border-radius:2px !important;" required />
@@ -83,7 +87,7 @@ permalink: contact/
                         <textarea class="validate-required bg-none" id="message" name="Message" rows="4"
                                   placeholder="Message" required></textarea>
 
-                        <div data-netlify-recaptcha></div>
+                        <div data-netlify-recaptcha="true"></div>
 
                         <br/>
 

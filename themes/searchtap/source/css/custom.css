@@ -2,6 +2,10 @@ html {
     overflow-x: hidden;
 }
 
+.honey-pot-field {
+    display: none;
+}
+
 .mini-posts input[type="text"], input[type="password"] {
     background: #fff !important;
     border: none;

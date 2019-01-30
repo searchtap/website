@@ -5,7 +5,7 @@
     "date": "25th Jan 2019",
     "url": "10-tips-on-dealing-with-zero-search-results/",
     "image": "zero-search-results.jpg",
-    "about": "Nothing is more frustrating for a visitor to when their browsing experience...",
+    "about": "Nothing is more frustrating for a visitor to when their browsing experience is interrupted by a Zero search...",
     "image_alt": "Zero Search Results",
     "reading_time": 4,
     "tags": [
@@ -48,7 +48,7 @@
     "date": "27th Nov 2018",
     "url": "pre-and-post-implementation-shopify/",
     "image": "shopify-implementation.jpg",
-    "about": "Shopify has enabled many entrepreneurs to take the first steps...",
+    "about": "Shopify has enabled many entrepreneurs to take the first steps in their e-commerce journey. With setting up a store being...",
     "image_alt": "Implementation of Shopify",
     "reading_time": 2,
     "tags": [
@@ -63,7 +63,7 @@
     "date": "19th Nov 2018",
     "url": "pre-and-post-implementation-magento-1/",
     "image": "implementation-magento-1.jpg",
-    "about": "Search is a critical feature for any e-commerce store. It helps visitors cut through...",
+    "about": "Search is a critical feature for any e-commerce store. It helps visitors cut through the clutter so that they can...",
     "image_alt": "Implementation of Magento 1",
     "reading_time": 6,
     "tags": [
@@ -78,7 +78,7 @@
     "date": "16th Nov 2018",
     "url": "improve-conversions-with-search-analytics/",
     "image": "search-analytics.jpg",
-    "about": "Using search is the first interaction that 25% of visitors make on an e-commerce website...",
+    "about": "Using search is the first interaction that 25% of visitors make on an e-commerce website. Yet, site search analytics has been...",
     "image_alt": "Search Analytics",
     "reading_time": 5,
     "tags": [
@@ -180,12 +180,12 @@
     "date": "27th Oct 2018",
     "url": "evolution-of-search-as-you-type/",
     "image": "evolution-of-search-as-you-type.jpg",
-    "about": "E-commerce search users don’t just want to see results for their search queries...",
+    "about": "E-commerce search users don’t just want to see results for their search queries, they want to see them before they are able to finish...",
     "image_alt": "Evolution of Search as you Type",
     "reading_time": 4,
     "tags": [
       "Site Search"
     ],
-    "heading": "Search as you type can increase conversions for e-commerce business"
+    "heading": "Search as you type can increase conversions for e-commerce business."
   }
 ]

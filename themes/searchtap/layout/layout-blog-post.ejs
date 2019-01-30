@@ -27,22 +27,22 @@
 
                                             <ul class="post-meta mt0 mb0" style="opacity:0.8; font-size:12px;">
                                                 <li><i class="ti-calendar"></i>
-                                                    <span><%- page.published_date%></span>
+                                                    <span><%- site.data.blog.find(x=> x.id === page.id).date%></span>
                                                 </li>
                                                 <li><i class="ti-timer"></i>
-                                                    <span><%- page.read_time%> minutes to read</span>
+                                                    <span><%- site.data.blog.find(x=> x.id === page.id).reading_time%> minutes to read</span>
                                                 </li>
                                             </ul>
 
                                             <div class="post-title">
-                                                <h4 class="mt10"><%- page.blog_title%></h4>
+                                                <h4 class="mt10"><%- site.data.blog.find(x=> x.id === page.id).heading%></h4>
                                             </div>
 
                                             <div class="blog-detail-img">
                                                 <div class="blog-detail-img">
-                                                    <%- image_tag(`../../img/blog/${page.image_name}`, {
+                                                    <%- image_tag(`../../img/blog/${site.data.blog.find(x=> x.id === page.id).image}`, {
                                                        class: "mb24",
-                                                        alt: page.image_alt
+                                                        alt: site.data.blog.find(x=> x.id === page.id).image_alt
                                                     }) %>
                                                 </div>
                                             </div>
@@ -50,7 +50,7 @@
                                             <!--<ul class="post-meta mt0">-->
                                                 <!--<li><i class="ti-tag"></i>-->
                                                     <!--<span>Tagged as-->
-                                                        <!--<% page.tags.forEach((t)=> { %>-->
+                                                        <!--<% site.data.blog.find(x=> x.id === page.id).tags.forEach((t)=> { %>-->
                                                         <!--<a href="#"><%-t%></a>-->
                                                         <!--<% })%>-->
                                         <!--</span></li>-->
@@ -60,7 +60,7 @@
                                                 <li><span>Share  </span></li>
 
                                                 <li class="twitter">
-                                                    <%- link_to(`https://twitter.com/share?text=${page.blog_title}-SearchTap Blog&url=${page.permalink}&via=SearchTap`, ' ', {external: true, class: 'fa fa-twitter'})%>
+                                                    <%- link_to(`https://twitter.com/share?text=${site.data.blog.find(x=> x.id === page.id).heading}-SearchTap Blog&url=${page.permalink}&via=SearchTap`, ' ', {external: true, class: 'fa fa-twitter'})%>
                                                 </li>
 
                                                 <li class="linkedin">

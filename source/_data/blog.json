@@ -1,19 +1,46 @@
 [
   {
-  "id": 13,
-  "title": "SearchTap vs. Searchanise",
-  "date": "07th Dec 2018",
-  "url": "searchtap-vs-searchanise/",
-  "image": "searchtap-vs-searchanise.jpg",
-  "about": "Shopify has enabled many entrepreneurs to take the first steps in their e-commerce journey. With setting up a store..."
-},
+    "id": 6,
+    "title": "10 tips on dealing with Zero Search Results",
+    "date": "25th Jan 2019",
+    "url": "10-tips-on-dealing-with-zero-search-results/",
+    "image": "zero-search-results.jpg",
+    "about": "Nothing is more frustrating for a visitor to when their browsing experience...",
+    "image_alt": "Zero Search Results",
+    "reading_time": 4,
+    "tags": [
+      "Ecommerce Tips",
+      "Site Search"
+    ],
+    "heading": "10 tips on zero search results so they don’t ruin your customer’s shopping experience"
+  },
+  {
+    "id": 13,
+    "title": "SearchTap vs. Searchanise",
+    "date": "07th Dec 2018",
+    "url": "searchtap-vs-searchanise/",
+    "image": "searchtap-vs-searchanise.jpg",
+    "about": "Shopify has enabled many entrepreneurs to take the first steps in their e-commerce journey. With setting up a store...",
+    "image_alt": "SearchTap vs Searchanise",
+    "reading_time": 3,
+    "tags": [
+      "Site Search"
+    ],
+    "heading": "Why should you choose SearchTap.io over Searchanise for your e-commerce search?"
+  },
   {
     "id": 12,
     "title": "22 ways to increase conversions",
     "date": "03rd Dec 2018",
     "url": "22-ways-to-increase-conversions/",
     "image": "increase-conversions.jpg",
-    "about": "You are no doubt thinking about how to increase your e-commerce stores conversion rates a lot of the times..."
+    "about": "You are no doubt thinking about how to increase your e-commerce stores conversion rates a lot of the times...",
+    "image_alt": "Increase Conversions",
+    "reading_time": 8,
+    "tags": [
+      "Ecommerce Tips"
+    ],
+    "heading": "22 point checklist about increasing conversions for your e-commerce store"
   },
   {
     "id": 11,
@@ -21,7 +48,14 @@
     "date": "27th Nov 2018",
     "url": "pre-and-post-implementation-shopify/",
     "image": "shopify-implementation.jpg",
-    "about": "Shopify has enabled many entrepreneurs to take the first steps..."
+    "about": "Shopify has enabled many entrepreneurs to take the first steps...",
+    "image_alt": "Implementation of Shopify",
+    "reading_time": 2,
+    "tags": [
+      "Case Study",
+      "Site Search"
+    ],
+    "heading": "Why e-commerce platforms are choosing SearchTap.io over default Shopify search"
   },
   {
     "id": 10,
@@ -29,7 +63,14 @@
     "date": "19th Nov 2018",
     "url": "pre-and-post-implementation-magento-1/",
     "image": "implementation-magento-1.jpg",
-    "about": "Search is a critical feature for any e-commerce store. It helps visitors cut through..."
+    "about": "Search is a critical feature for any e-commerce store. It helps visitors cut through...",
+    "image_alt": "Implementation of Magento 1",
+    "reading_time": 6,
+    "tags": [
+      "Case Study",
+      "Site Search"
+    ],
+    "heading": "Native Magento 1.x search is limiting your e-commerce revenue growth"
   },
   {
     "id": 9,
@@ -37,7 +78,14 @@
     "date": "16th Nov 2018",
     "url": "improve-conversions-with-search-analytics/",
     "image": "search-analytics.jpg",
-    "about": "Using search is the first interaction that 25% of visitors make on an e-commerce website..."
+    "about": "Using search is the first interaction that 25% of visitors make on an e-commerce website...",
+    "image_alt": "Search Analytics",
+    "reading_time": 5,
+    "tags": [
+      "Site Search",
+      "Analytics"
+    ],
+    "heading": "The Top 10 Ways Focusing On Search Analytics Can Improve Conversions For Your E-Commerce Store"
   },
   {
     "id": 8,
@@ -45,7 +93,14 @@
     "date": "14th Nov 2018",
     "url": "get-higher-conversions-with-a-competent-site-search/",
     "image": "higher-conversions-with-site-search.jpg",
-    "about": "One of the most ignored segments of an e-commerce site is their search users. These shoppers are generally at the..."
+    "about": "One of the most ignored segments of an e-commerce site is their search users. These shoppers are generally at the...",
+    "image_alt": "Higher Conversion with Site Search",
+    "reading_time": 3,
+    "tags": [
+      "Site Search",
+      "E-commerce Tips"
+    ],
+    "heading": "What your e-commerce store needs to improve conversions is a competent site-search"
   },
   {
     "id": 7,
@@ -53,15 +108,13 @@
     "date": "09th Nov 2018",
     "url": "ignoring-e-commerce-search-can-cost-you-sales/",
     "image": "search-can-cost-you-sales.jpg",
-    "about": "15 seconds is all the time that an e-commerce business has to successfully engage a visitor. All the time energy and effort spent on your..."
-  },
-  {
-    "id": 6,
-    "title": "10 tips on dealing with Zero Search Results",
-    "date": "06th Nov 2018",
-    "url": "10-tips-on-dealing-with-zero-search-results/",
-    "image": "zero-search-results.jpg",
-    "about": "Nothing is more frustrating for a visitor to when their browsing experience..."
+    "about": "15 seconds is all the time that an e-commerce business has to successfully engage a visitor. All the time energy and effort spent on your...",
+    "image_alt": "Ignoring e-commerce search can cost you sales",
+    "reading_time": 6,
+    "tags": [
+      "Site Search"
+    ],
+    "heading": "Ignoring e-commerce search can cost you sales"
   },
   {
     "id": 5,
@@ -69,7 +122,14 @@
     "date": "04th Nov 2018",
     "url": "pre-and-post-implementation-magento-2/",
     "image": "implementation-magento-2.jpg",
-    "about": "Search users have contributed up to 30% of revenues to an e-commerce business. Your platform needs..."
+    "about": "Search users have contributed up to 30% of revenues to an e-commerce business. Your platform needs...",
+    "image_alt": "Implementation of Magento 2",
+    "reading_time": 4,
+    "tags": [
+      "Case Study",
+      "Site Search"
+    ],
+    "heading": "Improve your e-commerce user experience by shifting away from native Magento 2.x search"
   },
   {
     "id": 4,
@@ -77,7 +137,13 @@
     "date": "01st Nov 2018",
     "url": "10-tips-for-a-better-mobile-search-ux/",
     "image": "mobile-search-UX.jpg",
-    "about": "With the growth in the mobile sphere e-commerce businesses have shifted their focus to serving this sort..."
+    "about": "With the growth in the mobile sphere e-commerce businesses have shifted their focus to serving this sort...",
+    "image_alt": "Mobile Search UX",
+    "reading_time": 4,
+    "tags": [
+      "Ecommerce Tips"
+    ],
+    "heading": "10 easy tips to help your e-commerce store get a better mobile search UX"
   },
   {
     "id": 3,
@@ -85,7 +151,14 @@
     "date": "31st Oct 2018",
     "url": "5-reasons-to-track-revenue-with-enhanced-e-commerce-tracking/",
     "image": "track-revenue-enhanced-e-com.jpg",
-    "about": "Google Analytics’ goal tracking itself is an important metric. That is not under contention..."
+    "about": "Google Analytics’ goal tracking itself is an important metric. That is not under contention...",
+    "image_alt": "5 Reasons to track revenue with enhanced e-commerce tracking",
+    "reading_time": 3,
+    "tags": [
+      "Analytics",
+      "Ecommerce Tips"
+    ],
+    "heading": "Stop relying on Goal tracking for revenue mapping and 5 reasons why the best retail platforms use Enhanced E-commerce tracking instead"
   },
   {
     "id": 2,
@@ -93,7 +166,13 @@
     "date": "27th Oct 2018",
     "url": "personalization-is-not-improving-your-customer-engagement/",
     "image": "customer-engagement.jpg",
-    "about": "A big misstep small e-commerce companies make is thinking that personalization can help them achieve more conversions..."
+    "about": "A big misstep small e-commerce companies make is thinking that personalization can help them achieve more conversions...",
+    "image_alt": "Customer Engagement",
+    "reading_time": 5,
+    "tags": [
+      "Personalization"
+    ],
+    "heading": "Personalization Isn’t Improving Your Customer Engagement- Here’s Why"
   },
   {
     "id": 1,
@@ -101,6 +180,12 @@
     "date": "27th Oct 2018",
     "url": "evolution-of-search-as-you-type/",
     "image": "evolution-of-search-as-you-type.jpg",
-    "about": "E-commerce search users don’t just want to see results for their search queries..."
+    "about": "E-commerce search users don’t just want to see results for their search queries...",
+    "image_alt": "Evolution of Search as you Type",
+    "reading_time": 4,
+    "tags": [
+      "Site Search"
+    ],
+    "heading": "Search as you type can increase conversions for e-commerce business"
   }
 ]

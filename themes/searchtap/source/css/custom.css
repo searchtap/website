@@ -6,6 +6,33 @@ html {
     display: none;
 }
 
+.blog-content p, .blog-content ul, .blog-content li, .blog-content ol, .blog-content span {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    font-weight: 500 !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.italic-highlight {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.blog-content li {
+    margin: 10px 0;
+}
+
+.blog-content ol, .blog-content ul {
+    padding: 0 20px;
+}
+
+.blog-detail-img img {
+    width: 100%;
+}
+
+
+
 .mini-posts input[type="text"], input[type="password"] {
     background: #fff !important;
     border: none;
@@ -168,6 +195,11 @@ input[type="tel"], input[type="text"] {
     padding-bottom: 0px;
     top: 0px;
     margin-top: 0px;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .logo-carousel li img {
@@ -991,6 +1023,7 @@ a.no-link:hover {
     font-family: 'open sans';
     font-size: 16px;
     margin-bottom: 15px !important;
+    min-height: 48px;
 }
 
 .blog-box img {
@@ -2118,7 +2151,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
 }
 
 .abt-search {
-    z-index: 99 !important;
+    z-index: 9 !important;
     position: absolute;
     left: 0;
     right: 0;
@@ -4285,7 +4318,7 @@ footer.bg-gray li,
     }
 
     .abt-search {
-        z-index: 99 !important;
+        z-index: 9 !important;
         position: absolute;
         left: 0;
         top: 0;
@@ -5326,7 +5359,7 @@ footer.bg-gray li,
     }
 
     .abt-search {
-        z-index: 99 !important;
+        z-index: 9 !important;
         position: absolute;
         left: 0;
         right: 0;
@@ -5597,7 +5630,7 @@ footer.bg-gray li,
     }
 
     .abt-search {
-        z-index: 99 !important;
+        z-index: 9 !important;
         position: absolute;
         left: 0;
         right: 0;

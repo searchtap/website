@@ -19,7 +19,7 @@
                     <div class="container">
 
                         <!--<div align="center" class="mb10">-->
-                            <!--<button class="btn filter-button" data-filter="all">All</button>-->
+                  s          <!--<button class="btn filter-button" data-filter="all">All</button>-->
                             <!--<button class="btn filter-button" data-filter="personalization">Personalization</button>-->
                             <!--<button class="btn filter-button" data-filter="ecommercetips">Ecommerce Tips</button>-->
                             <!--<button class="btn filter-button" data-filter="analytics">Analytics</button>-->
@@ -29,28 +29,28 @@
 
                         <br/>
 
-                        <div class="row masonry masonryFlyIn fadeIn">
+                        <div class="row flex-wrapper">
 
-                            <% page.blogs.forEach((blog)=> {%>
-                            <div class="gallery_product col-sm-4 post-snippet masonry-item fadeIn">
+                            <% site.data.blog.forEach((b)=> {%>
+                            <div class="gallery_product col-sm-4 post-snippet">
                                 <div class="blog-box">
 
                                     <div class="small-blog" style="max-height:250px;">
-                                        <a target="_blank" href=<%-blog.url%>>
-                                            <%- image_tag(`../img/blog/${blog.image}`, {alt: blog.image})%>
+                                        <a target="_blank" href=<%-b.url%>>
+                                            <%- image_tag(`../img/blog/${b.image}`, {alt: b.image})%>
                                         </a>
                                     </div>
 
                                     <div class="inner">
 
-                                        <a target="_blank" href=<%-blog.url%>>
+                                        <a target="_blank" href=<%-b.url%>>
 
                                             <span class="inline-block date">
                                             <i class="ti-calendar"></i>
-                                            <%- blog.date%></span>
-                                            <h5 class="mb0"><%- blog.title%></h5>
+                                            <%- b.date%></span>
+                                            <h5 class="mb0"><%- b.title%></h5>
 
-                                            <p><%- blog.about%></p>
+                                            <p><%- b.about%></p>
 
                                             <hr>
 
@@ -60,15 +60,15 @@
 
                                         <ul class="social-share pull-right">
                                             <li class="twitter">
-                                                <%- link_to(`https://twitter.com/share?text=${blog.title}-SearchTap Blog&url=${page.permalink}/${blog.url}&via=SearchTap`, ' ', {external: true, class: 'fa fa-twitter'})%>
+                                                <%- link_to(`https://twitter.com/share?text=${b.title}-SearchTap Blog&url=${page.permalink}/${b.url}&via=SearchTap`, ' ', {external: true, class: 'fa fa-twitter'})%>
                                             </li>
 
                                             <li class="linkedin">
-                                                <%- link_to(`http://www.linkedin.com/shareArticle?mini=true&amp;url=${page.permalink}/${blog.url}`, ' ', {external: true, class: 'fa fa-linkedin'})%>
+                                                <%- link_to(`http://www.linkedin.com/shareArticle?mini=true&amp;url=${page.permalink}/${b.url}`, ' ', {external: true, class: 'fa fa-linkedin'})%>
                                             </li>
 
                                             <li class="facebook">
-                                                <%- link_to(`http://www.facebook.com/sharer.php?u=${page.permalink}/${blog.url}`, ' ', {external: true, class: 'fa fa-facebook'})%>
+                                                <%- link_to(`http://www.facebook.com/sharer.php?u=${page.permalink}/${b.url}`, ' ', {external: true, class: 'fa fa-facebook'})%>
                                             </li>
 
                                         </ul>
@@ -79,6 +79,7 @@
                             </div>
                             <% }) %>
                         </div>
+
                     </div>
                 </div>
             </div>

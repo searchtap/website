@@ -31,7 +31,23 @@ html {
     width: 100%;
 }
 
-
+#back-top {
+    background: url(../img/white-up-arrow.svg) no-repeat #292929;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 22px;
+    position: fixed;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    bottom: 15%;
+    display: none;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    transition: .2s;
+}
 
 .mini-posts input[type="text"], input[type="password"] {
     background: #fff !important;
@@ -1004,11 +1020,11 @@ a.no-link:hover {
     margin-bottom: 6px;
 }
 
-.blog-box .date {
+.blog-box .date, .blog-box .read-time {
     font-size: 12px !important;
     color: #000;
     opacity: 0.5;
-    font-weight: 100;
+    font-weight: normal;
     margin-bottom: 6px;
 }
 
@@ -6061,7 +6077,14 @@ footer.bg-gray li,
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
 
-
+    #back-top {
+        background-size: 20px;
+        right: 20px;
+        width: 40px;
+        bottom: 20%;
+        display: none;
+        height: 40px;
+    }
 
     .mb10 {
         margin-bottom: 10px;

@@ -184,5 +184,23 @@ $(function () {
             $("#comingSoonFormSubmit").prop('disabled', false);
          });
    })
+});
+
+$( document ).ready(function() {
+
+   $('#back-top').on('click', ()=> {
+      $('body, html').animate({scrollTop: 0}, 'slow');
+   });
+
+   window.addEventListener('scroll', ()=> {
+
+      if(window.scrollY > 400) {
+         $('#back-top').show();
+      }
+      else {
+         $('#back-top').hide();
+      }
+
+   });
 
 });

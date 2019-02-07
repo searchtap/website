@@ -76,7 +76,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 }
 
 .blog-bg {
-    /*background: url(../img/cover12.jpg) no-repeat center top;*/
+    background: url(../img/cover12.jpg) no-repeat center top;
     height: 286px !important;
     padding-top: 10px;
     z-index: 9999 !important;

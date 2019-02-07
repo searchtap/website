@@ -47,12 +47,16 @@
                         <div class="alert alert-danger" id="leadNotCreated" style="display: none; border-color: red !important; color: red !important;">
                             <span class="text-center">Please enter valid details.</span></div>
 
+                        <label>
+                            <input name="bot-field"/>
+                        </label>
+
                         <input type="text" id="name" name="Name" class=" col-md-12 validate-required field-error" placeholder="Name" required />
 
                         <input type="hidden" name="Country Code" id="country_code" />
                         <div class="intl-tel-input allow-dropdown separate-dial-code iti-sdc-2">
 
-                            <input type="tel" id="number" name="phone" class="col-md-12 validate-required field-error"
+                            <input type="number" id="number" name="phone" class="col-md-12 validate-required field-error"
                                    placeholder="Phone" required autocomplete="off" />
                         </div>
 

@@ -69,15 +69,15 @@ permalink: contact/
 
                     <div id="input-hide">
 
-                        <p class="honey-pot-field">
-                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-                        </p>
+                        <label>
+                            <input name="bot-field"/>
+                        </label>
 
                         <input type="text" id="name" name="Name" placeholder="Name"
                                style="height:50px; border-radius:2px !important;" required />
 
                         <input type="hidden" name="Country Code" id="country_code" />
-                        <input type="tel" id="number" name="Phone" class="col-md-12 validate-required field-error"
+                        <input type="number" id="number" name="Phone" class="col-md-12 validate-required field-error"
                                placeholder="Phone" required />
 
                         <input type="email" id="email"

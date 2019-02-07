@@ -2,7 +2,11 @@ html {
     overflow-x: hidden;
 }
 
-.honey-pot-field {
+input[name="bot-field"] {
+    display: none;
+}
+
+.g-recaptcha {
     display: none;
 }
 
@@ -31,6 +35,12 @@ html {
     width: 100%;
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 #back-top {
     background: url(../img/white-up-arrow.svg) no-repeat #292929;
     background-position-x: center;
@@ -38,8 +48,8 @@ html {
     background-size: 22px;
     position: fixed;
     right: 30px;
-    width: 45px;
-    height: 45px;
+    width: 42px;
+    height: 42px;
     bottom: 15%;
     display: none;
     border-radius: 4px;

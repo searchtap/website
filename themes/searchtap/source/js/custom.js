@@ -194,7 +194,7 @@ $( document ).ready(function() {
 
    window.addEventListener('scroll', ()=> {
 
-      if(window.scrollY > 400) {
+      if(window.scrollY > 500) {
          $('#back-top').show();
       }
       else {

@@ -60,6 +60,10 @@ input[type=number]::-webkit-outer-spin-button {
     transition: .2s;
 }
 
+.bg-secondary2 {
+    background: url('../img/price-bg.jpg') repeat-x;
+}
+
 .mini-posts input[type="text"], input[type="password"] {
     background: #fff !important;
     border: none;
@@ -163,6 +167,10 @@ input[type="tel"], input[type="text"] {
     background-color: rgba(255, 255, 255, 1) !important;
 }
 
+.form-container {
+    padding: 0;
+}
+
 .moblie-banner .hm-form {
     margin: 0 auto;
 }
@@ -202,6 +210,7 @@ input[type="tel"], input[type="text"] {
 
 .moblie-banner .hm-form button[type="submit"] {
     margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .leave-a-msg {
@@ -3299,7 +3308,7 @@ input[type="submit"], button[type="submit"] {
     letter-spacing: 1px;
     border-radius: 0 !important;
     position: relative;
-    top: 20px;
+    top: 0px;
 }
 
 
@@ -6081,6 +6090,20 @@ footer.bg-gray li,
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
 
+    .form-container {
+        padding: 20px;
+    }
+
+    .homepage-form-container {
+        padding: 10px 30px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .moblie-banner .hm-form button[type="submit"] {
+        margin-bottom: 10px;
+    }
+
     #back-top {
         background-size: 20px;
         right: 20px;
@@ -6092,10 +6115,6 @@ footer.bg-gray li,
 
     .mb10 {
         margin-bottom: 10px;
-    }
-
-    .moblie-banner .hm-form {
-        padding: 20px 0px;
     }
 
     #requestDemoForm .mt8 {
@@ -6158,16 +6177,16 @@ footer.bg-gray li,
         font-size: 20px;
         line-height: normal;
         padding-bottom: 15px;
-        padding-top: 25px !important;
+        padding-top: 15px !important;
+    }
+
+    #requestDemoForm .alert {
+        margin-bottom: 0px !important;
     }
 
     #requestDemoForm button[type=submit] {
         max-width: 170px;
         top: 0px;
-    }
-
-    .hm-form .re-right {
-        width: 88%;
     }
 
     .pt32 {
@@ -6197,14 +6216,6 @@ footer.bg-gray li,
 
     ._mt40 {
         margin-top: 0px;
-    }
-
-    .moblie-banner .hm-form {
-        max-height: 100%;
-        margin-top: 0;
-        border-radius: 4px 4px 4px 4px;
-        margin-top: 20px;
-        background-color: rgba(255, 255, 255, 1) !important;
     }
 
     .bg-green {

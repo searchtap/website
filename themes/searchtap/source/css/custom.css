@@ -35,10 +35,14 @@ input[name="bot-field"] {
     width: 100%;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
 }
 
 #back-top {
@@ -4378,7 +4382,6 @@ footer.bg-gray li,
         /*background-image: url(../img/Wallpapers-Cyanogenmod-HD.png);*/
         background-color: #323030;
         background-size: cover !important;
-        height: 1000px !important;
     }
 
     .card h1 {
@@ -4470,7 +4473,7 @@ footer.bg-gray li,
     }
 
     .pb32 {
-        padding-bottom: 2px;
+        padding-bottom: 50px;
     }
 
     .pb64 {
@@ -4717,7 +4720,6 @@ footer.bg-gray li,
         /*background-image: url(../img/Wallpapers-Cyanogenmod-HD.png);*/
         background-color: #323030;
         background-size: cover !important;
-        height: 880px !important;
     }
 
     .mobile-btn {
@@ -5033,7 +5035,6 @@ footer.bg-gray li,
         /*background-image: url(../img/Wallpapers-Cyanogenmod-HD.png);*/
         background-color: #323030;
         background-size: cover !important;
-        height: auto !important;
     }
 
     .mobile-btn {
@@ -5786,11 +5787,6 @@ footer.bg-gray li,
         margin-left: 60px;
     }
 
-
-    .feature-banner {
-        height: 520px !important;
-    }
-
     .mobile-btn {
         display: none;
     }
@@ -5855,7 +5851,7 @@ footer.bg-gray li,
     }
 
     .pt64 {
-        padding-top: 64px;
+        padding-top: 50px;
     }
 
 
@@ -6089,6 +6085,14 @@ footer.bg-gray li,
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+
+    .blog-bg {
+        height: 210px !important;
+    }
+
+    .abt-search {
+        padding-top: 50px !important;
+    }
 
     .form-container {
         padding: 20px;

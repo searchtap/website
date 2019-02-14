@@ -1,5 +1,44 @@
 [
   {
+    "id": 17,
+    "title": "Getting started Enhanced E-commerce Tracking and 10 insights you can derive from it",
+    "date": "14th Feb 2019",
+    "url": "getting-started-enhanced-ecommerce-tracking-and-10-insights-you-can-derive-from-it/",
+    "image": "enhanced-ecommerce-tracking-insights.jpg",
+    "about": "Business decision-making has been revolutionized by Google Analytics. Having access to a variety of...",
+    "reading_time": 9,
+    "tags": [
+      "E-commerce Tips"
+    ],
+    "heading": "Getting started Enhanced E-commerce Tracking and 10 insights you can derive from it"
+  },
+  {
+    "id": 15,
+    "title": "Sales funnel for e-commerce businesses explained",
+    "date": "06th Feb 2019",
+    "url": "sales-funnel-for-e-commerce-businesses-explained/",
+    "image": "hourglass.jpg",
+    "about": "The e-commerce sales funnel has evolved over the last few years. With shoppers no longer being dependant...",
+    "reading_time": 7,
+    "tags": [
+      "E-commerce Tips"
+    ],
+    "heading": "Sales funnel for e-commerce businesses explained"
+  },
+  {
+    "id": 14,
+    "title": "Which KPIs and metrics can take your e-commerce store to more profitability",
+    "date": "04th Feb 2019",
+    "url": "which-kpis-and-metrics-can-take-your-e-commerce-store-to-more-profitability/",
+    "image": "e-commerce-KPIs.jpg",
+    "about": "With the help of platforms like Shopify, Magento, and BigCommerce, businesses have been able...",
+    "reading_time": 13,
+    "tags": [
+      "E-commerce Tips"
+    ],
+    "heading": "Which KPIs and metrics can take your e-commerce store to more profitability"
+  },
+  {
     "id": 6,
     "title": "10 tips on dealing with Zero Search Results",
     "date": "25th Jan 2019",
@@ -12,6 +51,32 @@
       "Site Search"
     ],
     "heading": "10 tips on zero search results so they don’t ruin your customer’s shopping experience"
+  },
+  {
+    "id": 18,
+    "title": "6 simple UX tips to make search filters more user-friendly",
+    "date": "10th Jan 2019",
+    "url": "6-simple-ux-tips-to-make-search-filters-more-user-friendly/",
+    "image": "search-filters.jpg",
+    "about": "A great way for your e-commerce business to help customers narrow down their search...",
+    "reading_time": 4,
+    "tags": [
+      "E-commerce Tips"
+    ],
+    "heading": "6 simple UX tips to make search filters more user-friendly"
+  },
+  {
+    "id": 16,
+    "title": "Improve conversion rates by refining your store’s search result listing",
+    "date": "10th Jan 2019",
+    "url": "improve-conversion-rates-by-refining-your-stores-search-result-listing/",
+    "image": "search-results-listing.jpg",
+    "about": "Search is becoming more recognized as an important aspect of increasing conversions on e-commerce...",
+    "reading_time": 4,
+    "tags": [
+      "E-commerce Tips"
+    ],
+    "heading": "Improve conversion rates by refining your store’s search result listing"
   },
   {
     "id": 13,

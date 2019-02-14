@@ -29,10 +29,10 @@
 
             </div>
             <div class="modal-body">
-                <h4 class="text-center">To get in touch with us, please provide the following information.
+                <h4 class="text-center">If you are looking for support get in touch with our team at support@searchtap.io
                 </h4>
 
-                <form name="Leave a Message" id="leaveMessageForm" class="text-center leave-a-message form-email" method="POST" data-netlify="true">
+                <form name="Leave a Message" id="leaveMessageForm" class="text-center leave-a-message form-email" method="POST" netlify-honeypot="bot-field" data-netlify="true">
 
                     <div>
                         <div class="alert alert-success" id="leadCreated" style="display: none">
@@ -41,12 +41,16 @@
                         <div class="alert alert-danger" id="leadNotCreated" style="display: none">
                             <span class="text-center">Please enter valid details.</span></div>
 
+                        <label>
+                            <input name="bot-field"/>
+                        </label>
+
                         <input type="text" id="name" name="Name" class="col-md-12 validate-required field-error"
                                placeholder="Name" required />
 
                         <input type="hidden" name="Country Code" id="country_code" />
                         <div class="intl-tel-input allow-dropdown separate-dial-code iti-sdc-2">
-                            <input type="tel" id="number2" name="Phone"
+                            <input type="number" id="number2" name="Phone"
                                    class="col-md-12 validate-required field-error" placeholder="Phone"
                                    required autocomplete="off"/>
                         </div>

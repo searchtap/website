@@ -35,7 +35,7 @@
             <!-- Mini Post -->
             <article class="mini-post" style="background-color: #47b475; padding: 10px; padding-top: 15px;">
 
-                <form name="Blog Request Demo" class="text-center form-email" id="requestDemoForm" method="POST" data-netlify="true">
+                <form name="Blog Request Demo" class="text-center form-email" id="requestDemoForm" method="POST" netlify-honeypot="bot-field" data-netlify="true">
 
                     <h2 class="text-white" style="font-size: 13px;">Looking for a personalised demo?</h2>
 
@@ -47,12 +47,16 @@
                         <div class="alert alert-danger" id="leadNotCreated" style="display: none; border-color: red !important; color: red !important;">
                             <span class="text-center">Please enter valid details.</span></div>
 
+                        <label>
+                            <input name="bot-field"/>
+                        </label>
+
                         <input type="text" id="name" name="Name" class=" col-md-12 validate-required field-error" placeholder="Name" required />
 
                         <input type="hidden" name="Country Code" id="country_code" />
                         <div class="intl-tel-input allow-dropdown separate-dial-code iti-sdc-2">
 
-                            <input type="tel" id="number" name="phone" class="col-md-12 validate-required field-error"
+                            <input type="number" id="number" name="phone" class="col-md-12 validate-required field-error"
                                    placeholder="Phone" required autocomplete="off" />
                         </div>
 

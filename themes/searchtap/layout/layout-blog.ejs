@@ -37,7 +37,7 @@
 
                                     <div class="small-blog" style="max-height:250px;">
                                         <a target="_blank" href=<%-b.url%>>
-                                            <%- image_tag(`../img/blog/${b.image}`, {alt: b.image})%>
+                                            <%- image_tag(`../img/blog/${b.image}`, {alt: b.title})%>
                                         </a>
                                     </div>
 
@@ -48,6 +48,12 @@
                                             <span class="inline-block date">
                                             <i class="ti-calendar"></i>
                                             <%- b.date%></span>
+
+                                            <span class="pull-right inline-block read-time">
+                                                <i class="ti-timer"></i>
+                                                <%- b.reading_time%> minutes to read
+                                            </span>
+
                                             <h5 class="mb0"><%- b.title%></h5>
 
                                             <p><%- b.about%></p>

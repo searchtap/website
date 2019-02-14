@@ -11,7 +11,7 @@ permalink: request-demo/
             <div class=" bg-white" style="background:#fff !important;">
                 <div class="re-right pt88 pb90">
 
-                    <form name="Request Demo Page" class="text-center form-email" id="requestDemoForm" data-netlify="true">
+                    <form name="Request Demo Page" class="text-center form-email" id="requestDemoForm" netlify-honeypot="bot-field" data-netlify="true">
 
                         <a href="/"><img src="/img/logo-dark.png" style="height: 40px;"
                                          class="img-responsive center-block mb48"></a>
@@ -30,13 +30,16 @@ permalink: request-demo/
                             <div class="alert alert-danger" id="leadNotCreated" style="display: none">
                                 <span class="text-center">Please enter valid details.</span></div>
 
+                            <label>
+                                <input name="bot-field"/>
+                            </label>
 
                             <input type="text" id="name" name="Name"
                                    class=" col-md-12 validate-required field-error"
                                    placeholder="Name" required />
 
                             <input type="hidden" name="Country Code" id="country_code" />
-                            <input type="tel" id="number" name="Phone"
+                            <input type="number" id="number" name="Phone"
                                    class="col-md-12 validate-required field-error"
                                    placeholder="Phone" required />
 
@@ -46,10 +49,6 @@ permalink: request-demo/
                             <div data-netlify-recaptcha></div>
 
                             <div class="col-sm-6 col-sm-offset-3">
-
-                                <br/>
-                                <br/>
-                                <br/>
 
                                 <button type="submit" id="requestDemoFormSubmit"
                                         style=" border-radius:4px !important; margin-top: 10px">Schedule demo

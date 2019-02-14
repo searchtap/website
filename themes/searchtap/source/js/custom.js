@@ -114,8 +114,7 @@ $(function () {
             $form.find("#leadCreated").fadeIn();
             setTimeout(() => {
                $form.find("#leadCreated").fadeOut('slow');
-            }, 2000);
-            grecaptcha.reset();
+            }, 5000);
             $form.trigger('reset');
          })
          .fail(function (err) {
@@ -149,7 +148,6 @@ $(function () {
             $("#contactQueryNotCreated").hide();
             $("#input-hide").hide();
             $("#contactQueryCreated").show();
-            grecaptcha.reset();
             $form.trigger('reset');
          })
          .fail(function (err) {
@@ -184,5 +182,23 @@ $(function () {
             $("#comingSoonFormSubmit").prop('disabled', false);
          });
    })
+});
+
+$( document ).ready(function() {
+
+   $('#back-top').on('click', ()=> {
+      $('body, html').animate({scrollTop: 0}, 'slow');
+   });
+
+   window.addEventListener('scroll', ()=> {
+
+      if(window.scrollY > 500) {
+         $('#back-top').show();
+      }
+      else {
+         $('#back-top').hide();
+      }
+
+   });
 
 });

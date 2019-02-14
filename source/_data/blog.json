@@ -13,19 +13,6 @@
     "heading": "Getting started Enhanced E-commerce Tracking and 10 insights you can derive from it"
   },
   {
-    "id": 16,
-    "title": "Improve conversion rates by refining your store’s search result listing",
-    "date": "10th Jan 2018",
-    "url": "improve-conversion-rates-by-refining-your-stores-search-result-listing/",
-    "image": "search-results-listing.jpg",
-    "about": "Search is becoming more recognized as an important aspect of increasing conversions on e-commerce...",
-    "reading_time": 4,
-    "tags": [
-      "E-commerce Tips"
-    ],
-    "heading": "Improve conversion rates by refining your store’s search result listing"
-  },
-  {
     "id": 15,
     "title": "Sales funnel for e-commerce businesses explained",
     "date": "06th Feb 2019",
@@ -64,6 +51,32 @@
       "Site Search"
     ],
     "heading": "10 tips on zero search results so they don’t ruin your customer’s shopping experience"
+  },
+  {
+    "id": 18,
+    "title": "6 simple UX tips to make search filters more user-friendly",
+    "date": "10th Jan 2019",
+    "url": "6-simple-ux-tips-to-make-search-filters-more-user-friendly/",
+    "image": "search-filters.jpg",
+    "about": "A great way for your e-commerce business to help customers narrow down their search...",
+    "reading_time": 4,
+    "tags": [
+      "E-commerce Tips"
+    ],
+    "heading": "6 simple UX tips to make search filters more user-friendly"
+  },
+  {
+    "id": 16,
+    "title": "Improve conversion rates by refining your store’s search result listing",
+    "date": "10th Jan 2019",
+    "url": "improve-conversion-rates-by-refining-your-stores-search-result-listing/",
+    "image": "search-results-listing.jpg",
+    "about": "Search is becoming more recognized as an important aspect of increasing conversions on e-commerce...",
+    "reading_time": 4,
+    "tags": [
+      "E-commerce Tips"
+    ],
+    "heading": "Improve conversion rates by refining your store’s search result listing"
   },
   {
     "id": 13,

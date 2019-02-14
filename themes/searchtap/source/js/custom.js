@@ -114,8 +114,7 @@ $(function () {
             $form.find("#leadCreated").fadeIn();
             setTimeout(() => {
                $form.find("#leadCreated").fadeOut('slow');
-            }, 2000);
-            grecaptcha.reset();
+            }, 5000);
             $form.trigger('reset');
          })
          .fail(function (err) {
@@ -149,7 +148,6 @@ $(function () {
             $("#contactQueryNotCreated").hide();
             $("#input-hide").hide();
             $("#contactQueryCreated").show();
-            grecaptcha.reset();
             $form.trigger('reset');
          })
          .fail(function (err) {

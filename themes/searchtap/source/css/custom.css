@@ -320,6 +320,10 @@ input[type="tel"], input[type="text"] {
     min-height: 944px;
 }
 
+.blog-section {
+    margin-top: 0px;
+}
+
 .mini-posts .intl-tel-input .country-list {
     width: 240px;
     max-height: 150px;
@@ -6096,6 +6100,11 @@ footer.bg-gray li,
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+
+    .blog-section {
+        margin-top: 20px;
+    }
+
     .pt32 {
         padding-top: 32px;
     }

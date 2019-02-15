@@ -42,7 +42,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 input[type=number] {
-    -moz-appearance:textfield;
+    -moz-appearance: textfield;
 }
 
 #back-top {
@@ -313,6 +313,17 @@ input[type="tel"], input[type="text"] {
     display: inline-block;
 }
 
+.pricing-page .pricing-table.emphasis {
+    background: #47b475;
+    color: #fff;
+    margin-top: 0px;
+    min-height: 944px;
+}
+
+.mini-posts .intl-tel-input .country-list {
+    width: 240px;
+    max-height: 150px;
+}
 
 #leaveamsg .st-txt:before {
     content: '';
@@ -386,7 +397,7 @@ form.leave-a-message {
     margin-bottom: 20px;
 }
 
-.beta{
+.beta {
     color: red;
     font-size: 9.5px;
     position: absolute;
@@ -3038,6 +3049,7 @@ FF
 }
 
 FF
+
 19
 +
 .type-n-search2::-moz-placeholder {
@@ -4609,6 +4621,12 @@ footer.bg-gray li,
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
+
+    .intl-tel-input .country-list {
+        white-space: unset;
+        width: 80%;
+    }
+
     .mobile-view {
         display: block;
     }
@@ -6086,6 +6104,10 @@ footer.bg-gray li,
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
 
+    .pricing-page .pricing-table.emphasis {
+      margin-top: 10px;
+    }
+
     .blog-bg {
         height: 210px !important;
     }
@@ -6161,10 +6183,10 @@ footer.bg-gray li,
     }
 
     .crisp-client .crisp-1rjpbb7[data-full-view=true] .crisp-1rf4xdh .crisp-kquevr .crisp-x94m06 {
-        margin-bottom: 48px!important;
+        margin-bottom: 48px !important;
     }
 
-    body.iti-mobile ol{
+    body.iti-mobile ol {
         padding: 0 20px;
     }
 
@@ -6254,7 +6276,7 @@ footer.bg-gray li,
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
 
-    .pd-20{
+    .pd-20 {
         padding: 0 20px;
     }
 

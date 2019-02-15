@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "urbanmonkey",
+    "image": "urban-monkey-banner.jpg",
+    "platform": "shopify",
+    "logo_type": 1,
+    "about": "SearchTap.io helps Urban Monkey to create a delightful search experience leading to a 3x increase in search transactions & revenues.",
+    "stats": [
+      {
+        "title": "Search revenue",
+        "value": "3x",
+        "type": "positive"
+      },
+      {
+        "title": "Page views via search",
+        "value": "3.5x",
+        "type": "positive"
+      },
+      {
+        "title": "Mobile search bounces",
+        "value": "25%",
+        "type": "negative"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "glen",
+    "image": "glen-banner.jpg",
+    "platform": "php",
+    "logo_type": 1,
+    "about": "Search contributes to 40% website revenues for Glen Appliances with SearchTap. Here's how.",
+    "stats": [
+      {
+        "title": "Contribution to website revenue",
+        "value": "40%",
+        "type": "positive"
+      },
+      {
+        "title": "Session duration",
+        "value": "2.5x",
+        "type": "positive"
+      },
+      {
+        "title": "Conversion rate",
+        "value": "3x",
+        "type": "negative"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "headphonezone",
+    "image": "headphonezone-banner.jpg",
+    "platform": "shopify-gold",
+    "logo_type": 2,
+    "about": "Headphone Zone offers a custom e-commerce search experience with SearchTap.io. Achieves 37% increase in search revenue.",
+    "stats": [
+      {
+        "title": "Search revenue",
+        "value": "37%",
+        "type": "positive"
+      },
+      {
+        "title": "Search click-through rate",
+        "value": "22%",
+        "type": "positive"
+      },
+      {
+        "title": "Search bounce rate",
+        "value": "76%",
+        "type": "negative"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "amydus",
+    "image": "amydus-banner.jpg",
+    "platform": "magento",
+    "logo_type": 1,
+    "about": "Amydus achieves a whopping 49% lift in search revenue using SearchTap’s search as your type technology.",
+    "stats": [
+      {
+        "title": "Search revenue",
+        "value": "49%",
+        "type": "positive"
+      },
+      {
+        "title": "Search conversion rate",
+        "value": "31%",
+        "type": "positive"
+      },
+      {
+        "title": "AOV of search users",
+        "value": "18%",
+        "type": "positive"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "jewelmaze",
+    "image": "jewelmaze-banner.jpg",
+    "platform": "shopify-gold",
+    "logo_type": 2,
+    "about": "JewelMaze uses SearchTap.io’s search and smart dynamic filters to improve search conversions by 20%.",
+    "stats": [
+      {
+        "title": "Search Conversion Rate",
+        "value": "20%",
+        "type": "positive"
+      },
+      {
+        "title": "Total Search Exits",
+        "value": "50%",
+        "type": "negative"
+      },
+      {
+        "title": "Average Bounce Rate",
+        "value": "40%",
+        "type": "negative"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "bigsmall",
+    "image": "bigsmall-banner.jpg",
+    "platform": "shopify-gold",
+    "logo_type": 2,
+    "about": "Search revenue contribution goes over 50% after BigSmall.in uses SearchTap to improve site search.",
+    "stats": [
+      {
+        "title": "Search Revenue",
+        "value": "35%",
+        "type": "positive"
+      },
+      {
+        "title": "Pages/Session",
+        "value": "33%",
+        "type": "positive"
+      },
+      {
+        "title": "Search bounce rate",
+        "value": "27%",
+        "type": "negative"
+      }
+    ]
+  }
+]

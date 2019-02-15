@@ -4,6 +4,10 @@
     background-repeat: no-repeat;
 }
 
+.pb30 {
+    padding-bottom: 30px;
+}
+
 .bg-blue-c .pl65 {
     padding-left: 65px;
 }

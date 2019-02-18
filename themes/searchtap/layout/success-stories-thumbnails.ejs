@@ -21,63 +21,72 @@
 
                             <% site.data.success_stories.forEach((story) => { %>
 
-                                <div class="col-md-6">
+                            <div class="col-md-6">
 
-                                    <div class="client-info">
-                                        <a href="<%-story.title%>/">
+                                <div class="client-info">
+                                    <a href="<%- story.title %>/">
 
-                                            <div class="client-info-img">
+                                        <div class="client-info-img">
 
-                                                <%- image_tag(`/img/success-stories/${story.thumb_image}`, {
-                                                    class: 'img-responsive'
-                                                }) %>
+                                            <%- image_tag(`/img/success-stories/${story.thumb_image}`, {
+                                                class: 'img-responsive'
+                                            }) %>
 
-                                                <span class="platform-logo-<%- story.logo_type%>">
+                                            <span class="platform-logo-<%- story.logo_type %>">
                                                 <%- image_tag(`/img/${story.platform}-logo.png`, {
                                                     class: 'img-responsive'
                                                 }) %>
                                                 </span>
+                                        </div>
+
+                                        <div class="client-info-txt hidden-xs hidden-sm">
+                                            <p><%- story.about %></p>
+
+                                            <div class="pull-right read-more-btn ">Read more
+                                                <span class="cart">
+                                                <img src="/img/right-blue-arrow.svg" alt="right blue arrow"
+                                                     class="img-responsive"></span>
                                             </div>
 
-                                            <div class="client-info-txt hidden-xs hidden-sm">
-                                                <p><%- story.about %></p>
+                                        </div>
 
-                                                <div class="pull-right read-more-btn ">Read more
-                                                    <span class="cart">
-                                                <img src="/img/right-blue-arrow.svg" alt="right blue arrow" class="img-responsive"></span>
-                                                </div>
+                                    <div class="client-info-gray">
 
-                                            </div>
+                                        <% story.stats.forEach(stat=> { %>
 
-                                        </a>
+                                            <div class="client-info-column">
+                                                <h2>
 
-                                        <div class="client-info-gray">
+                                                    <% if(stat.type === 'greater-than') { %>
+                                                        <span class="arrow-greater-then">
+                                                        <img src="/img/greater-than.svg"
+                                                             class="img-responsive"> </span>
+                                                    <% } %>
 
-                                            <% story.stats.forEach(stat=> { %>
+                                                    <%- stat.value %>
 
-                                                <div class="client-info-column">
-                                                    <h2><%- stat.value %>
-                                                        <% if (stat.type === 'positive') { %>
-                                                            <span class="arrow-green">
+                                                    <% if (stat.type === 'positive') { %>
+                                                        <span class="arrow-green">
                                                         <img src="/img/green-up-arrow.svg"
                                                              class="img-responsive"> </span>
-                                                        <% } else if(stat.type === 'negative') { %>
-                                                            <span class="arrow-red">
+                                                    <% } else if(stat.type === 'negative') { %>
+                                                        <span class="arrow-red">
                                                         <img src="/img/red-down-arrow.svg"
                                                              class="img-responsive"> </span>
-                                                        <% } %>
-                                                    </h2>
-                                                    <small><span><%- stat.title %></span></small>
-                                                </div>
-                                            <% }) %>
-                                        </div>
-
-                                        <div class="read-more-btn hidden-md hidden-lg">
-                                            <a href="<%-story.title%>/" class="read_more">Read more</a>
-                                        </div>
-
+                                                    <% } %>
+                                                </h2>
+                                                <small><span class="stat-name"><%- stat.title %></span></small>
+                                            </div>
+                                        <% }) %>
                                     </div>
+
+                                    <div class="read-more-btn hidden-md hidden-lg">
+                                        <a href="<%- story.title %>/" class="read_more">Read more</a>
+                                    </div>
+                                    </a>
+
                                 </div>
+                            </div>
 
                             <% }) %>
                         </div>

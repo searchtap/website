@@ -51,17 +51,17 @@
       {
         "title": "Contribution to website revenue",
         "value": "40%",
-        "type": "positive"
+        "type": "greater-than"
       },
       {
         "title": "Session duration",
         "value": "2.5x",
-        "type": "positive"
+        "type": "greater-than"
       },
       {
         "title": "Conversion rate",
         "value": "3x",
-        "type": "negative"
+        "type": "greater-than"
       }
     ]
   },

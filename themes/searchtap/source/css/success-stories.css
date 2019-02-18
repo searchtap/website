@@ -93,6 +93,10 @@ h2.case-title {
     background-repeat: no-repeat;
 }
 
+.stat-name {
+    color: #666;
+}
+
 .white-box {
     background-color: #fff;
     box-shadow: 0px 15px 35px 0px rgba(117, 119, 120, 0.23);

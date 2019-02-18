@@ -83,7 +83,7 @@
                             </div>
                             <div class="pb5"><b>Industry:</b> <%- story.industry_type %>
                             </div>
-                            <div class="pb5"><b>Platform:</b> <%- story.platform %></div>
+                            <div class="pb5"><b>Platform:</b> <%- story.platform.replace(/-/g, ' ') %></div>
                         </div>
 
                         <%- partial('./_partial/success-story-form') %>

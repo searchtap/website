@@ -4626,11 +4626,6 @@ footer.bg-gray li,
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
 
-    .intl-tel-input .country-list {
-        white-space: unset;
-        width: 80%;
-    }
-
     .mobile-view {
         display: block;
     }
@@ -6244,6 +6239,11 @@ footer.bg-gray li,
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+
+    .intl-tel-input .country-list {
+        white-space: unset;
+        width: 80%;
+    }
 
     .moblie-banner {
         text-align: center;

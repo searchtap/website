@@ -87,7 +87,7 @@ h2.case-title {
     position: absolute;
     width: 35px;
     height: 35px;
-    background-image: url(/source/img/quotation-marks.svg);
+    background-image: url(/img/quotation-marks.svg);
     background-size: 30px;
     margin-top: -40px;
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@ img.blur {
 .results-stats .up-arrow {
     width: 20px;
     height: 20px;
-    background-image: url(/source/img/green-up-arrow.svg);
+    background-image: url(/img/green-up-arrow.svg);
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: center center;
@@ -210,7 +210,7 @@ img.blur {
 .results-stats .down-arrow {
     width: 20px;
     height: 20px;
-    background-image: url(/source/img/red-down-arrow.svg);
+    background-image: url(/img/red-down-arrow.svg);
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: center center;
@@ -330,7 +330,7 @@ img.blur {
     text-align: center;
 }
 
-#success-stories .client-info-txt .read-more-btn {
+.read-more-btn {
     color: #0685fb;
     margin-bottom: 10px;
 }
@@ -472,7 +472,7 @@ img.blur {
 
     .read-more-btn a.read_more:after {
         content: '';
-        background-image: url(/source/img/green-right-arrow.png);
+        background-image: url(/img/green-right-arrow.png);
         background-repeat: no-repeat;
         background-size: 10px;
         position: absolute;

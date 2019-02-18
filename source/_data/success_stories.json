@@ -2,10 +2,18 @@
   {
     "id": 1,
     "title": "urbanmonkey",
-    "image": "urban-monkey-banner.jpg",
+    "thumb_image": "urbanmonkey/urban-monkey-banner.jpg",
+    "main_image": "urbanmonkey/urbanmonkey-search.jpg",
+    "stat_image": "urbanmonkey/stats-urbanmonkey.png",
+    "reviewer_image": "urbanmonkey/yash.png",
+    "store_logo": "urbanmonkey/urbanmonkey-logo.png",
     "platform": "shopify",
     "logo_type": 1,
     "about": "SearchTap.io helps Urban Monkey to create a delightful search experience leading to a 3x increase in search transactions & revenues.",
+    "review": "We didn’t expect that a search solution would help us improve our storefront as well...with SearchTap.io we have search users converting more frequently than ever.",
+    "reviewer": "Yash Gangwal, Founder, Urban Monkey",
+    "industry_type": "Fashion Apparel & Accessories",
+    "store_address": "https://www.urbanmonkey.com/",
     "stats": [
       {
         "title": "Search revenue",
@@ -27,10 +35,18 @@
   {
     "id": 2,
     "title": "glen",
-    "image": "glen-banner.jpg",
+    "thumb_image": "glen/glen-banner.jpg",
+    "main_image": "glen/glen-search.jpg",
+    "stat_image": "glen/stats-glen.png",
+    "reviewer_image": "glen/ajay.png",
+    "store_logo": "glen/glen-logo.png",
     "platform": "php",
     "logo_type": 1,
     "about": "Search contributes to 40% website revenues for Glen Appliances with SearchTap. Here's how.",
+    "review": "SearchTap.io’s product is the complete package for our store. Search now regularly contributes around 40% of our website revenues.",
+    "reviewer": "Ajay Khanda, CEO at Glen Appliances",
+    "industry_type": "Kitchen & Home Appliances",
+    "store_address": "https://www.glenindia.com/",
     "stats": [
       {
         "title": "Contribution to website revenue",
@@ -52,10 +68,18 @@
   {
     "id": 3,
     "title": "headphonezone",
-    "image": "headphonezone-banner.jpg",
+    "thumb_image": "headphonezone/headphonezone-banner.jpg",
+    "main_image": "headphonezone/headphonezone-search.jpg",
+    "stat_image": "headphonezone/stats-headphonezone.png",
+    "reviewer_image": "headphonezone/kamna.png",
+    "store_logo": "headphonezone/hpz-logo.gif",
     "platform": "shopify-gold",
     "logo_type": 2,
     "about": "Headphone Zone offers a custom e-commerce search experience with SearchTap.io. Achieves 37% increase in search revenue.",
+    "review": "Customers are in love with how smooth search as you type works on our site. The new search has revitalized our customer experience, especially on mobile.",
+    "reviewer": "Kamna Karamchandani, Digital Marketer at Headphone Zone",
+    "industry_type": "Music Accessories - Retail",
+    "store_address": "https://www.headphonezone.com/",
     "stats": [
       {
         "title": "Search revenue",
@@ -77,10 +101,18 @@
   {
     "id": 4,
     "title": "amydus",
-    "image": "amydus-banner.jpg",
+    "thumb_image": "amydus/amydus-banner.jpg",
+    "main_image": "amydus/amydus-search.jpg",
+    "stat_image": "amydus/stats-amydus.png",
+    "reviewer_image": "amydus/kartik.png",
+    "store_logo": "amydus/amydus-logo.png",
     "platform": "magento",
     "logo_type": 1,
     "about": "Amydus achieves a whopping 49% lift in search revenue using SearchTap’s search as your type technology.",
+    "review": "After switching over to SearchTap.io’s e-commerce search we were able to better engage our visitors across devices and that really helped drive up our revenues. We knew that improving our search was necessary but the results from SearchTap.io’s product exceeded our expectations.",
+    "reviewer": "Kartik Spara, CEO at Amydus",
+    "industry_type": "Fashion, Lifestyle",
+    "store_address": "https://www.amydus.com/",
     "stats": [
       {
         "title": "Search revenue",
@@ -102,10 +134,18 @@
   {
     "id": 5,
     "title": "jewelmaze",
-    "image": "jewelmaze-banner.jpg",
+    "thumb_image": "jewelmaze/jewelmaze-banner.jpg",
+    "main_image": "jewelmaze/jewelmaze-search.jpg",
+    "stat_image": "jewelmaze/stats-jewelmaze.png",
+    "reviewer_image": "jewelmaze/ritesh.png",
+    "store_logo": "jewelmaze/jewelmaze-logo.png",
     "platform": "shopify-gold",
     "logo_type": 2,
     "about": "JewelMaze uses SearchTap.io’s search and smart dynamic filters to improve search conversions by 20%.",
+    "review": "When we were talking with the SearchTap.io team, we were quite impressed with their experience working with online retail and brand stores. Our search is now better than ever and now delivers accurate search results within milliseconds.",
+    "reviewer": "Ritesh Barbhaya, Founder, JewelMaze",
+    "industry_type": "Fashion Jewellery",
+    "store_address": "https://www.jewelmaze.com/",
     "stats": [
       {
         "title": "Search Conversion Rate",
@@ -127,10 +167,18 @@
   {
     "id": 6,
     "title": "bigsmall",
-    "image": "bigsmall-banner.jpg",
+    "thumb_image": "bigsmall/bigsmall-banner.jpg",
+    "main_image": "bigsmall/bigsmall-search.jpg",
+    "stat_image": "bigsmall/stats-bigsmall.png",
+    "reviewer_image": "bigsmall/aman.png",
+    "store_logo": "bigsmall/bigsmall-logo.png",
     "platform": "shopify-gold",
     "logo_type": 2,
     "about": "Search revenue contribution goes over 50% after BigSmall.in uses SearchTap to improve site search.",
+    "review": "Our site search was completely transformed...SearchTap.io completely exceeded our expectation of what an e-commerce search can achieve.",
+    "reviewer": "Aman Hans, CEO at BigSmall",
+    "industry_type": "Lifestyle, Gifts",
+    "store_address": "https://www.bigsmall.in/",
     "stats": [
       {
         "title": "Search Revenue",

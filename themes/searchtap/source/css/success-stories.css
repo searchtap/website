@@ -8,6 +8,10 @@
     padding-bottom: 30px;
 }
 
+.client-logo-wrapper img{
+    max-width: 740px;
+}
+
 .bg-blue-c .pl65 {
     padding-left: 65px;
 }

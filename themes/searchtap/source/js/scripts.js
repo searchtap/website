@@ -328,7 +328,7 @@ $(document).ready(function () {
       minItems: 1,
       maxItems: 20,
       move: 1,
-      itemWidth: 300,
+      itemWidth: 150,
       itemMargin: 0,
       animation: "slide",
       slideshow: true,

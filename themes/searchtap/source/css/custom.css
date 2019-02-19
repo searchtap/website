@@ -6,8 +6,16 @@ input[name="bot-field"] {
     display: none;
 }
 
+input, textarea {
+    font-size: 16px !important;
+}
+
 .g-recaptcha {
     display: none;
+}
+
+.pt30 {
+    padding-top: 30px;
 }
 
 .blog-content p, .blog-content ul, .blog-content li, .blog-content ol, .blog-content span {
@@ -55,7 +63,8 @@ input[type=number] {
     width: 42px;
     height: 42px;
     bottom: 20%;
-    margin-bottom: 20px;
+    z-index: 999;
+    margin-bottom: 30px;
     display: none;
     border-radius: 4px;
     cursor: pointer;
@@ -166,7 +175,7 @@ input[type="tel"], input[type="text"] {
 }
 
 .homepage-form-container {
-    padding: 30px 25px;
+    padding: 15px 25px;
     border-radius: 80px 80px 80px 0px;
     background-color: rgba(255, 255, 255, 1) !important;
 }
@@ -194,13 +203,14 @@ input[type="tel"], input[type="text"] {
     line-height: 22px;
 }
 
-#requestDemoForm input[type="text"], #requestDemoForm input[type="email"], #requestDemoForm input[type="tel"] {
-    /*height: 40px;*/
-    margin-bottom: 15px;
+#requestDemoForm input[type="text"], #requestDemoForm input[type="email"], #requestDemoForm input[type="number"] {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 #requestDemoForm button[type="submit"] {
     max-width: 170px;
+    margin-top: 5px;
 }
 
 #requestDemoForm .selected-dial-code, #requestDemoForm .country-name {
@@ -1929,7 +1939,7 @@ input[type="text"], input[type="number"] {
     height: 50px;
     padding-left: 20px;
     font-weight: 500;
-    margin-bottom: 24px;
+    margin-bottom: 5px;
     border-radius: 0;
 }
 
@@ -6196,7 +6206,7 @@ footer.bg-gray li,
 
     .v-txt {
         padding-top: 20px;
-        font-size: 14px !important;
+        font-size: 13px !important;
     }
 
     #requestDemoForm {
@@ -6239,6 +6249,12 @@ footer.bg-gray li,
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+
+    .not-t {
+        position: relative;
+        top: -9px;
+        right: 0px;
+    }
 
     .intl-tel-input .country-list {
         white-space: unset;

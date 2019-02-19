@@ -328,11 +328,11 @@ $(document).ready(function () {
       minItems: 1,
       maxItems: 20,
       move: 1,
-      itemWidth: 300,
+      itemWidth: 200,
       itemMargin: 0,
       animation: "slide",
       slideshow: true,
-      slideshowSpeed: 3000,
+      slideshowSpeed: 2000,
       directionNav: false,
       controlNav: false
     });

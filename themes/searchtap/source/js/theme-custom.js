@@ -62,9 +62,5 @@ $(function () {
     e.preventDefault();
     $("#sidebar-wrapper").toggleClass("active");
   });
-
-  $("#number, #number2").intlTelInput({
-    separateDialCode: true
-  });
 });
 

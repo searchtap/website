@@ -103,11 +103,6 @@ $(function () {
       $("#leaveMessageForm").prop('disabled', true);
       var $form = $(this);
 
-      // check if form has country code and assign its value to country code hidden input
-      if ($form.find('#country_code') !== undefined) {
-         $form.find('#country_code').val($form.find('.selected-dial-code').text());
-      }
-
          $.post($form.attr("action"), $form.serialize())
          .done(function () {
 
@@ -137,11 +132,6 @@ $(function () {
       event.preventDefault();
       $("#contactUsFormSubmit").prop('disabled', true);
       var $form = $(this);
-
-      // check if form has country code and assign its value to country code hidden input
-      if ($form.find('#country_code') !== undefined) {
-         $form.find('#country_code').val($form.find('.selected-dial-code').text());
-      }
 
       $.post($form.attr("action"), $form.serialize())
          .done(function () {

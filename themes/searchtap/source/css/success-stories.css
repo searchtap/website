@@ -341,7 +341,6 @@ img.blur {
 
 .read-more-btn {
     color: #0685fb;
-    margin-bottom: 10px;
 }
 
 .client-info-txt .cart {
@@ -373,6 +372,11 @@ img.blur {
 }
 
 @media only screen and (max-width: 768px) {
+
+    .case-posts #requestDemoForm h2 {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
 
     .bg-blue-c.success-stories {
         padding: 0px 15px;

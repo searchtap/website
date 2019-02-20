@@ -3,8 +3,7 @@
 
         <article class="mini-post" style="background-color: #47b475; padding: 15px; padding-top: 20px;">
 
-            <form name="Success Story Form" class="text-center form-email" id="requestDemoForm" method="post">
-                <input type="hidden" value="Request a Demo">
+            <form name="Success Story Form" class="text-center form-email" id="requestDemoForm" method="POST" netlify-honeypot="bot-field" data-netlify="true">
 
                 <h2 class="mb10 text-white" style="font-size: 16px;">Looking for a personalised demo?</h2>
 
@@ -13,7 +12,7 @@
                     <div class="alert alert-success" id="leadCreated" style="display: none; border-color: #fff !important; color: #fff !important;">
                         <span class="text-center">Thank you for your interest in SearchTap. Our search experts will contact you to schedule a demo shortly!</span></div>
 
-                    <div class="alert alert-danger" id="leadNotCreated" style="display: none; border-color: red !important; color: red !important;">
+                    <div class="alert alert-danger" id="leadNotCreated" style="display: none; border-color: red !important; color: #fff !important; background-color: red">
                         <span class="text-center">Please enter valid details.</span></div>
 
                     <label>

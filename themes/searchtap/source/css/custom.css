@@ -5141,8 +5141,18 @@ footer.bg-gray li,
         padding-right:10px;
     }
 
+    .re-left {
+        width: 100%;
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+
     .bg-green h1.large {
 font-size: 52px;
+    }
+
+    .icons-list {
+        margin-right: 0px;
     }
 
     .card__front, .card__back {

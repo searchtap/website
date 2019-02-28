@@ -399,3 +399,14 @@
 }
 
     }
+
+  @media only screen and (max-width : 768px) {
+      #menu-toggle {
+          display: block;
+      }
+
+      .logo {
+          padding-left: 20px !important;
+      }
+
+  }

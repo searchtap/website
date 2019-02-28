@@ -100,7 +100,7 @@ h2.case-title {
 
 .stat-name {
     color: #666;
-    white-space: nowrap;
+    white-space: normal;
 }
 
 .white-box {
@@ -184,6 +184,10 @@ h2.case-title {
 }
 
 .max-width {
+    max-width: 800px;
+}
+
+.max-width-1000 {
     max-width: 1000px;
 }
 

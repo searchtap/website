@@ -96,14 +96,15 @@ $(function () {
       window.location.href = "free-trial.html";
    });
 
-   $("#requestDemoForm, #leaveMessageForm, #requestDemoFormSubmit").submit(function (event) {
+   $("#requestDemoForm, #leaveMessageForm").submit(function (event) {
 
       event.preventDefault();
       $("#requestDemoFormSubmit").prop('disabled', true);
-      $("#leaveMessageForm").prop('disabled', true);
       var $form = $(this);
 
-         $.post($form.attr("action"), $form.serialize())
+      let serializedData = ($form.serialize()).replace('&g-recaptcha-response=', '');
+
+         $.post($form.attr("action"), serializedData)
          .done(function () {
 
             $form.find("#leadCreated").fadeIn();
@@ -123,7 +124,6 @@ $(function () {
          .always(function () {
 
             $("#requestDemoFormSubmit").prop('disabled', false);
-            $("#leaveMessageForm").prop('disabled', false);
          });
    });
 

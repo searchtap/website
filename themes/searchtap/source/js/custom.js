@@ -96,7 +96,7 @@ $(function () {
       window.location.href = "free-trial.html";
    });
 
-   $("#requestDemoForm, #leaveMessageForm").submit(function (event) {
+   $("#requestDemoForm, #leaveMessageForm, #requestDemoFormSubmit").submit(function (event) {
 
       event.preventDefault();
       $("#requestDemoFormSubmit").prop('disabled', true);

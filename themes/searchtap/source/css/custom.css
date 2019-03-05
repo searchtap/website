@@ -129,7 +129,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
     background: url(../img/cover12.jpg) no-repeat center top;
     height: 286px !important;
     padding-top: 10px;
-    z-index: 99 !important;
+    z-index: 9 !important;
 }
 
 .vertitcal-text {
@@ -6148,6 +6148,28 @@ font-size: 52px;
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+
+    .re-left {
+        width: 100%;
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+
+    .white-frm .pt88 {
+        padding-bottom: 100px;
+    }
+
+    .feature {
+        margin-bottom: 0px;
+    }
+
+    .feature.feature-3 ul.list-unstyled{
+        margin-bottom: 0px;
+    }
+
+    .feature.feature-3 {
+        margin-top: 30px;
+    }
 
     .max-width-600 {
         max-width: 100%;

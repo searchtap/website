@@ -384,10 +384,10 @@ img.blur {
 
 }
 
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 800px) {
 
-    .story-content .container {
-        width: 1200px;
+    .story-content section {
+        overflow: visible;
     }
 
 }

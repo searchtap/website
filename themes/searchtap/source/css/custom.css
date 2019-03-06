@@ -5536,9 +5536,9 @@ font-size: 52px;
     }
 
     .re-left {
-        width: 88%;
+        width: 100%;
         margin: 0 auto;
-        margin-left: 40px;
+        margin-left: 0px;
     }
 
     .white-frm .mb48 {

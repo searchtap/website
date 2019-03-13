@@ -21,6 +21,16 @@
     padding-left: 65px;
 }
 
+.story-content .widget.white-box {
+    position: relative;
+    z-index: 9;
+}
+
+.story-content .mini-posts.case-posts {
+    position: relative;
+    z-index: 9;
+}
+
 .bottom-strip .btn {
     margin-top: 0px;
 }

@@ -102,10 +102,12 @@ input[type=number] {
 }
 
 .rising-star {
-    position: relative;
-    width: 100%;
+    position: fixed;
+    left: 10px;
+    bottom: 100px;
+    z-index: 9;
     clear: both;
-    text-align: center;
+    text-align: left;
 }
 
 .f-box {

@@ -93,6 +93,24 @@ input[type=number] {
     padding-left: 10px;
 }
 
+.rising-star img {
+    display: none !important;
+    width: 170px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.rising-star {
+    position: fixed;
+    left: 10px;
+    bottom: 100px;
+    z-index: 9;
+    clear: both;
+    text-align: left;
+}
+
 .f-box {
     border: 1px solid rgba(0, 0, 0, .1);
     border-right: 6px solid #47b475;
@@ -6148,6 +6166,14 @@ font-size: 52px;
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+
+    .rising-star img {
+        width: 150px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
 
     .re-left {
         width: 100%;

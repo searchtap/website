@@ -71,82 +71,25 @@ permalink: features/
     <div class="container">
         <div class="row">
             <div class="col-md-12  col-sm-12 text-center">
-                <h2 class="mb40">Adaptive Machine Learning Algorithm</h2>
+                <h2 class="mb32">Adaptive Machine Learning Algorithm</h2>
                 <div class="tabbed-content text-tabs">
-                    <ul class="tabs">
-                        <li class="active">
-                            <div class="tab-title" style="font-size:16px !important;">
-                                <span style="font-size:16px;">Full Text Search</span>
-                            </div>
+                    <hr>
+                    <div class="content col-md-12 pb24">
 
-                        </li>
-                        <li class="">
-                            <div class="tab-title">
-                                <span style="font-size:16px;">Ngram Matching</span>
-                            </div>
+                        <p>
+                            The SearchTap search engine uses text queries to perform searches against data in
+                            its indexes by
+                            examining all words and phrases based on rules of a particular language (such as
+                            English,
+                            German, etc). User queries can include simple words and phrases or multiple forms of
+                            a word or
+                            phrase. SearchTap employs advanced algorithms to rank results by how relevant they
+                            are to the
+                            given search query. <span id="fast"></span>
+                        </p>
 
-                        </li>
-                        <li class="">
-                            <div class="tab-title">
-                                <span style="font-size:16px;">Stemming</span>
-                            </div>
-
-                        </li>
-
-                    </ul>
-                    <ul class="content col-md-12 ">
-
-                        <li class="active">
-                            <div class="tab-content">
-                                <p>
-                                    The SearchTap search engine uses text queries to perform searches against data in
-                                    its indexes by
-                                    examining all words and phrases based on rules of a particular language (such as
-                                    English,
-                                    German, etc). User queries can include simple words and phrases or multiple forms of
-                                    a word or
-                                    phrase. SearchTap employs advanced algorithms to rank results by how relevant they
-                                    are to the
-                                    given search query. <span id="fast"></span>
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="">
-                            <div class="tab-content">
-                                <p class="normal-height pb16">
-                                    SearchTap uses n-gram models to help users find results for multiple word queries
-                                    that are
-                                    similar but not exactly the same as the text in the search index.
-                                    Taking the example of an electronics store website which sells many products that
-                                    have the
-                                    phrase "music player" in the specifications but no products with the term
-                                    "musicplayer".
-                                    SearchTap would still return "music player" product results for the query
-                                    "musicplayer" even
-                                    though there is no exact match.</p>
-
-                            </div>
-                        </li>
-                        <li class="">
-                            <div class="tab-content">
-                                <p class="normal-height pb16">
-
-                                    Stemming is the process of reducing words to their root forms - generally a written
-                                    word form
-                                    and is very successfully used for information retrieval. In order to stem a word,
-                                    SearchTap's
-                                    algorithm tries to match it with stems from the database, applying various
-                                    constraints, such as
-                                    the relative length of the candidate stem within the word. Stemming enables the
-                                    search to return
-                                    highly relevant matches that would otherwise be missed.
-                                </p>
-
-
-                            </div>
-                        </li>
-                    </ul>
+                    </div>
+                    <ul class="content"></ul>
                 </div>
                 <!--end of text tabs-->
             </div>
@@ -217,15 +160,13 @@ permalink: features/
                         <i class="ti-check-box icon-sm"></i>
                     </div>
                     <div class="right">
-                        <h5 class="uppercase mb5">AUTOCORRECT</h5>
+                        <h5 class="uppercase mb5">Typo Tolerance</h5>
                         <p>
                             SearchTap's inbuilt typo tolerant algorithm helps reduce common spelling mistakes as users
                             perform
                             searches. Every search term is checked against our search index and other search queries to
                             identify typing errors. Our algorithms automatically correct mistakes to show results for
-                            correct
-                            search terms or can be configured alternatively for ("did you mean ...?")<span id="auto"
-                                                                                                           class=""></span>.
+                            single or two letter typos<span id="auto" class=""></span>.
 
 
                         </p>
@@ -265,7 +206,8 @@ permalink: features/
                         <p>
                             Searchtap offers same speed and reliability on mobile devices and tablets as it does on
                             desktops.
-                            Search-as-you-type and Spellcheck help users find whatever they fancy on any device of their
+                            Search-as-you-type and typo tolrance help users find whatever they fancy on any device of
+                            their
                             choice. Images, filters, and content is carefully optimised and presented to users in fully
                             customisable mobile responsive layouts. Ready to use APIs are available for iOS, Android and
                             Windows apps. </p>
@@ -279,16 +221,13 @@ permalink: features/
                     </div>
                     <div class="right">
                         <h5 class="uppercase mb5">CUSTOM RESULT RANKING
-
+                            <span class="beta" style="font-weight: 600;">BETA</span>
                         </h5>
                         <p>
-                            SearchTap provides search rankings automatically, but sometimes businesses require the
-                            flexibility
-                            to influence search result rankings in order to drive more traffic to specific pages.
-                            SearchTap
-                            offers an option to manually add/remove pages or assign a custom ranking to particular
-                            search
-                            results that are expected to yield better business results.
+                            Sometimes businesses require the flexibility to influence search result rankings in order to
+                            drive more traffic to specific pages/products. SearchTap offers an option to read custom
+                            ranking attributes (such as popularity, create date, etc) and change ordering of search
+                            results.
 
 
                         </p>
@@ -348,7 +287,8 @@ permalink: features/
 
         <div class="col-md-6 col-md-push-6">
 
-            <img alt="Dynamic Search Filters" class=" img-responsive img-ss" src="/img/products/Features-Covered/dynamic_search_filters.png"/>
+            <img alt="Dynamic Search Filters" class=" img-responsive img-ss"
+                 src="/img/products/Features-Covered/dynamic_search_filters.png"/>
 
         </div>
 
@@ -378,32 +318,6 @@ permalink: features/
                 </div>
             </div>
             <!--end of feature-->
-
-            <div class="feature feature-3">
-                <div class="left">
-                    <i class="ti-panel icon-sm"></i>
-                </div>
-                <div class="right">
-                    <h5 class="uppercase mb5">WEIGHTS </h5>
-                    <p>
-                        The SearchTap search engine adds a unique relevance ranking score to display search results in a
-                        particular order. At the same time, SearchTap also allows users to influence these search
-                        rankings
-                        by "boosting" certain content while indexing or using custom attributes (business metrics such
-                        as
-                        product ratings, monthly sales, margins, etc) to compute relevance during searches. By adding
-                        custom
-                        attributes, search results are built and sorted by combining text-relevance criteria along with
-                        the
-                        custom rankings.
-
-
-                    </p>
-
-
-                </div>
-            </div>
-
 
             <div class="feature feature-3 pb00">
                 <div class="left">
@@ -544,13 +458,7 @@ permalink: features/
                 <div class="right">
                     <h5 class="uppercase mb5">DATA DRIVEN INSIGHTS</h5>
                     <p>
-                        SearchTap churns all the relevant search data for your business and presents it as useful
-                        information which can help you improve customer experience and conversions. An easy to use
-                        dashboard
-                        saves you the trouble of digging into data to understand search trends. It not only helps to
-                        slice
-                        and dice engagement numbers for each category and sub-category but also to find profitable user
-                        segments and niches.
+                        SearchTap captures all the relevant search data for your business and presents it as useful information which can help you improve customer experience and conversions. An easy to use dashboard saves you the trouble of digging into data to understand search trends.
 
 
                     </p>
@@ -568,14 +476,7 @@ permalink: features/
                     <p>
                         SearchTap helps you measure every metric that matters to you and your customers: whatever they
                         look
-                        for, whatever they find or don’t find, time taken by each search, etc. SearchTap automatically
-                        alerts you when users spend statistically more time on particular products or pages as compared
-                        to
-                        others after performing a search. Our all-in-one dashboard can also be used to personalize
-                        search
-                        results for specific demographics and locations.
-
-
+                        for, whatever they find or don’t find, time taken by each search, etc.
                     </p>
                 </div>
             </div>
@@ -597,8 +498,6 @@ permalink: features/
                         <li><i class="ti-angle-right font-size10 pl4"></i> Know what products and categories are
                             searched
                             most often.
-                        </li>
-                        <li><i class="ti-angle-right font-size10 pl4"></i> Cultivate effective suggestions
                         </li>
 
                         <li><i class="font-size10 pl4"></i>
@@ -641,7 +540,9 @@ permalink: features/
                     <div class="">
                         <ul class="" style="position:relative; top:30px;">
                             <li>
-                                <img alt="Searchtap Distributed Hosted Search" src="/img/products/Features-Covered/searchtap_distributed_hosted_search.png" class="infra-img" style="">
+                                <img alt="Searchtap Distributed Hosted Search"
+                                     src="/img/products/Features-Covered/searchtap_distributed_hosted_search.png"
+                                     class="infra-img" style="">
                             </li>
 
 
@@ -700,15 +601,14 @@ permalink: features/
 <section class="image-bg overlay parallax pt64 pb64 bg-blue-xs">
     <div class="background-image-holder fadeIn"
          style="background: url('/img/searchtap_features_wallpaper.jpg');">
-        <img alt="Background" class="background-image" src="/img/searchtap_features_wallpaper.jpg" style="display: none;">
+        <img alt="Background" class="background-image" src="/img/searchtap_features_wallpaper.jpg"
+             style="display: none;">
     </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h3 class="mb16">There's so much to love</h3>
-                <p class="lead mb64">
-                    Go live With SearchTap in One Day!
-                </p>
+                <h3 class="mb64">There's so much to love</h3>
+
             </div>
         </div>
         <!--end of row-->
@@ -716,15 +616,12 @@ permalink: features/
             <div class="col-sm-4">
                 <div class="feature feature-1 boxed" style="min-height:292px;">
                     <div class="text-center">
-                        <i class="ti-wand icon text-white" style="color:#fff !important;"></i>
-                        <h5 class="uppercase">Code Free Setup</h5>
+                        <i class="ti-star icon text-white" style="color:#fff !important;"></i>
+                        <h5 class="uppercase">Guided Setup by Search Specialists</h5>
                     </div>
                     <p class="text-center">
-                        Integrating our search technology software is dead-simple: copy-paste a javascript code snippet
-                        site
-                        wide once and you are ready <br>
-                        to go live. <a href="#" data-toggle="tooltip" data-placement="top" title="SearchTap crawlers will automatically index your site and create your search engine which can be easily customised using the SearchTap dashboard. We can provide simple code instructions to your developer if you can’t add the code yourself. SearchTap also offers REST APIs for more control and flexibility.
-"> Learn more</a>
+                        Integrating with our search technology requires minimal involvement of your tech team.  <br>
+                        Our in house customer... <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Integrating with our search technology requires minimal involvement of your tech team. Our in house customer success team will take SearchTap live on your website in no time."> Learn more</a>
                     </p>
                 </div>
                 <!--end of feature-->
@@ -738,9 +635,7 @@ permalink: features/
                     <p class="text-center">
                         SearchTap keeps your website search index fresh, updating itself regularly. You can see all
                         details
-                        and request a reindex using the dashboard. <a href="#" data-toggle="tooltip"
-                                                                      data-placement="top"
-                                                                      title="SearchTap collects, parses, and stores data to facilitate fast and accurate search results. We typically perform indexing at predetermined time intervals keeping the search index up to date. You can request a manual reindex of specific pages or the entire website using the dashboard. We also offer automatic and on the fly indexing for newly created content via REST APIs.">
+                        and request a reindex using the dashboard. <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="SearchTap collects, parses, and stores data to facilitate fast and accurate search results. We typically perform indexing at predetermined time intervals keeping the search index up to date. You can request a manual reindex of specific pages or the entire website using the dashboard. We also offer automatic and on the fly indexing for newly created content via REST APIs.">
                             Learn more</a>
                     </p>
                 </div>
@@ -754,8 +649,8 @@ permalink: features/
                     </div>
 
                     <p class="text-center">
-                        SearchTap easily integrates with popular eCommerce & Content management systems such as Magento,
-                        Shopify, BigCommerce, PrestaShop, WordPress, Drupal & Joomla.
+                        SearchTap easily integrates with popular eCommerce &amp; Content management systems such as Magento,
+                        Shopify, BigCommerce, PrestaShop, WordPress, Drupal &amp; Joomla.
 
                     </p>
 
@@ -780,7 +675,7 @@ permalink: features/
                 <h3>Passionate Support
                 </h3>
                 <p class="mb40">
-                    Hundreds of clients around the globe trust SearchTap as their search partner. If you're considering
+                    eCommerce companies around the globe trust SearchTap as their search partner. If you're considering
                     to
                     offer your users a better search experience or just want more information, we're happy to help you.
                 </p>

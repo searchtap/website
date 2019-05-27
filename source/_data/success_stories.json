@@ -196,5 +196,71 @@
         "type": "negative"
       }
     ]
+  },
+  {
+    "id": 7,
+    "title": "propshop24",
+    "thumb_image": "propshop24/propshop-banner.jpg",
+    "main_image": "propshop24/propshop24-search.jpg",
+    "stat_image": "propshop24/stats-propshop24.png",
+    "reviewer_image": "propshop24/ayesha.png",
+    "store_logo": "propshop24/propshop24.png",
+    "platform": "Shopify",
+    "logo_type": 2,
+    "about": "Propshop24 achieves 11% increase in search conversion rate with SearchTap.io",
+    "review": "Search is now contributing more than 35% of our revenue and our mobile conversion and engagement rates have never been higher. SearchTap.io is the best Shopify site search app.",
+    "reviewer": "Ayesha Alam, Head of Marketing & Strategy at PropShop24",
+    "industry_type": "Home Decor, Stationery, Fashion",
+    "store_address": "https://propshop24.com/",
+    "stats": [
+      {
+        "title": "Search bounce rate",
+        "value": "87%",
+        "type": "negative"
+      },
+      {
+        "title": "Search Conversion Rate",
+        "value": "11%",
+        "type": "positive"
+      },
+      {
+        "title": "Search Revenue",
+        "value": "5%",
+        "type": "positive"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "mamaearth",
+    "thumb_image": "mamaearth/mamaearth-banner.jpg",
+    "main_image": "mamaearth/mamaearth-search.jpg",
+    "stat_image": "mamaearth/stats-mamaearth.png",
+    "reviewer_image": "mamaearth/Gaurav_Singh.jpg",
+    "store_logo": "mamaearth/mamaearth-logo.jpg",
+    "platform": "WooCommerce",
+    "logo_type": 2,
+    "about": "SearchTap transforms Mamaearth’s e-commerce search and helps them achieve 10x search conversions\n",
+    "review": "Our customers were blown away by the new search on our site and we could see the results immediately. We could have never even guessed that search would be such an important asset to us. The SearchTap team did a great job!",
+    "reviewer": "Gaurav Singh, Growth Manager, Mamaearth",
+    "industry_type": "Mother and baby care",
+    "store_address": "https://mamaearth.in/",
+    "stats": [
+      {
+        "title": "Search Conversions rate",
+        "value": "10x",
+        "type": "positive"
+      },
+      {
+        "title": "Search Transactions Rate",
+        "value": "10x",
+        "type": "positive"
+      },
+      {
+        "title": "Search Users",
+        "value": "11x",
+        "type": "positive"
+      }
+    ]
   }
 ]

@@ -1,0 +1,583 @@
+/*Patnership css*/
+.patnership-bg {
+    background-image: url(/img/patnership-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+img.max-width370{
+    max-width: 380px !important;
+}
+
+.patner-area .feature.boxed {
+    min-height: 340px;
+}
+
+.pt150{
+    padding-top: 150px;
+}
+
+.pt130{
+    padding-top: 130px;
+}
+
+.max-width500{
+    max-width: 500px !important;
+}
+
+.max-width650{
+    max-width: 650px !important;
+}
+
+.shopify-gold .pt104 {
+    padding-top: 104px;
+}
+
+.join-us{
+    position: relative;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px #e6e8e8;
+    padding: 40px;
+}
+
+/*end patnership css*/
+
+.shopify-gold-bg{
+    background-image:url("/img/shopify-gold-bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+.woocommerce-bg{
+    background-image:url("/img/woocommerce.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-top: 40px;
+    height: 100%;
+}
+
+.brand-icon{
+    width: 150px;
+    float: left;
+    position: absolute;
+    top: 67px;
+    left: 212px;
+}
+
+.pl64{
+    padding-left: 64px !important;
+}
+
+.shop-font-22{
+    font-size: 22px !important;
+}
+
+.max-width-420{
+    max-width: 420px !important;
+}
+
+.width1024{
+    max-width: 1124px !important;
+}
+
+.shopify-logo-wrapper {
+    padding: 40px 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.font-26{ font-size: 26px;}
+.shopify-blue-c h2.case-title{
+    font-size: 26px !important;
+    padding-top: 0px;
+    line-height: 40px;
+}
+
+.bg-blue-c .pl65{
+    padding-left: 65px;
+}
+
+.max-width400{
+    max-width: 400px;
+}
+
+._600{
+    font-weight: 600 !important;
+}
+._500{
+    font-weight: 500 !important;
+}
+
+._700{
+    font-weight: 700 !important;
+}
+
+.ml15{
+    margin-left: 15px;
+}
+
+ h2.case-title{
+     font-size: 26px !important;
+     padding-top: 50px;
+ }
+
+ .max-width-600{
+     max-width: 600px;
+ }
+
+ .ml21{
+     margin-left: -21px;
+     max-width: 580px;
+ }
+
+ .pl100{
+     padding-left: 100px;
+ }
+
+ .client-info p{
+     color: #666;
+     text-decoration: none;
+ }
+
+.testimonials {
+    margin-left: 30px;
+}
+
+.testimonials .quote-author {
+    width: 350px;
+    margin-top: -20px;
+    float: right;
+}
+
+.testimonials .quote-author span {
+    color: #47b475;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.testimonials p.lead {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #333;
+}
+
+.testimonials p.lead:before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/quotation-marks.svg);
+    background-size: 30px;
+    margin-top: -40px;
+    background-repeat: no-repeat;
+}
+
+.white-box{
+    background-color: #fff;
+    box-shadow: 0px 15px 35px 0px rgba(117, 119, 120, 0.23);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.pt0{
+    padding-top: 0px !important;
+}
+
+.pb5{
+    padding-bottom: 5px;
+}
+
+#requestDemoForm {
+    height: 100%;
+}
+
+.case-posts #requestDemoForm{
+    height: 100% !important;
+    box-shadow: 0px 15px 35px 0px rgba(117, 119, 120, 0.23);
+}
+
+
+
+.case-posts #requestDemoForm h2{
+    font-family: Raleway,Helvetica,sans-serif;
+    font-weight: 800;
+    letter-spacing: .25em;
+    line-height: 1.65;
+    text-transform: uppercase;
+    border-bottom: solid 1px rgba(160,160,160,.3);
+    padding-bottom: .7em;
+}
+
+.shadow-case{
+    box-shadow: 0px 15px 35px 0px rgba(117, 119, 120, 0.23);
+}
+
+.mb40{
+    margin-bottom: 40px;
+}
+
+.platform-logo{
+    width: 70px;
+    height: 70px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    padding-left: 0;
+    margin-top: -33px;
+    margin-left: 10px;
+    border-radius: 190px;
+    background-color: #fff;
+}
+
+.platform-logo img{
+    max-width: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.platform-logo2{
+    width: 80px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.platform-logo2 img{
+    max-width: 110px;
+}
+
+.max-width{
+    max-width: 700px;
+}
+img.blur{
+    -webkit-filter: blur(0.25rem); /* Safari 6.0 - 9.0 */
+    filter: blur(0.25rem);
+}
+.bottom-strip{
+    overflow: hidden;
+    font-family: Merriweather,Georgia,Times New Roman,Times,serif;
+    font-size: 20px;
+    line-height: 40px;
+    font-style: italic;
+    background: #f5f5f5;
+    padding: 32px;
+    color: #777;
+    font-weight: 300;
+}
+
+.results-stats .up-arrow{
+    width: 20px;
+    height: 20px;
+    background-image: url(../case-study/img-icons/up-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center center;
+    position: relative;
+    top: 5px;
+    margin-left: -5px;
+    z-index: 9;
+    display: inline-block;
+}
+
+.results-stats{
+    margin: 0 auto;
+}
+
+.results-stats .down-arrow{
+    width: 20px;
+    height: 20px;
+    background-image: url(../case-study/img-icons/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center center;
+    position: relative;
+    top: 4px;
+    margin-left: -5px;
+    z-index: 9999;
+    display: inline-block;
+}
+
+.client-info-txt a:hover{
+    color: #0685fb;
+}
+
+.img-max-width{
+    max-width:180px;
+}
+
+.results-stats .font-size34 {
+    font-size: 38px !important;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.results-stats .text-number {
+    text-align: center;
+}
+
+.results-stats .case-study-stat-title {
+    font-size: 14px!important;
+    font-weight: 500;
+    margin-top: 5px;
+    display: block;
+    text-transform: none;
+}
+
+@media only screen and (max-width : 1024px) {
+
+    .shopify-gold-bg {
+        background-color: #f5f5f3;
+    }
+
+    .width1024 {
+        max-width: 100% !important;
+    }
+
+    .shopify-gold .pt96 {
+        padding-top: 20px;
+    }
+    .shopify-gold .pt160 {
+        padding-top: 20px;
+    }
+    .shopify-gold .pt80 {
+        padding-top: 20px;
+    }
+    .shopify-gold .pt120 {
+        padding-top: 20px;
+    }
+
+    .max-width500 {
+        max-width: 100% !important;
+    }
+
+    .max-width650 {
+        max-width: 100% !important;
+    }
+
+    .patnership-bg {
+        background-color: #231769;
+    }
+
+    .shopify-gold .pt150 {
+        padding-top: 20px;
+    }
+
+    .woocommerce-bg {
+        background-image: url(../img-icons/woocommerce.jpg);
+        background-size: cover;
+        background-color: #c3e2f4;
+        background-repeat: no-repeat;
+        padding-top: 0;
+    }
+
+    .shopify-gold .mb6 {
+        margin-bottom: 0px;
+    }
+
+    .shopify-gold .pt130 {
+        padding-top: 20px;
+    }
+
+    .shopify-gold .max-width-420{
+        width: 100% !important;
+    }
+
+    .shopify-gold .pt104 {
+        padding-top: 20px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+
+    .woocommerce-bg {
+        background-image: url(../img-icons/woocommerce.jpg);
+        background-size: cover;
+        background-color: #c3e2f4;
+        background-repeat: no-repeat;
+        padding-top: 0;
+    }
+
+    .patnership-bg {
+        background-color: #231769;
+    }
+
+    img.max-width370 {
+        max-width: 100% !important;
+    }
+
+
+    section.image-edge.pl64.pr64.pt20 {
+        padding-right: 0px !important;
+    }
+
+    img.mb-xs-24.pt0.img-responsive.center-block.max-width-420.mt39.max-width370 {
+        margin-top: 0px !important;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+    .shopify-gold .pt150 {
+        padding-top: 20px;
+    }
+
+    .woocommerce-bg {
+        background-image: url(../img-icons/woocommerce.jpg);
+        background-size: contain;
+        background-color: #c3e2f4;
+        background-repeat: no-repeat;
+        padding-top: 0;
+    }
+
+    .shopify-gold .mb6 {
+        margin-bottom: 0px;
+    }
+
+    .shopify-gold .pt130 {
+        padding-top: 20px;
+    }
+
+    .shopify-gold .max-width-420{
+    width: 100% !important;
+}
+
+    .shopify-gold-bg {
+        background-image: url(../img/shopify-gold-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 40px;
+        background-color: #f5f5f3;
+    }
+
+    .shopify-gold .mobile-client-logo.hidden-md.hidden-lg {
+        margin-top: 30px;
+    }
+
+    .max-width500 {
+        max-width: 100% !important;
+    }
+
+    .max-width650 {
+        max-width: 100% !important;
+    }
+
+    #Agency-Partner h2.uppercase {
+        letter-spacing: 5px;
+        margin-right: -10px;
+    }
+
+    #Agency-Partner .mb0 {
+        margin-bottom: 10px !important;
+    }
+
+    .join-us {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 80px;
+    }
+
+    .patnership-bg {
+        padding-top: 0px;
+        background-color: #231769;
+    }
+
+    section.image-edge.pl64.pr64.pt20 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding-bottom: 40px;
+    }
+
+    .max-width400{
+        max-width: 100%;
+    }
+
+    .post-snippet .img-responsive {
+        max-width: 100% !important;
+    }
+
+    .bottom-strip a{
+        margin-left: 0px !important;
+        width: 100%;
+        font-size: 9px;
+    }
+
+    .platform-logo img {
+        max-width: 25px !important;
+    }
+
+    .platform-logo {
+        width: 50px;
+        height: 50px;
+        display: block;
+        position: absolute;
+        z-index: 1;
+        margin-top: -30px;
+        margin-left: 10px;
+    }
+
+    ._mt30{
+        margin-top: -30px;
+    }
+
+    .white-box .widget{
+margin-bottom: 30px;
+    }
+
+    .bg-blue-c {
+        background-image: url(../img/bg-blue.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bg-blue-c .pl65 {
+        padding-left: 20px;
+    }
+    .ml21 {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .max-width-600 {
+        max-width: 100%;
+    }
+
+    .bg-blue-c .mt30 {
+        margin-top: 10px;
+    }
+    .testimonials {
+        margin-left: 0px;
+    }
+
+    .testimonials .quote-author {
+        width: 280px;
+        margin-top: 0;
+        float: right;
+        margin-bottom: 30px;
+    }
+    .max-width {
+        max-width: 100%;
+    }
+    .pt48 {
+        padding-top: 37px;
+    }
+
+    h2.case-title {
+        padding-top: 25px;
+    }
+
+}

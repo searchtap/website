@@ -579,6 +579,10 @@ img.blur{
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+    #Agency-Partner .pt96 {
+        padding-top: 20px;
+    }
+
     .mymargin{
         margin-top: 40px;
         margin-bottom: 20px;

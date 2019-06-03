@@ -1,7 +1,7 @@
 /*Patnership css*/
 .patnership-bg {
     background-image: url(/img/patnership-bg.jpg);
-    background-size: 100%;
+    background-size: covers;
     background-repeat: no-repeat;
     padding-top: 40px;
 }
@@ -22,6 +22,10 @@
     background-size: 100%;
     background-repeat: no-repeat;
 
+}
+
+.max-width420{
+    max-width: 420px;
 }
 
 img.max-width370{
@@ -393,7 +397,7 @@ img.blur{
         padding: 40px;
         padding-top: 20px;
         padding-bottom: 20px;
-        margin-top: -30px;
+        margin-top: 20px;
     }
 
     .patnership-bg .pt150 {
@@ -403,6 +407,10 @@ img.blur{
 }
 
 @media only screen and (max-width : 1024px) {
+
+    .max-width420{
+        width: 100%;
+    }
 
     .ppxt {
         padding-top: 60px !important;

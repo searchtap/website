@@ -583,7 +583,13 @@ img.blur{
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+    section.image-bg.light-wrapper.normal-padding.vc_row.wpb_row.vc_row-fluid.light-wrapper.normal-padding.pt104 {
+        padding-top: 0px;
+    }
 
+    .client-logos-bg {
+        background-image: none !important;
+    }
 
     .mymargin{
         margin-top: 40px;

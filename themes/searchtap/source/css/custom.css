@@ -6377,7 +6377,7 @@ font-size: 52px;
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-    
+
     .logo-carousel {
         display: none;
     }

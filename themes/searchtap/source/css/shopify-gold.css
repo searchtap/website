@@ -6,6 +6,20 @@
     padding-top: 40px;
 }
 
+.searchanise-bg {
+    background-image: url(/img/searchanise_searchtap_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    height: 680px;
+}
+
+.box-shadow{
+    box-shadow: 0px 31px 90px 0px rgba(60, 97, 111, 0.11);
+}
+
 .opencart-bg {
     background-image: url(/img/opencart-bg.jpg);
     background-size: cover;

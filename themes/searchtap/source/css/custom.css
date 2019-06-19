@@ -6377,9 +6377,13 @@ font-size: 52px;
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-
+    
     .logo-carousel {
         display: none;
+    }
+
+    .hm-form p.lead {
+        margin-bottom: 0px !important;
     }
 
     .searchanise-bg {

@@ -4469,7 +4469,7 @@ footer.bg-gray li,
     h1.large {
         font-size: 72px;
         line-height: 80px;
-        font-weight: 100;
+        font-weight: 300;
     }
 
     .card h5 {
@@ -4493,7 +4493,7 @@ footer.bg-gray li,
     h1.large {
         font-size: 38px;
         line-height: normal;
-        font-weight: 100;
+        font-weight: 300;
     }
 
     .logo {
@@ -4687,6 +4687,7 @@ footer.bg-gray li,
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
 
+
     .mobile-view {
         display: block;
     }
@@ -4878,7 +4879,7 @@ footer.bg-gray li,
         padding-top: 15px;
         font-size: 57px;
         line-height: 62px;
-        font-weight: 100;
+        font-weight: 300;
     }
 
     .card h5 {
@@ -5151,7 +5152,7 @@ footer.bg-gray li,
     h1.large {
         font-size: 72px;
         line-height: 80px;
-        font-weight: 100;
+        font-weight: 300;
     }
 
     .card h5 {
@@ -5521,7 +5522,7 @@ font-size: 52px;
     h1.large {
         font-size: 52px;
         line-height: 80px;
-        font-weight: 100;
+        font-weight: 300;
     }
 
     .card h5 {
@@ -6179,7 +6180,13 @@ font-size: 52px;
 
 }
 
-/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px){
+    .logo-carousel {
+        margin-top: 20px;
+    }
+}
+
+    /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
 
     .blog-section {
@@ -6371,10 +6378,22 @@ font-size: 52px;
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
 
+    .logo-carousel {
+        display: none;
+    }
 
-
-    .patnership-bg .pt150 {
+    .searchanise-bg {
+        background-image: url(/img/searchanise_searchtap_bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: center;
         padding-top: 10px;
+
+    }
+
+    ul.slides.searchanise-bg {
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
     }
 
    .patnership-bg .join-us {

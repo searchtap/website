@@ -1,10 +1,31 @@
 /*Patnership css*/
 .patnership-bg {
     background-image: url(/img/patnership-bg.jpg);
-    background-size: covers;
+    background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 40px;
 }
+
+.searchanise-vs-searchtap-bg {
+    background-image: url(/img/searchanise-vs-searchtap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    height: 550px;
+}
+
+.btn-purple{
+    background-color: #5360b0 !important;
+    border-color: #5360b0 !important;
+}
+
+.prl0{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
 
 .searchanise-bg {
     background-image: url(/img/searchanise_searchtap_bg.jpg);
@@ -38,8 +59,8 @@
 
 }
 
-.max-width420{
-    max-width: 420px;
+.font-size38{
+    font-size: 38px !important;
 }
 
 img.max-width370{
@@ -60,6 +81,10 @@ img.max-width370{
 
 .max-width500{
     max-width: 500px !important;
+}
+
+.max-width550{
+    max-width: 550px !important;
 }
 
 .max-width650{
@@ -158,28 +183,28 @@ img.max-width370{
     margin-left: 15px;
 }
 
- h2.case-title{
-     font-size: 26px !important;
-     padding-top: 50px;
- }
+h2.case-title{
+    font-size: 26px !important;
+    padding-top: 50px;
+}
 
- .max-width-600{
-     max-width: 600px;
- }
+.max-width-600{
+    max-width: 600px;
+}
 
- .ml21{
-     margin-left: -21px;
-     max-width: 580px;
- }
+.ml21{
+    margin-left: -21px;
+    max-width: 580px;
+}
 
- .pl100{
-     padding-left: 100px;
- }
+.pl100{
+    padding-left: 100px;
+}
 
- .client-info p{
-     color: #666;
-     text-decoration: none;
- }
+.client-info p{
+    color: #666;
+    text-decoration: none;
+}
 
 .testimonials {
     margin-left: 30px;
@@ -309,6 +334,21 @@ img.blur{
     font-weight: 300;
 }
 
+.cl-logo-bg{
+    background-image: url(../img/logos-bg.svg)!important;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.framework-logo-bg{
+    position: relative !important;
+    background-image: url(../img/logos@2x.png)!important;
+    background-size:100%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
 .results-stats .up-arrow{
     width: 20px;
     height: 20px;
@@ -321,6 +361,37 @@ img.blur{
     margin-left: -5px;
     z-index: 9;
     display: inline-block;
+}
+
+.searchanise-table table .icon-sm {
+    font-size: 14px;
+    font-weight: 900;
+    color: #000;
+}
+
+.searchanise-table table{
+    border: 0px;
+    box-shadow: 0px 0px 25px #bbd8e0d6;
+}
+.searchanise-table table thead{
+    background-color: #5360b0;
+    color: #fff ;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.searchanise-table .table>thead>tr>th{
+    border-right: 1px solid #fff;
+    font-weight: 700;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.searchanise-table .table>tbody>tr>td{
+    background-color: #ebf7ff;
+    color: #333;
+    border-top: 1px solid #d9e6ec;
 }
 
 .results-stats{
@@ -375,9 +446,9 @@ img.blur{
         padding-top: 120px !important;
     }
 
-.mymargin{
-    margin-bottom: 60px;
-}
+    .mymargin{
+        margin-bottom: 60px;
+    }
 
     .beta-column .pt150 {
         padding-top: 90px;
@@ -396,7 +467,7 @@ img.blur{
     }
 
     /*.beta-column .pt130 {*/
-        /*padding-top: 20px;*/
+    /*padding-top: 20px;*/
     /*}*/
 
     section.light-wrapper.pb0.vc_row.wpb_row.vc_row-fluid.light-wrapper.pb0 {
@@ -411,7 +482,7 @@ img.blur{
         padding: 40px;
         padding-top: 20px;
         padding-bottom: 20px;
-        margin-top: 20px;
+        margin-top: -30px;
     }
 
     .patnership-bg .pt150 {
@@ -421,14 +492,6 @@ img.blur{
 }
 
 @media only screen and (max-width : 1024px) {
-
-    #Agency-Partner .pt80 {
-        padding-top: 20px;
-    }
-
-    .max-width420{
-        width: 100%;
-    }
 
     .ppxt {
         padding-top: 60px !important;
@@ -597,14 +660,6 @@ img.blur{
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-    section.image-bg.light-wrapper.normal-padding.vc_row.wpb_row.vc_row-fluid.light-wrapper.normal-padding.pt104 {
-        padding-top: 0px;
-    }
-
-    .client-logos-bg {
-        background-image: none !important;
-    }
-
     .mymargin{
         margin-top: 40px;
         margin-bottom: 20px;
@@ -696,8 +751,8 @@ img.blur{
     }
 
     .shopify-gold .max-width-420{
-    width: 100% !important;
-}
+        width: 100% !important;
+    }
 
     .shopify-gold-bg {
         background-image: url(../img/shopify-gold-bg.jpg);
@@ -778,7 +833,7 @@ img.blur{
     }
 
     .white-box .widget{
-margin-bottom: 30px;
+        margin-bottom: 30px;
     }
 
     .bg-blue-c {

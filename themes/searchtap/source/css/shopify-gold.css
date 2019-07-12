@@ -31,6 +31,19 @@
     margin-top: -80px;
 }
 
+.st-new-label{
+    margin-left: -32px;
+    background-color: #e91804;
+    padding: 4px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 22px;
+    font-size: 7.5px;
+    position: absolute;
+    line-height: normal;
+    letter-spacing: 0px;
+}
+
 .publisher-bg .join-us {
     position: relative;
     right: 0;
@@ -157,6 +170,10 @@ img.max-width370{
     position: absolute;
     top: 67px;
     left: 212px;
+}
+
+.line-height52{
+    line-height: 52px;
 }
 
 .pl64{
@@ -686,6 +703,45 @@ img.blur{
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+    .media-mobile-section .feature.boxed {
+        margin-top: 10px;
+    }
+    .max-width-420 {
+        max-width: 100%!important;
+    }
+
+    .media-mobile-section h5, .media-mobile-section p{
+        text-align: center !important;
+    }
+.publisher-bg h3{
+    word-break: break-word;
+    font-size: 30px !important;
+}
+    /*.normal-padding h3{*/
+        /*line-height: normal !important;*/
+    /*}*/
+    /*.media-mobile-section h3{*/
+        /*line-height: normal !important;*/
+    /*}*/
+
+    .publisher-bg {
+        background-image: url(/img/publisher-bg.jpg);
+        background-size: 450%;
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-color: #f6f6f7;
+    }
+
+    .publisher-bg .btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .publisher-bg .join-us {
+        margin-left: 0;
+        margin-top: 30px;
+    }
 
     .mymargin{
         margin-top: 40px;

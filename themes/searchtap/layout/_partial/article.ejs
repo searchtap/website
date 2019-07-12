@@ -23,9 +23,13 @@
 
             <% if(post.testimonial === undefined || post.testimonial === true) { %>
 
-            <hr/>
 
-            <%- partial('_partial/testimonial-slider') %>
+
+                <% if (post.show_testimonial === undefined || post.show_testimonial === true) { %>
+
+                <%- partial('_partial/testimonial-slider') %>
+
+                <% } %>
 
             <% } %>
 

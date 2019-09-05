@@ -66,39 +66,6 @@
     ]
   },
   {
-    "id": 3,
-    "title": "headphonezone",
-    "thumb_image": "headphonezone/headphonezone-banner.jpg",
-    "main_image": "headphonezone/headphonezone-search.jpg",
-    "stat_image": "headphonezone/stats-headphonezone.png",
-    "reviewer_image": "headphonezone/kamna.png",
-    "store_logo": "headphonezone/hpz-logo.gif",
-    "platform": "shopify-gold",
-    "logo_type": 2,
-    "about": "Headphone Zone offers a custom e-commerce search experience with SearchTap.io. Achieves 37% increase in search revenue.",
-    "review": "Customers are in love with how smooth search as you type works on our site. The new search has revitalized our customer experience, especially on mobile.",
-    "reviewer": "Kamna Karamchandani, Digital Marketer at Headphone Zone",
-    "industry_type": "Music Accessories - Retail",
-    "store_address": "https://www.headphonezone.in/",
-    "stats": [
-      {
-        "title": "Search revenue",
-        "value": "37%",
-        "type": "positive"
-      },
-      {
-        "title": "Search click-through rate",
-        "value": "22%",
-        "type": "positive"
-      },
-      {
-        "title": "Search bounce rate",
-        "value": "76%",
-        "type": "negative"
-      }
-    ]
-  },
-  {
     "id": 4,
     "title": "amydus",
     "thumb_image": "amydus/amydus-banner.jpg",
@@ -128,39 +95,6 @@
         "title": "AOV of search users",
         "value": "18%",
         "type": "positive"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "jewelmaze",
-    "thumb_image": "jewelmaze/jewelmaze-banner.jpg",
-    "main_image": "jewelmaze/jewelmaze-search.jpg",
-    "stat_image": "jewelmaze/stats-jewelmaze.png",
-    "reviewer_image": "jewelmaze/ritesh.png",
-    "store_logo": "jewelmaze/jewelmaze-logo.png",
-    "platform": "shopify-gold",
-    "logo_type": 2,
-    "about": "JewelMaze uses SearchTap.io’s search and smart dynamic filters to improve search conversions by 20%.",
-    "review": "When we were talking with the SearchTap.io team, we were quite impressed with their experience working with online retail and brand stores. Our search is now better than ever and now delivers accurate search results within milliseconds.",
-    "reviewer": "Ritesh Barbhaya, Founder, JewelMaze",
-    "industry_type": "Fashion Jewellery",
-    "store_address": "https://www.jewelmaze.com/",
-    "stats": [
-      {
-        "title": "Search Conversion Rate",
-        "value": "20%",
-        "type": "positive"
-      },
-      {
-        "title": "Total Search Exits",
-        "value": "50%",
-        "type": "negative"
-      },
-      {
-        "title": "Average Bounce Rate",
-        "value": "40%",
-        "type": "negative"
       }
     ]
   },

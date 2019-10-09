@@ -100,33 +100,33 @@
   },
   {
     "id": 6,
-    "title": "bigsmall",
-    "thumb_image": "bigsmall/bigsmall-banner.jpg",
-    "main_image": "bigsmall/bigsmall-search.jpg",
-    "stat_image": "bigsmall/stats-bigsmall.png",
-    "reviewer_image": "bigsmall/aman.png",
-    "store_logo": "bigsmall/bigsmall-logo.png",
-    "platform": "shopify-gold",
-    "logo_type": 2,
-    "about": "Search revenue contribution goes over 50% after BigSmall.in uses SearchTap to improve site search.",
-    "review": "Our site search was completely transformed...SearchTap.io completely exceeded our expectation of what an e-commerce search can achieve.",
-    "reviewer": "Aman Hans, CEO at BigSmall",
-    "industry_type": "Lifestyle, Gifts",
-    "store_address": "https://www.bigsmall.in/",
+    "title": "suta",
+    "thumb_image": "suta/suta-banner.jpg",
+    "main_image": "suta/suta-search.jpg",
+    "stat_image": "suta/stats-suta.png",
+    "reviewer_image": "suta/sujata-tanya.png",
+    "store_logo": "suta/suta-logo.png",
+    "platform": "shopify",
+    "logo_type": 1,
+    "about": "How Suta’s search-led revenue jumped 86% with a new search experience.",
+    "review": "We saw a positive impact from day one. We don’t think our old search could even come close to matching what we’ve seen with SearchTap.",
+    "reviewer": "Sujata Biswas & Tanya Biswas Founders at Suta",
+    "industry_type": "Traditional Indian Wear",
+    "store_address": "https://suta.in/",
     "stats": [
       {
-        "title": "Search Revenue",
-        "value": "35%",
+        "title": "Search revenue",
+        "value": "86%",
         "type": "positive"
       },
       {
-        "title": "Pages/Session",
-        "value": "33%",
+        "title": "Mobile search users",
+        "value": "67%",
         "type": "positive"
       },
       {
         "title": "Search bounce rate",
-        "value": "27%",
+        "value": "78%",
         "type": "negative"
       }
     ]

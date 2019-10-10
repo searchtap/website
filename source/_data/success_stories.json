@@ -1,99 +1,34 @@
 [
+
   {
-    "id": 1,
-    "title": "urbanmonkey",
-    "thumb_image": "urbanmonkey/urban-monkey-banner.jpg",
-    "main_image": "urbanmonkey/urbanmonkey-search.jpg",
-    "stat_image": "urbanmonkey/stats-urbanmonkey.png",
-    "reviewer_image": "urbanmonkey/yash.png",
-    "store_logo": "urbanmonkey/urbanmonkey-logo.png",
-    "platform": "shopify",
-    "logo_type": 1,
-    "about": "SearchTap.io helps Urban Monkey to create a delightful search experience leading to a 3x increase in search transactions & revenues.",
-    "review": "We didn’t expect that a search solution would help us improve our storefront as well...with SearchTap.io we have search users converting more frequently than ever.",
-    "reviewer": "Yash Gangwal, Founder, Urban Monkey",
-    "industry_type": "Fashion Apparel & Accessories",
-    "store_address": "https://www.urbanmonkey.com/",
+    "id": 8,
+    "title": "mamaearth",
+    "thumb_image": "mamaearth/mamaearth-banner.jpg",
+    "main_image": "mamaearth/mamaearth-search.jpg",
+    "stat_image": "mamaearth/stats-mamaearth.png",
+    "reviewer_image": "mamaearth/Gaurav_Singh.jpg",
+    "store_logo": "mamaearth/mamaearth-logo.jpg",
+    "platform": "woocommerce",
+    "logo_type": 2,
+    "about": "SearchTap transforms Mamaearth’s e-commerce search and helps them achieve 10x search conversions\n",
+    "review": "Our customers were blown away by the new search on our site and we could see the results immediately. We could have never even guessed that search would be such an important asset to us. The SearchTap team did a great job!",
+    "reviewer": "Gaurav Singh, Growth Manager, Mamaearth",
+    "industry_type": "Mother and baby care",
+    "store_address": "https://mamaearth.in/",
     "stats": [
       {
-        "title": "Search revenue",
-        "value": "3x",
+        "title": "Search Conversions rate",
+        "value": "10x",
         "type": "positive"
       },
       {
-        "title": "Page views via search",
-        "value": "3.5x",
+        "title": "Search Transactions Rate",
+        "value": "10x",
         "type": "positive"
       },
       {
-        "title": "Mobile search bounces",
-        "value": "25%",
-        "type": "negative"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "glen",
-    "thumb_image": "glen/glen-banner.jpg",
-    "main_image": "glen/glen-search.jpg",
-    "stat_image": "glen/stats-glen.png",
-    "reviewer_image": "glen/ajay.png",
-    "store_logo": "glen/glen-logo.png",
-    "platform": "php",
-    "logo_type": 1,
-    "about": "Search contributes to 40% website revenues for Glen Appliances with SearchTap. Here's how.",
-    "review": "SearchTap.io’s product is the complete package for our store. Search now regularly contributes around 40% of our website revenues.",
-    "reviewer": "Ajay Khanda, CEO at Glen Appliances",
-    "industry_type": "Kitchen & Home Appliances",
-    "store_address": "https://www.glenindia.com/",
-    "stats": [
-      {
-        "title": "Contribution to website revenue",
-        "value": "40%",
-        "type": "greater-than"
-      },
-      {
-        "title": "Session duration",
-        "value": "2.5x",
-        "type": "greater-than"
-      },
-      {
-        "title": "Conversion rate",
-        "value": "3x",
-        "type": "greater-than"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "amydus",
-    "thumb_image": "amydus/amydus-banner.jpg",
-    "main_image": "amydus/amydus-search.jpg",
-    "stat_image": "amydus/stats-amydus.png",
-    "reviewer_image": "amydus/kartik.png",
-    "store_logo": "amydus/amydus-logo.png",
-    "platform": "magento",
-    "logo_type": 1,
-    "about": "Amydus achieves a whopping 49% lift in search revenue using SearchTap’s search as your type technology.",
-    "review": "After switching over to SearchTap.io’s e-commerce search we were able to better engage our visitors across devices and that really helped drive up our revenues. We knew that improving our search was necessary but the results from SearchTap.io’s product exceeded our expectations.",
-    "reviewer": "Kartik Spara, CEO at Amydus",
-    "industry_type": "Fashion, Lifestyle",
-    "store_address": "https://www.amydus.com/",
-    "stats": [
-      {
-        "title": "Search revenue",
-        "value": "49%",
-        "type": "positive"
-      },
-      {
-        "title": "Mobile Transactions",
-        "value": "47%",
-        "type": "positive"
-      },
-      {
-        "title": "AOV of search users",
-        "value": "18%",
+        "title": "Search Users",
+        "value": "11x",
         "type": "positive"
       }
     ]
@@ -131,6 +66,7 @@
       }
     ]
   },
+
   {
     "id": 7,
     "title": "propshop24",
@@ -164,36 +100,105 @@
       }
     ]
   },
+
   {
-    "id": 8,
-    "title": "mamaearth",
-    "thumb_image": "mamaearth/mamaearth-banner.jpg",
-    "main_image": "mamaearth/mamaearth-search.jpg",
-    "stat_image": "mamaearth/stats-mamaearth.png",
-    "reviewer_image": "mamaearth/Gaurav_Singh.jpg",
-    "store_logo": "mamaearth/mamaearth-logo.jpg",
-    "platform": "woocommerce",
-    "logo_type": 2,
-    "about": "SearchTap transforms Mamaearth’s e-commerce search and helps them achieve 10x search conversions\n",
-    "review": "Our customers were blown away by the new search on our site and we could see the results immediately. We could have never even guessed that search would be such an important asset to us. The SearchTap team did a great job!",
-    "reviewer": "Gaurav Singh, Growth Manager, Mamaearth",
-    "industry_type": "Mother and baby care",
-    "store_address": "https://mamaearth.in/",
+    "id": 2,
+    "title": "glen",
+    "thumb_image": "glen/glen-banner.jpg",
+    "main_image": "glen/glen-search.jpg",
+    "stat_image": "glen/stats-glen.png",
+    "reviewer_image": "glen/ajay.png",
+    "store_logo": "glen/glen-logo.png",
+    "platform": "php",
+    "logo_type": 1,
+    "about": "Search contributes to 40% website revenues for Glen Appliances with SearchTap. Here's how.",
+    "review": "SearchTap.io’s product is the complete package for our store. Search now regularly contributes around 40% of our website revenues.",
+    "reviewer": "Ajay Khanda, CEO at Glen Appliances",
+    "industry_type": "Kitchen & Home Appliances",
+    "store_address": "https://www.glenindia.com/",
     "stats": [
       {
-        "title": "Search Conversions rate",
-        "value": "10x",
+        "title": "Contribution to website revenue",
+        "value": "40%",
+        "type": "greater-than"
+      },
+      {
+        "title": "Session duration",
+        "value": "2.5x",
+        "type": "greater-than"
+      },
+      {
+        "title": "Conversion rate",
+        "value": "3x",
+        "type": "greater-than"
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "title": "amydus",
+    "thumb_image": "amydus/amydus-banner.jpg",
+    "main_image": "amydus/amydus-search.jpg",
+    "stat_image": "amydus/stats-amydus.png",
+    "reviewer_image": "amydus/kartik.png",
+    "store_logo": "amydus/amydus-logo.png",
+    "platform": "magento",
+    "logo_type": 1,
+    "about": "Amydus achieves a whopping 49% lift in search revenue using SearchTap’s search as your type technology.",
+    "review": "After switching over to SearchTap.io’s e-commerce search we were able to better engage our visitors across devices and that really helped drive up our revenues. We knew that improving our search was necessary but the results from SearchTap.io’s product exceeded our expectations.",
+    "reviewer": "Kartik Spara, CEO at Amydus",
+    "industry_type": "Fashion, Lifestyle",
+    "store_address": "https://www.amydus.com/",
+    "stats": [
+      {
+        "title": "Search revenue",
+        "value": "49%",
         "type": "positive"
       },
       {
-        "title": "Search Transactions Rate",
-        "value": "10x",
+        "title": "Mobile Transactions",
+        "value": "47%",
         "type": "positive"
       },
       {
-        "title": "Search Users",
-        "value": "11x",
+        "title": "AOV of search users",
+        "value": "18%",
         "type": "positive"
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "title": "urbanmonkey",
+    "thumb_image": "urbanmonkey/urban-monkey-banner.jpg",
+    "main_image": "urbanmonkey/urbanmonkey-search.jpg",
+    "stat_image": "urbanmonkey/stats-urbanmonkey.png",
+    "reviewer_image": "urbanmonkey/yash.png",
+    "store_logo": "urbanmonkey/urbanmonkey-logo.png",
+    "platform": "shopify",
+    "logo_type": 1,
+    "about": "SearchTap.io helps Urban Monkey to create a delightful search experience leading to a 3x increase in search transactions & revenues.",
+    "review": "We didn’t expect that a search solution would help us improve our storefront as well...with SearchTap.io we have search users converting more frequently than ever.",
+    "reviewer": "Yash Gangwal, Founder, Urban Monkey",
+    "industry_type": "Fashion Apparel & Accessories",
+    "store_address": "https://www.urbanmonkey.com/",
+    "stats": [
+      {
+        "title": "Search revenue",
+        "value": "3x",
+        "type": "positive"
+      },
+      {
+        "title": "Page views via search",
+        "value": "3.5x",
+        "type": "positive"
+      },
+      {
+        "title": "Mobile search bounces",
+        "value": "25%",
+        "type": "negative"
       }
     ]
   }

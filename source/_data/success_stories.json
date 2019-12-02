@@ -2,33 +2,33 @@
   {
     "id": 3,
     "title": "themancompany",
-    "thumb_image": "themancompany/jewelmaze-banner.jpg",
-    "main_image": "themancompany/jewelmaze-search.jpg",
-    "stat_image": "themancompany/stats-jewelmaze.png",
-    "reviewer_image": "themancompany/ritesh.png",
-    "store_logo": "themancompany/jewelmaze-logo.png",
-    "platform": "shopify-gold",
-    "logo_type": 2,
-    "about": "",
-    "review": "",
-    "reviewer": "",
-    "industry_type": "",
+    "thumb_image": "themancompany/themancompany-banner.jpg",
+    "main_image": "themancompany/themancompany-search.jpg",
+    "stat_image": "themancompany/stats-themancompany.png",
+    "reviewer_image": "themancompany/Atul_Jain.png",
+    "store_logo": "themancompany/themancompany-logo.png",
+    "platform": "shopify",
+    "logo_type": 1,
+    "about": "SearchTap helps The Man Company grow search-led revenue by 25%",
+    "review": "We’re very happy working with SearchTap, our mobile search experience is now better than ever.",
+    "reviewer": "Business Head - eCommerce, The Man Company",
+    "industry_type": "Men Grooming & Care",
     "store_address": "https://www.themancompany.com/",
     "stats": [
       {
-        "title": "",
-        "value": "20%",
+        "title": "Search Revenue",
+        "value": "26%",
         "type": "positive"
       },
       {
-        "title": "",
-        "value": "50%",
-        "type": "negative"
+        "title": "Mobile Search Users",
+        "value": "36%",
+        "type": "positive"
       },
       {
-        "title": "",
-        "value": "40%",
-        "type": "negative"
+        "title": "Conversion Rate",
+        "value": "13%",
+        "type": "positive"
       }
     ]
   },

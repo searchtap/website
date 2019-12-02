@@ -1,5 +1,70 @@
 [
-
+  {
+    "id": 3,
+    "title": "themancompany",
+    "thumb_image": "themancompany/jewelmaze-banner.jpg",
+    "main_image": "themancompany/jewelmaze-search.jpg",
+    "stat_image": "themancompany/stats-jewelmaze.png",
+    "reviewer_image": "themancompany/ritesh.png",
+    "store_logo": "themancompany/jewelmaze-logo.png",
+    "platform": "shopify-gold",
+    "logo_type": 2,
+    "about": "",
+    "review": "",
+    "reviewer": "",
+    "industry_type": "",
+    "store_address": "https://www.themancompany.com/",
+    "stats": [
+      {
+        "title": "",
+        "value": "20%",
+        "type": "positive"
+      },
+      {
+        "title": "",
+        "value": "50%",
+        "type": "negative"
+      },
+      {
+        "title": "",
+        "value": "40%",
+        "type": "negative"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "jewelmaze",
+    "thumb_image": "jewelmaze/jewelmaze-banner.jpg",
+    "main_image": "jewelmaze/jewelmaze-search.jpg",
+    "stat_image": "jewelmaze/stats-jewelmaze.png",
+    "reviewer_image": "jewelmaze/ritesh.png",
+    "store_logo": "jewelmaze/jewelmaze-logo.png",
+    "platform": "shopify-gold",
+    "logo_type": 2,
+    "about": "JewelMaze uses SearchTap.io’s search and smart dynamic filters to improve search conversions by 20%.",
+    "review": "When we were talking with the SearchTap.io team, we were quite impressed with their experience working with online retail and brand stores. Our search is now better than ever and now delivers accurate search results within milliseconds.",
+    "reviewer": "Ritesh Barbhaya, Founder, JewelMaze",
+    "industry_type": "Fashion Jewellery",
+    "store_address": "https://www.jewelmaze.com/",
+    "stats": [
+      {
+        "title": "Search Conversion Rate",
+        "value": "20%",
+        "type": "positive"
+      },
+      {
+        "title": "Total Search Exits",
+        "value": "50%",
+        "type": "negative"
+      },
+      {
+        "title": "Average Bounce Rate",
+        "value": "40%",
+        "type": "negative"
+      }
+    ]
+  },
   {
     "id": 8,
     "title": "mamaearth",
@@ -66,7 +131,6 @@
       }
     ]
   },
-
   {
     "id": 7,
     "title": "propshop24",
@@ -100,7 +164,6 @@
       }
     ]
   },
-
   {
     "id": 2,
     "title": "glen",
@@ -134,7 +197,6 @@
       }
     ]
   },
-
   {
     "id": 4,
     "title": "amydus",
@@ -168,7 +230,6 @@
       }
     ]
   },
-
   {
     "id": 1,
     "title": "urbanmonkey",

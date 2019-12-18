@@ -9,9 +9,9 @@
     "store_logo": "themancompany/themancompany-logo.png",
     "platform": "shopify",
     "logo_type": 1,
-    "about": "SearchTap helps The Man Company grow search-led revenue by 25%",
+    "about": "SearchTap helps The Man Company grow search-led revenue by 26%",
     "review": "We’re very happy working with SearchTap, our mobile search experience is now better than ever.",
-    "reviewer": "Business Head - eCommerce, The Man Company",
+    "reviewer": "Atul Jain, Business Head - eCommerce, The Man Company",
     "industry_type": "Men Grooming & Care",
     "store_address": "https://www.themancompany.com/",
     "stats": [
@@ -29,39 +29,6 @@
         "title": "Conversion Rate",
         "value": "13%",
         "type": "positive"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "jewelmaze",
-    "thumb_image": "jewelmaze/jewelmaze-banner.jpg",
-    "main_image": "jewelmaze/jewelmaze-search.jpg",
-    "stat_image": "jewelmaze/stats-jewelmaze.png",
-    "reviewer_image": "jewelmaze/ritesh.png",
-    "store_logo": "jewelmaze/jewelmaze-logo.png",
-    "platform": "shopify-gold",
-    "logo_type": 2,
-    "about": "JewelMaze uses SearchTap.io’s search and smart dynamic filters to improve search conversions by 20%.",
-    "review": "When we were talking with the SearchTap.io team, we were quite impressed with their experience working with online retail and brand stores. Our search is now better than ever and now delivers accurate search results within milliseconds.",
-    "reviewer": "Ritesh Barbhaya, Founder, JewelMaze",
-    "industry_type": "Fashion Jewellery",
-    "store_address": "https://www.jewelmaze.com/",
-    "stats": [
-      {
-        "title": "Search Conversion Rate",
-        "value": "20%",
-        "type": "positive"
-      },
-      {
-        "title": "Total Search Exits",
-        "value": "50%",
-        "type": "negative"
-      },
-      {
-        "title": "Average Bounce Rate",
-        "value": "40%",
-        "type": "negative"
       }
     ]
   },
@@ -132,39 +99,6 @@
     ]
   },
   {
-    "id": 7,
-    "title": "propshop24",
-    "thumb_image": "propshop24/propshop-banner.jpg",
-    "main_image": "propshop24/propshop24-search.jpg",
-    "stat_image": "propshop24/stats-propshop24.png",
-    "reviewer_image": "propshop24/ayesha.png",
-    "store_logo": "propshop24/propshop24.png",
-    "platform": "shopify",
-    "logo_type": 1,
-    "about": "Propshop24 achieves 11% increase in search conversion rate with SearchTap.io",
-    "review": "Search is now contributing more than 35% of our revenue and our mobile conversion and engagement rates have never been higher. SearchTap.io is the best Shopify site search app.",
-    "reviewer": "Ayesha Alam, Head of Marketing & Strategy at PropShop24",
-    "industry_type": "Home Decor, Stationery, Fashion",
-    "store_address": "https://propshop24.com/",
-    "stats": [
-      {
-        "title": "Search bounce rate",
-        "value": "87%",
-        "type": "negative"
-      },
-      {
-        "title": "Search Conversion Rate",
-        "value": "11%",
-        "type": "positive"
-      },
-      {
-        "title": "Search Revenue",
-        "value": "5%",
-        "type": "positive"
-      }
-    ]
-  },
-  {
     "id": 2,
     "title": "glen",
     "thumb_image": "glen/glen-banner.jpg",
@@ -198,6 +132,39 @@
     ]
   },
   {
+    "id": 7,
+    "title": "propshop24",
+    "thumb_image": "propshop24/propshop-banner.jpg",
+    "main_image": "propshop24/propshop24-search.jpg",
+    "stat_image": "propshop24/stats-propshop24.png",
+    "reviewer_image": "propshop24/ayesha.png",
+    "store_logo": "propshop24/propshop24.png",
+    "platform": "shopify",
+    "logo_type": 1,
+    "about": "Propshop24 achieves 11% increase in search conversion rate with SearchTap.io",
+    "review": "Search is now contributing more than 35% of our revenue and our mobile conversion and engagement rates have never been higher. SearchTap.io is the best Shopify site search app.",
+    "reviewer": "Ayesha Alam, Head of Marketing & Strategy at PropShop24",
+    "industry_type": "Home Decor, Stationery, Fashion",
+    "store_address": "https://propshop24.com/",
+    "stats": [
+      {
+        "title": "Search bounce rate",
+        "value": "87%",
+        "type": "negative"
+      },
+      {
+        "title": "Search Conversion Rate",
+        "value": "11%",
+        "type": "positive"
+      },
+      {
+        "title": "Search Revenue",
+        "value": "5%",
+        "type": "positive"
+      }
+    ]
+  },
+  {
     "id": 4,
     "title": "amydus",
     "thumb_image": "amydus/amydus-banner.jpg",
@@ -205,7 +172,7 @@
     "stat_image": "amydus/stats-amydus.png",
     "reviewer_image": "amydus/kartik.png",
     "store_logo": "amydus/amydus-logo.png",
-    "platform": "magento",
+    "platform": "shopify",
     "logo_type": 1,
     "about": "Amydus achieves a whopping 49% lift in search revenue using SearchTap’s search as your type technology.",
     "review": "After switching over to SearchTap.io’s e-commerce search we were able to better engage our visitors across devices and that really helped drive up our revenues. We knew that improving our search was necessary but the results from SearchTap.io’s product exceeded our expectations.",
@@ -227,6 +194,39 @@
         "title": "AOV of search users",
         "value": "18%",
         "type": "positive"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "jewelmaze",
+    "thumb_image": "jewelmaze/jewelmaze-banner.jpg",
+    "main_image": "jewelmaze/jewelmaze-search.jpg",
+    "stat_image": "jewelmaze/stats-jewelmaze.png",
+    "reviewer_image": "jewelmaze/ritesh.png",
+    "store_logo": "jewelmaze/jewelmaze-logo.png",
+    "platform": "shopify",
+    "logo_type": 1,
+    "about": "JewelMaze uses SearchTap.io’s search and smart dynamic filters to improve search conversions by 20%.",
+    "review": "When we were talking with the SearchTap.io team, we were quite impressed with their experience working with online retail and brand stores. Our search is now better than ever and now delivers accurate search results within milliseconds.",
+    "reviewer": "Ritesh Barbhaya, Founder, JewelMaze",
+    "industry_type": "Fashion Jewellery",
+    "store_address": "https://www.jewelmaze.com/",
+    "stats": [
+      {
+        "title": "Search Conversion Rate",
+        "value": "20%",
+        "type": "positive"
+      },
+      {
+        "title": "Total Search Exits",
+        "value": "50%",
+        "type": "negative"
+      },
+      {
+        "title": "Average Bounce Rate",
+        "value": "40%",
+        "type": "negative"
       }
     ]
   },

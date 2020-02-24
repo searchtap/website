@@ -1,4 +1,5 @@
 $(function () {
+  
 
   var slider = document.getElementById('pricing-slider');
 

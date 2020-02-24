@@ -23,16 +23,16 @@ $(function () {
   });
 
   slider.noUiSlider.on('update', function () {
-    var price = 69;
+    var price = 59;
     var pages = 1000;
     switch (parseInt(slider.noUiSlider.get())) {
       case 10:
-        price = 69;
+        price = 59;
         pages = "1K";
         break;
 
       case 50:
-        price = 129;
+        price = 99;
         pages = "5K";
         break;
     }

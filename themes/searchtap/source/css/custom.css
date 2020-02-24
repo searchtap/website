@@ -1,5 +1,27 @@
+
+
+
 html {
     overflow-x: hidden;
+}
+
+
+.odometer-inside .pr4{
+    font-size: 16px!important;
+    position: relative;
+    top: -7px;
+}
+
+#premium-price-text .pr3 {
+    position: relative;
+    top: -6px;
+    left: 17px;
+}
+
+#premium-price-textt .pr3{
+    position: relative;
+    top: -6px;
+    left: 17px;
 }
 
 .shopify-partner {

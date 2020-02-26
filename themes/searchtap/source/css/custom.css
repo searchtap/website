@@ -1,10 +1,72 @@
 
-
-
 html {
     overflow-x: hidden;
 }
 
+.shopify-strip{
+    background-image: url(../img/shopify-strip-bg.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 70px;
+    background-color: #f5f5f3;
+}
+
+.shopify-strip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopify-strip .shopify-partner-strip{
+    display: flex;
+    flex-direction: row;
+}
+
+.shopify-strip .shopify-partner-strip img{
+    max-height: 25px;
+}
+
+.shopify-strip .shopify-partner-strip span{
+    font-weight: 600;
+    margin-top: 3px;
+    margin-right: 7px;
+    color: #333;
+}
+
+.feature.boxed {
+  box-shadow: none !important;
+    background: #f5f5f3 !important;
+}
+
+.client-info-gray {
+    background-color: #f5f5f3 !important;
+}
+
+footer.bg-dark {
+    background: #0e1712;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer-logos img{
+    max-height: 85px;
+    margin-right: 20px;
+    opacity: .8;
+    filter: gray; /* IE */
+    -webkit-filter: grayscale(1); /* Old WebKit */
+    -webkit-filter: grayscale(100%); /* New WebKit */
+    filter: url(resources.svg#desaturate); /* older Firefox */
+    filter: grayscale(100%); /* Current draft standard */
+}
+
+.footer-logos div{
+}
 
 .odometer-inside .pr4{
     font-size: 16px!important;
@@ -14,22 +76,24 @@ html {
 
 #premium-price-text .pr3 {
     position: relative;
-    top: -6px;
+    top: 2px;
     left: 17px;
+    font-size: 52px;
+    color: #47b474;
 }
 
 #premium-price-textt .pr3{
     position: relative;
-    top: -6px;
+    top: 2px;
     left: 17px;
+    font-size: 52px;
+    color: #47b474;
 }
 
 .shopify-partner {
-    position: absolute;
+    position: relative;
     z-index: 9;
-    right: -30px;
     top: 0;
-    margin-top: 130px;
     clear: both;
     text-align: center;
 }
@@ -6418,8 +6482,33 @@ font-size: 52px;
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
 
+    .shopify-strip {
+        background-image: url(../img/shopify-strip-bg.jpg);
+        width: 100%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        min-height: 90px;
+        background-color: #f5f5f3;
+    }
+    
+
+    footer .logo {
+        padding-left: 0px !important;
+    }
+
+    .shopify-strip .shopify-partner-strip {
+        flex-direction: column;
+    }
+
+    .shopify-strip .shopify-partner-strip img {
+        max-height: 100%;
+        max-width: 140px;
+        margin: 0 auto;
+    }
+
     .max-width200{
-        max-width: 150px;
+        max-width: 120px;
     }
 
     .logo-carousel {

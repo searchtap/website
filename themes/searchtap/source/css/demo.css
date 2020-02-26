@@ -7,9 +7,16 @@
     /*grid-template-columns: repeat(2,1fr);*/
 /*}*/
 
+.new-pricing-month .pr4{
+
+}
+
 .uil-bxs-default.uil-bdr-2.uil-p-48.ta-center.css-d9btgd-root-dark-Card.pp-absolute {
-    position: absolute;
-    height: 251vh;
+    position: relative;
+    height: 100%;
+    width: auto;
+    min-width: 290px;
+    bottom: 0;
     margin-top: -12px;
 }
 
@@ -345,17 +352,24 @@ span.svg-check-ico {
     margin-top: 5px;
 }
 
+.mt25{
+    margin-top: 25px;
+}
+
 .uil-bxs-default .price_price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     color: #333;
     font-size: 42px;
-    margin-top: 10px;
+    margin-top: -10px;
 }
 
 .uil-bxs-default .pr4 {
     font-size: 10px;
     font-weight: 100;
+    top: 10px;
     position: relative;
-    top: 0px;
     text-transform: uppercase;
 }
 
@@ -385,7 +399,7 @@ span.svg-check-ico {
     font-size: 10px;
     font-weight: 100;
     position: relative;
-    top: -25px;
+    top: -15px;
 }
 
 .st-w-30p{
@@ -508,8 +522,8 @@ span.subt {
     height: 120px
 }
 
-.price_price span, .price_price p{
-    display: inline-block;
+.price_price span, .price_price p, .price_price .new-pricing-month{
+    display: flex;
 }
 
 .price_box.premium .price_img {
@@ -1057,8 +1071,15 @@ span.subt {
 
 @media only screen and (max-width:480px){
 
+    .w-30p {
+        width: 23%;
+    }
 
 
+
+    .uil-bxs-default .price_price {
+        font-size: 38px;
+    }
 
     .pricing-page .table-responsive {
         border: 0px solid #ddd;
@@ -1072,29 +1093,23 @@ span.subt {
         margin-bottom: 24px;
     }
 
-    .w-40h-40 img {
-        max-height: 60px;
-    }
 
-    .uil-fsz-14 {
-        font-size: 12px;
+
+    .pricing-page .prl0 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 
     .w-100p.css-qthtot-root-light-Card{
-        min-width: 700px;
+        /*min-width: 700px;*/
+        Zoom: 50%;
     }
 
     .mob-col-xs-4{
         width: 25%;
     }
 
-    .pl-24 {
-        padding-left: 10px;
-    }
 
-    .pv-24 {
-        padding-top:10px;
-    }
 
     .hgt{
         width: 100%;
@@ -1103,30 +1118,10 @@ span.subt {
         position: relative;
     }
 
-    .uil-bxs-default .price_price{
-        position: relative;
-        margin-top: 0px;
-        margin-bottom: 20px;
-    }
 
-    .uil-bxs-default .price_price p{
-        min-height: 50px;
-    }
 
     .uil-bxs-default .pr3{
-    }
-
-    .txt-width{
-        width: 60%;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .uil-bxs-default .pr4 {
-        width: 100%;
-        font-size: 10px;
-        top: 0px;
-        text-transform: uppercase;
+        left: 0;
     }
 
 
@@ -1261,12 +1256,7 @@ span.subt {
         border-bottom:1px solid rgba(197, 201, 224, 0.56);
         width: 100%;
     }
-    span.d-flex.ai-center {
-        float: right;
-        vertical-align: middle;
-        line-height: normal;
-        text-align: center;
-    }
+
     .font12{
         font-size: 12px;
     }
@@ -1360,4 +1350,16 @@ span.subt {
     .pb-20{padding-bottom: 20px; }
 
 
+}
+
+@media only screen and (max-width:320px){
+
+    .font-size14 {
+        font-size: 10px !important;
+    }
+
+
+    .uil-bxs-default .price_price {
+        font-size: 32px;
+    }
 }

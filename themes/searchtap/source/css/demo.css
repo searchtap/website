@@ -356,7 +356,7 @@ span.svg-check-ico {
     margin-top: 25px;
 }
 
-.uil-bxs-default .price_price{
+.uil-bxs-default .price_price_new{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -510,8 +510,8 @@ h5.prc-title {}.price-list {
     overflow: hidden;
     text-overflow: ellipsis
 }
-.price_price,
-.price_price span.subt,
+.price_price_new,
+.price_price_new span.subt,
 span.subt {
     font-family: montserrat_regular, Sans-Serif;
     text-align: center
@@ -522,14 +522,14 @@ span.subt {
     height: 120px
 }
 
-.price_price span, .price_price p, .price_price .new-pricing-month{
+.price_price_new span, .price_price_new p, .price_price_new .new-pricing-month{
     display: flex;
 }
 
 .price_box.premium .price_img {
     height: 135px
 }
-.price_price {
+.price_price_new {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 52px;
     color: #47b475;
@@ -1083,7 +1083,7 @@ span.subt {
         width: 23%;
     }
 
-    .uil-bxs-default .price_price {
+    .uil-bxs-default .price_price_new {
         font-size: 32px;
     }
 
@@ -1350,6 +1350,14 @@ span.subt {
 
     .pb-20{padding-bottom: 20px; }
 
+    .mob-line-height{
+        line-height: normal;
+    }
+
+    .uil-bxs-default .pr4 {
+        text-transform: none;
+    }
+
 
 }
 
@@ -1360,7 +1368,7 @@ span.subt {
     }
 
 
-    .uil-bxs-default .price_price {
+    .uil-bxs-default .price_price_new {
         font-size: 32px;
     }
 }

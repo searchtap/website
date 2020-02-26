@@ -192,3 +192,15 @@ $( document ).ready(function() {
    });
 
 });
+
+$(document).ready(function(){
+   $('select').focus(function(){
+      $(this).attr("size",$(this).attr("expandto")).css('z-index',2);
+   });
+   $('select').blur(function(){
+      $(this).attr("size",1).css('z-index','1');
+   });
+   $('select').change(function(){
+      $(this).attr("size",1).css('z-index','1');
+   });
+});

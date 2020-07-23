@@ -10,6 +10,33 @@ html {
     flex-wrap: wrap;
 }
 
+ul.partner-list-circle{
+    list-style: disc;
+    margin-left: 15px;
+}
+
+.pts20{
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+.st-quate-top, .st-quate-bottom{
+    padding: 5px;
+    position: absolute;
+    font-size: 14px;
+}
+
+.st-quate-top{
+    top: -10px;
+    left: -5px;
+}
+
+.st-quate-bottom{
+position: absolute;
+}
+
 .align-item{
     align-items: center;
 }

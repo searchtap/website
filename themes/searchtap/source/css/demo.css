@@ -10,6 +10,10 @@ p.purple-box {
     width: fit-content;
 }
 
+.max-width150{
+    max-width: 150px;
+}
+
 
 ul.check-mark li:before{
     content: "\f00c";

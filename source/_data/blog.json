@@ -2,11 +2,11 @@
   {
     "id": 24,
     "title": "Boost Your Product Discovery and Conversions With Synonyms",
-    "date": "12th Aug 2020",
+    "date": "26th Aug 2020",
     "url": "synonyms/",
     "image": "synonyms.png",
     "about": "Synonyms are a great tool to help your customers reach their desired products and deliver...",
-    "reading_time": 7,
+    "reading_time": 4,
     "tags": [
       "E-commerce Tips"
     ],
@@ -15,11 +15,11 @@
   {
     "id": 23,
     "title": "Page Load Speed: The missing piece in your conversion optimization puzzle",
-    "date": "11th Aug 2020",
+    "date": "18th Aug 2020",
     "url": "page-load-speed/",
     "image": "page-load-speed.png",
     "about": "Performance optimization is a great way for eCommerce businesses to improve their SEO and conversions...",
-    "reading_time": 5,
+    "reading_time": 8,
     "tags": [
       "E-commerce Tips"
     ],
@@ -28,36 +28,36 @@
 
   {
     "id": 22,
-    "title": "Understanding Customer Lifetime Value & How to Maximize it",
+    "title": "Understanding Customer Lifetime Value & How to Maximize it: Part II",
     "date": "11th Aug 2020",
     "url": "understanding-customer-2/",
     "image": "clv-banner2.png",
-    "about": "Understanding Customer Lifetime Value & How to Maximize it...",
-    "reading_time": 5,
+    "about": "These are not far off from the results you see when you choose to...",
+    "reading_time": 7,
     "tags": [
       "E-commerce Tips"
     ],
-    "heading": "Understanding Customer Lifetime Value & How to Maximize it"
+    "heading": "Understanding Customer Lifetime Value & How to Maximize it: Part II"
   },
 
 
   {
     "id": 21,
-    "title": "Understanding Customer Lifetime Value & How to Maximize it",
+    "title": "Understanding Customer Lifetime Value & How to Maximize it: Part I",
     "date": "10th Aug 2020",
     "url": "understanding-customer/",
     "image": "clv-banner.png",
-    "about": "Understanding Customer Lifetime Value & How to Maximize it...",
+    "about": "The secret for an eCommerce store, of any size, to have long...",
     "reading_time": 5,
     "tags": [
       "E-commerce Tips"
     ],
-    "heading": "Understanding Customer Lifetime Value & How to Maximize it"
+    "heading": "Understanding Customer Lifetime Value & How to Maximize it: Part I"
   },
   {
     "id": 20,
     "title": "Redesign your site search with best practices to increase your ROI",
-    "date": "22nd Jan 2020",
+    "date": "22nd Jul 2020",
     "url": "redesigning-search/",
     "image": "redesign-your-site-search.png",
     "about": "As the retail space becomes more and more competitive, businesses are looking for ways to optimize...",

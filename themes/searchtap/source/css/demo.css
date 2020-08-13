@@ -1100,6 +1100,10 @@ span.subt {
 
 @media only screen and (max-width:768px){
 
+    .patnership-bg {
+        background-size: cover;
+    }
+
     .uil-bxs-default.uil-bdr-2.uil-p-48.ta-center.css-d9btgd-root-dark-Card.pp-absolute {
         position: relative;
         height: 100%;

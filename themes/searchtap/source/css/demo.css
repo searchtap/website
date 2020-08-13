@@ -22,6 +22,17 @@ ul.check-mark li:before{
     display: block;
 }
 
+ul.check-bullet li:before{
+    content: "\f111";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    margin-left: 15px;
+    width: 12px;
+    height: 12px;
+    display: block;
+}
+
 
 .css-d9btgd-root-dark-Card {
     background-image: radial-gradient(circle at 50% 0px, rgb(58, 65, 111), rgb(33, 36, 61));

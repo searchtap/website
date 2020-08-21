@@ -1116,6 +1116,11 @@ span.subt {
 
 @media only screen and (max-width:480px){
 
+
+    .max-width-1000 {
+        max-width: 100% !important;
+    }
+
     .font-size14 {
         font-size: 10px !important;
     }

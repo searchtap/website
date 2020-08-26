@@ -127,13 +127,28 @@
     background-image: url(../img/portfolio/icons/shoe.svg);
 }
 
-li.icon-kitchenware:before {
+.portfolio li.icon-kitchenware:before {
     background-image: url(../img/portfolio/icons/kitchenware.svg);
 }
 
-li.icon-home-decor:before {
+.portfolio li.icon-home-decor:before {
     background-image: url(../img/portfolio/icons/home-decor.svg);
 }
+
+.portfolio li.icon-supplements:before {
+    background-image: url(../img/portfolio/icons/supplements.svg);
+}
+
+
+.portfolio li.icon-jewellery:before {
+    background-image: url(../img/portfolio/icons/jewellery.svg);
+}
+
+
+.portfolio li.icon-pet:before {
+    background-image: url(../img/portfolio/icons/pet.svg);
+}
+
 
 @media (min-width: 1400px) {
     .pb-xl-11 {

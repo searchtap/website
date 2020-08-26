@@ -1,4 +1,290 @@
 ﻿
+/*portfolio css*/
+
+#searctap-wrapper .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.p-pb90{
+    padding-bottom: 90px;
+}
+
+#searctap-wrapper p{
+    font-size: 22px;
+    line-height: 31px;
+    color: #000;
+}
+
+.p-20 {
+    padding-left: 20px;
+}
+
+.work-stats .number {
+    display: inline;
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 0;
+    font-size: 66px;
+    color: #000000;
+}
+
+.justify-content-right {
+    justify-content: flex-end;
+}
+
+#searctap-wrapper small{
+    font-size: 13px;
+}
+
+.work-stats .description {
+    color: #444;
+}
+
+.d-lg-flex {
+    display: flex !important;
+}
+
+.work-stats .number {
+    font-weight: 700;
+    line-height: .8em;
+    letter-spacing: -.04em;
+}
+
+.pt-sm-3, .py-sm-3 {
+    padding-top: 60px !important;
+}
+
+.piece-fullscreen {
+    height: 100vh;
+}
+
+.piece-services {
+    font-size: 22px;
+    padding-right: 10%;
+    line-height: 1.4em;
+    margin-top: .5em;
+    color: rgba(93, 93, 93, 0.7);
+}
+
+#searctap-wrapper .container-fluid{
+    max-width: 1800px;
+}
+
+.h100 img {
+    max-height: 70px;
+}
+
+.st-client-logo img {
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.port-right {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    float: right;
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+.right-portfolio {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.right-portfolio img{
+    max-width: 550px;
+}
+
+
+.portfolio li.icon-accessories:before{
+    background-image: url(../img/portfolio/icons/accessories.svg);
+}
+
+.portfolio li.icon-gifts:before{
+    background-image: url(../img/portfolio/icons/gift.svg);
+}
+
+.portfolio li.icon-apparel:before{
+    background-image: url(../img/portfolio/icons/apparel.svg);
+}
+
+.portfolio li.icon-skincare:before{
+    background-image: url(../img/portfolio/icons/skincare.svg);
+}
+
+.portfolio li.icon-organic:before{
+    background-image: url(../img/portfolio/icons/organic.svg);
+}
+
+.portfolio li.icon-footware:before{
+    background-image: url(../img/portfolio/icons/shoe.svg);
+}
+
+li.icon-kitchenware:before {
+    background-image: url(../img/portfolio/icons/kitchenware.svg);
+}
+
+li.icon-home-decor:before {
+    background-image: url(../img/portfolio/icons/home-decor.svg);
+}
+
+@media (min-width: 1400px) {
+    .pb-xl-11 {
+        padding-bottom: 220px !important;
+    }
+}
+
+.pb-xl-9, .py-xl-9 {
+    padding-bottom: 180px !important;
+}
+
+.pt-xl-9, .py-xl-9 {
+    padding-top: 180px !important;
+}
+
+.sub-heading {
+    margin: 0;
+    padding: 12px;
+    width: 100%;
+    position: absolute;
+    border: 0;
+    z-index: 1;
+    margin-top: -44px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+}
+
+
+.symbol {
+    padding: 4px;
+    width: 22px;
+    height: 18px;
+    font-size: 12px;
+    margin-top: -40px;
+}
+
+@media (min-width: 576px){
+    .break-out .container-fluid{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    #searctap-wrapper .container-fluid{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+
+@media (min-width: 1024px){
+    .break-out .container-fluid{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    #searctap-wrapper .container-fluid{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media (min-width: 1400px){
+    .break-out .container-fluid{
+        padding-right: 85px;
+        padding-left: 85px;
+    }
+
+    #searctap-wrapper .container-fluid{
+        padding-right: 85px;
+        padding-left: 85px;
+    }
+}
+
+.break-out .container-fluid{
+    max-width: 1800px;
+}
+
+
+.portfolio .list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.portfolio .list li {
+    font-weight: 700;
+    font-size: 1.325rem;
+    line-height: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 1rem
+}
+
+.portfolio .list a {
+    color: #000
+}
+
+.portfolio .list a:hover {
+    color: #2646FF
+}
+
+.portfolio .list-icons li {
+    padding-left: 45px;
+    position: relative
+}
+
+.portfolio .list-icons li:before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: 0;
+    display: block;
+    background-position: center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.portfolio .list-icons li a {
+    display: inline-block;
+    margin-left: -45px;
+    padding-left: 45px;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+}
+
+.portfolio .list li {
+    font-size: 18px;
+}
+.portfolio .list-split {
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 20px;
+    column-gap: 20px
+}
+
+.dark-bg {
+    background-color: #eaebed !important;
+}
+
+.pb-xl-6, .py-xl-6 {
+    padding-bottom: 120px !important;
+}
+
+/*portfolio css end*/
+
 p.purple-box {
     border: 1px dashed #ddd;
     background-color: #eaeff1;

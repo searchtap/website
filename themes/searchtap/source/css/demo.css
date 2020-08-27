@@ -301,12 +301,16 @@
 }
 
 .portfolio .list a:hover {
-    color: #2646FF
+    color: #47b475
 }
 
 .portfolio .list-icons li {
     padding-left: 45px;
     position: relative
+}
+
+.text-16{
+    font-size: 16px;
 }
 
 .portfolio .list-icons li:before {
@@ -332,7 +336,7 @@
 }
 
 .portfolio .list li {
-    font-size: 18px;
+    font-size: 16px;
 }
 .portfolio .list-split {
     -webkit-column-count: 3;

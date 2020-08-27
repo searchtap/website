@@ -1,6 +1,10 @@
 ﻿
 /*portfolio css*/
 
+.st-client-name{
+
+}
+
 #searctap-wrapper .row{
     display: flex;
     flex-wrap: wrap;
@@ -57,12 +61,26 @@
     padding-top: 60px !important;
 }
 
+.st-client-name h4{
+    line-height: normal;
+}
+
+.justify-content-space{
+    justify-content: space-between;
+}
+
+.piece-next{
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+
 .piece-fullscreen {
     height: 100vh;
 }
 
 .piece-services {
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 600;
     padding-right: 10%;
     line-height: 1.4em;
     margin-top: .5em;
@@ -1416,6 +1434,47 @@ span.subt {
 
 
 @media only screen and (max-width:480px){
+
+    .work-stats{
+        padding: 0 20px;
+    }
+
+    .piece-next {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    .piece-next.justify-content-right{
+        justify-content: flex-start;
+    }
+
+    .piece-next .headline-2 {
+        font-size: 2.9rem;
+    }
+
+    .work-stats .number {
+        font-size: 56px;
+    }
+
+    .work-stats .number {
+        margin-bottom: 30px;
+    }
+
+    .portfolio .list-split {
+        -webkit-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 10px;
+        column-gap: 40px;
+    }
+
+    .portfolio .list li {
+        font-size: 14px;
+        padding-left: 35px;
+    }
+
+    .project-header h3 {
+        font-size: 20px;
+    }
 
 
     .max-width-1000 {

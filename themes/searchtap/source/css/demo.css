@@ -5,6 +5,39 @@
 
 }
 
+.next-arrow:after{
+    content: '';
+    background-image: url("https://image.flaticon.com/icons/svg/120/120827.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    background-size: cover;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin-left:50px;
+}
+
+.pre-arrow:before{
+    content: '';
+    background-image: url("https://image.flaticon.com/icons/svg/120/120826.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    background-size: cover;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin-left: -50px;
+}
+
+
 #searctap-wrapper .row{
     display: flex;
     flex-wrap: wrap;
@@ -1434,6 +1467,16 @@ span.subt {
 
 
 @media only screen and (max-width:480px){
+
+    .next-arrow:after{
+        content: '';
+      display: none;
+    }
+
+    .pre-arrow:before{
+        content: '';
+       display: none;
+    }
 
     .work-stats{
         padding: 0 20px;

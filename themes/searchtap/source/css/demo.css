@@ -1472,6 +1472,23 @@ span.subt {
 
 @media only screen and (max-width:480px){
 
+    .row.pb-xl-6.work-clients {
+        padding-bottom: 30px !important;
+    }
+
+    .break-out.py-xl-9 {
+        padding-top: 70px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .port-right {
+        z-index: -1;
+    }
+
+    .right-portfolio img {
+        max-width: 230px;
+    }
+
     .next-arrow:after{
         content: '';
       display: none;

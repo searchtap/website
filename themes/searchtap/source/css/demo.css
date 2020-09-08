@@ -1,8 +1,95 @@
 ﻿
+.testimonial-sec-bg{
+    background-image: url(../img/testi-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    min-height: 560px;
+}
+
+.testimonial-sec-bg .hm-form {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    max-width: 460px;
+}
+
+
 /*portfolio css*/
 
-.st-client-name{
+/*.bg-light-red{*/
+    /*background-color: #ffd7d8 !important;*/
+/*}*/
 
+/*.bg-light-yellow{*/
+    /*background-color: #fff6e3 !important;*/
+/*}*/
+
+/*.bg-light-blue{*/
+    /*background-color: #dae9ff !important;*/
+/*}*/
+
+/*.searchanise-vs-searchtap-bg .hm-form{*/
+    /*max-width: 400px;*/
+/*}*/
+
+.en-circle-purple {
+    width: 60px;
+    height: 60px;
+    background-color: #A67CFB;
+    position: absolute;
+    top: -13px;
+    left:5px;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.feature.feature-3 ul {
+    padding: 0 20px;
+}
+
+.right2{
+    right: 50px;
+}
+
+.left3{
+    left: 20px;
+}
+
+.testimonial-sec .row {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 15px 50px 0px rgba(115, 115, 115, 0.09);
+    padding: 1rem;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.tes-name{
+    font-size: 16px;
+    color: #1c223a;
+}
+
+.testimonial-sec p{
+    margin-bottom: 10px;
+}
+
+.testimonial-sec img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 5;
+    border-radius: 4px;
+}
+
+.tes-profile{
+    font-size: 13px;
+    color: #1c223a;
 }
 
 .next-arrow:after{
@@ -355,6 +442,18 @@
 
 /*portfolio css end*/
 
+p.red-box {
+    border: 1px dashed #e22a2a;
+    background-color: #e22a2a;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    width: fit-content;
+}
+
+
 p.purple-box {
     border: 1px dashed #ddd;
     background-color: #eaeff1;
@@ -369,6 +468,22 @@ p.purple-box {
 .max-width150{
     max-width: 150px;
 }
+
+ul.list-unstyled.check-cancel li{
+    color: #e22a2a;
+}
+
+ul.check-cancel li:before{
+    content: "\f00d";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    margin-left: 15px;
+    width: 12px;
+    height: 12px;
+    display: block;
+}
+
 
 
 ul.check-mark li:before{

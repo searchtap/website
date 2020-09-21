@@ -283,7 +283,7 @@ img.blur {
 }
 
 .client-logo-wrapper {
-    padding: 40px 0px;
+    padding: 0px 0px;
     padding-top: 10px;
 }
 
@@ -403,6 +403,42 @@ img.blur {
 }
 
 @media only screen and (max-width: 768px) {
+
+    .testimonial-sec-bg {
+        background-image: url(../img/testi-bg.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: #f6f7fc;
+        background-position-y: top;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        min-height: 100%;
+        text-align: center;
+    }
+
+    .testimonial-sec-bg .hm-form {
+        margin-bottom: 0px;
+    }
+
+    .clients-logo img{
+        opacity: 1 !important;
+    }
+    .gr-box {
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+
+    .light-wrapper .feature.feature-3{
+        margin-top: 0px;
+    }
+
+    .mpb48{
+        padding-bottom: 48px;
+    }
+
+    .feature.boxed.cast-shadow-light {
+        margin-bottom: 20px;
+    }
 
     .bottom-strip {
         font-size: 16px;

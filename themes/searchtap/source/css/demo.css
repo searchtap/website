@@ -55,6 +55,25 @@
     box-shadow: 0 18px 10px 5px rgb(185, 189, 191 0.5);
 }
 
+.gr-box{
+    background-color: #f3f3f3;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    min-height: 200px;
+}
+
+.gr-box .icon-sm {
+    font-size: 42px;
+}
+
+.gr-box p{
+    text-align: center;
+}
+
 .list-style p{
     font-size: 14px;
 }

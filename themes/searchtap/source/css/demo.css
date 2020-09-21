@@ -15,6 +15,60 @@
     max-width: 460px;
 }
 
+.box-blue-1{
+    /*box-shadow: 0px 31px 90px 0px rgba(60, 97, 111, 0.1);*/
+    background-color: #d3f3fe;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 10px;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+
+.box-blue-1 h5{
+    color:#333;
+    font-size: 28px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+.box-white-2{
+    background-color: #fee3ec;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 10px;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+
+.box-white-2 h5{
+    color:#333;
+    font-size: 28px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+.box-white-2:hover, .box-blue-1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 18px 10px 5px rgb(185, 189, 191 0.5);
+}
+
+.list-style p{
+    font-size: 14px;
+}
+
+.list-style ul li{
+    color: #333;
+}
+
+.arrow-bl-right img{
+    width: 13px;
+    margin-top: -2px;
+    margin-left: 1px;
+}
+
 
 /*portfolio css*/
 

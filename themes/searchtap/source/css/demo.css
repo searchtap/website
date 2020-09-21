@@ -16,7 +16,7 @@
 }
 
 .box-blue-1{
-    /*box-shadow: 0px 31px 90px 0px rgba(60, 97, 111, 0.1);*/
+
     background-color: #d3f3fe;
     border-radius: 20px;
     padding: 40px;
@@ -52,7 +52,7 @@
 
 .box-white-2:hover, .box-blue-1:hover {
     transform: translateY(-5px);
-    box-shadow: 0 18px 10px 5px rgb(185, 189, 191 0.5);
+    box-shadow: 0px 11px 10px 0px rgba(20, 57, 11, 0.05);
 }
 
 .gr-box{

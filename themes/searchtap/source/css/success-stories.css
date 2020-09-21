@@ -404,6 +404,10 @@ img.blur {
 
 @media only screen and (max-width: 768px) {
 
+    .client-logo-wrapper img{
+        transform: scale(1.12);
+    }
+
     .testimonial-sec-bg {
         background-image: url(../img/testi-bg.jpg);
         background-size: contain;
@@ -420,11 +424,15 @@ img.blur {
         margin-bottom: 0px;
     }
 
+    .box-blue-1 {
+        margin-bottom: 20px;
+    }
+
     .clients-logo img{
         opacity: 1 !important;
     }
     .gr-box {
-        padding: 30px;
+        padding: 50px;
         margin-bottom: 20px;
     }
 
